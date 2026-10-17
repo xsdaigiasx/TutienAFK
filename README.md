@@ -4,7 +4,7 @@ Giao diện tiếng Việt cho điện thoại màn hình dọc, dựa trên d�
 
 ## Chơi thử ngay
 
-Giải nén và mở **CHOI_THU.html** trong Chrome/Edge/Safari. File này chứa sẵn ảnh và dữ liệu, không cần máy chủ. Nếu ứng dụng quản lý tệp điện thoại chỉ cho xem trước HTML, hãy mở bằng trình duyệt hoặc dùng bản web trên Vercel. Một số trình duyệt không lưu localStorage khi mở file cục bộ; dùng Cài đặt → Xuất bản lưu để giữ tiến trình.
+Trong gói ZIP bàn giao, giải nén và mở **CHOI_THU.html** trong Chrome/Edge/Safari. Khi lấy mã nguồn từ GitHub, chạy `node scripts/standalone.mjs` để tạo file này. File này chứa sẵn ảnh và dữ liệu, không cần máy chủ. Nếu ứng dụng quản lý tệp điện thoại chỉ cho xem trước HTML, hãy mở bằng trình duyệt hoặc dùng bản web trên Vercel. Một số trình duyệt không lưu localStorage khi mở file cục bộ; dùng Cài đặt → Xuất bản lưu để giữ tiến trình.
 
 Không mở index.html bằng file://: bản mã nguồn dùng module và fetch JSON nên cần địa chỉ web.
 
