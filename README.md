@@ -1,4 +1,4 @@
-# VẠN ĐẠO — Tu Tiên Idle · Prototype 0.1
+# VẠN ĐẠO — Tu Tiên Idle · Prototype 0.2
 
 Giao diện tiếng Việt cho điện thoại màn hình dọc, dựa trên dữ liệu GDD V3. Không phụ thuộc thư viện ngoài, không tải font/CDN. Ảnh bản đồ do người dùng cung cấp.
 
@@ -41,7 +41,8 @@ Cần Node.js 20+ để build/test; Python 3 để chạy lệnh dev mặc đị
 - Chọn một hoạt động chính: tu luyện, săn quái, hái thuốc, luyện đan hoặc di chuyển.
 - Tự đánh quái, nhận linh thạch/tu vi, nhặt trang bị sau mỗi 3 quái, hồi phục sau thất bại.
 - Boss có chỉ số từ GDD; chiến thắng mở map kế tiếp. Địa điểm đầu cảnh giới mới kiểm tra cảnh giới khi di chuyển.
-- 45 địa điểm lọc theo 3 Giới và Vùng; hiển thị đủ đường dẫn Địa điểm → Vùng → Quốc gia → Tinh vực → Giới. Ảnh là bản đồ minh họa; các điểm ghim chưa phải tọa độ địa lý chính thức. 8 ghim đầu mỗi Giới để dễ đọc, danh sách có đủ địa điểm của Giới đó.
+- 45 địa điểm theo 3 Giới. Nhân Giới dùng bản đồ lục địa gốc; Linh Giới dùng 4 cụm đảo trên không, mỗi cụm 5 địa điểm; Tiên Giới dùng 5 hành tinh cấp I–V, mỗi hành tinh gắn một địa điểm cuối game. Bấm ghim hoặc bộ lọc để xem địa điểm trong từng cụm đảo/hành tinh. Điều kiện mở map vẫn theo Boss và cảnh giới.
+- world_visuals.json là lớp địa lý hiển thị bổ sung: không đổi ID hay quan hệ GDD gốc. Tên và cấp hành tinh là thiết kế mới trong prototype, chưa phải các đại cảnh giới mới. Ảnh và vị trí ghim là minh họa.
 - Trang bị có tăng HP/công/thủ; học công pháp; dùng hồi máu; mua bán NPC; nhận thưởng nhiệm vụ một lần.
 - Đổi tên, lưu tự động trên trình duyệt, xuất/nhập JSON có kiểm tra cấu trúc, xác nhận trước khi tạo lại nhân vật.
 - Tiến trình offline tính tối đa 8 giờ khi quay lại.
@@ -61,14 +62,17 @@ Cần Node.js 20+ để build/test; Python 3 để chạy lệnh dev mặc đị
 
 ## Kiểm tra bàn giao
 
-11 kiểm tra tự động: dữ liệu GDD, giới hạn hoạt động, đột phá, trang bị, nhiệm vụ nhận một lần, thu thập/chế tạo, chiến đấu/thất bại, Boss/di chuyển, offline 8 giờ, kiểm tra bản lưu và thao tác các màn hình. Build website tĩnh đã chạy thành công. Chưa kiểm tra hình ảnh trên trình duyệt/điện thoại thật trong môi trường bàn giao này.
+12 kiểm tra tự động: dữ liệu GDD, giới hạn hoạt động, đột phá, trang bị, nhiệm vụ nhận một lần, thu thập/chế tạo, chiến đấu/thất bại, Boss/di chuyển, offline 8 giờ, kiểm tra bản lưu địa lý đủ 25 địa điểm Linh/Tiên Giới, chuyển tab ảnh nền, lọc cụm đảo/hành tinh và thao tác các màn hình. Build website tĩnh đã chạy thành công. Chưa kiểm tra hình ảnh trên trình duyệt/điện thoại thật trong môi trường bàn giao này.
 
 ## Cấu trúc
 
 - index.html / style.css / app.js: giao diện và xử lý thao tác.
 - engine.js: tiến trình, chiến đấu, trang bị, nhiệm vụ và kiểm tra bản lưu.
 - data/: danh mục gốc GDD V3.
-- assets/world-map.png: bản đồ người dùng gửi.
+- assets/world-map.png: bản đồ Nhân Giới người dùng gửi.
+- assets/spirit-floating-islands.webp / assets/immortal-planets.webp: hai ảnh mới tạo bằng ImageGen tích hợp cho Linh Giới / Tiên Giới.
+- data/world_visuals.json: cấp hành tinh, cụm phù đảo, ánh xạ địa điểm và tọa độ ghim.
+- ART_DIRECTION.md: mô tả hình ảnh và prompt tạo ảnh.
 - scripts/: build tĩnh và đóng gói HTML chơi thử.
 - tests/: kiểm tra tự động.
 - vercel.json: cấu hình triển khai.
