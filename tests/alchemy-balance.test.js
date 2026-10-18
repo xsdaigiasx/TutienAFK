@@ -1,0 +1,30 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
+import {initial,stats,rollGear,addEquipment,gearValues,loadSave,recipeAllowed,recipeStatus,startRecipe,tick,finish,equip,level,qualities,setActivity,equipmentForMap,statInfo} from '../engine.js';
+const d=Object.fromEntries(Object.entries({world:'world',cultivation:'cultivation',combat:'combat_entities',equipment:'equipment',arts:'arts_and_relics',items:'items_and_recipes'}).map(([k,f])=>[k,JSON.parse(readFileSync(new URL('../data/'+f+'.json',import.meta.url)))]));
+const active=new Set(Object.keys(statInfo));
+test('5.4 balanced new rolls use only implemented stats and keep weapon, HP and percentage budgets bounded at every tier',()=>{
+ for(const e of d.equipment.items){const m=d.world.locations.find(m=>m.id===e.map_id),l=d.cultivation.levels.find(l=>l.cultivation_id===m.cultivation_id&&l.floor===m.required_floor);for(const q of Object.keys(qualities)){const g=rollGear(d,e.id,q,()=>.999999);assert.equal(g.rollVersion,5);assert.ok(!d.equipment.balance_v2.class_scale);assert.ok(g.affixes.every(a=>active.has(a.stat)));for(const a of g.affixes){if(a.stat==='critRate')assert.ok(a.value<=.016);if(a.stat==='critDamage')assert.ok(a.value<=.067);if(a.stat==='damageReduction')assert.ok(a.value<=.011);if(a.stat==='cooldownReduction')assert.ok(a.value<=.014)}if(e.slot==='weapon')assert.ok(g.affixes[0].value<=Math.ceil(+l.attack*.70));if(e.slot==='chest')assert.ok(g.affixes[0].value<=Math.ceil(+l.hp*.53));}}
+});
+test('5.4 old rollVersion1 items and current owned gear keep values when new balance is introduced',()=>{
+ const s=initial(),id=addEquipment(s,d,'equip_001_sword_weapon','red',()=>.3);s.gearInstances[id]={templateId:'equip_001_sword_weapon',quality:'red',tier:1,affixes:[{stat:'attack',value:76},{stat:'attackSpeed',value:.1},{stat:'critDamage',value:.232},{stat:'metalDamage',value:.025},{stat:'fireDamage',value:.029},{stat:'critRate',value:.03}],rollVersion:1,legacy:false};equip(s,id,d);const before=stats(s,d),restored=loadSave(JSON.stringify(s),d);assert.ok(restored);assert.deepEqual(stats(restored,d),before);assert.equal(gearValues(restored,id,d).attack,76);assert.deepEqual(restored.gearInstances[id],s.gearInstances[id]);
+});
+test('8.1 alchemy exposes 55 recipes including all 45 pills, nine spirit extracts and recovery medicine',()=>{
+ const recipes=d.items.recipes.filter(r=>r.discipline==='alchemy');assert.equal(recipes.length,55);assert.equal(recipes.filter(r=>r.output_id.startsWith('pill_')).length,45);assert.equal(recipes.filter(r=>r.output_id.startsWith('processed_')).length,9);assert.ok(recipes.some(r=>r.id==='recipe_potion'));for(const r of recipes)for(const i of r.inputs)assert.ok(d.items.items.some(x=>x.id===i.item_id));
+});
+test('8.1 missing materials, invalid batch counts and unavailable breakthrough effects cannot spend resources or replace activity',()=>{
+ const s=initial();s.bag.herb_001=0;setActivity(s,'gather');const q=s.session,money=s.stones;assert.equal(startRecipe(s,'recipe_potion',d),false);assert.equal(s.session,q);assert.equal(s.stones,money);s.bag.herb_001=100;for(const n of [0,-1,1.5,101,NaN])assert.equal(startRecipe(s,'recipe_potion',d,n),false);const breakthrough=d.items.recipes.find(r=>r.id==='recipe_pill_01_2');s.realm=8;assert.equal(recipeAllowed(s,breakthrough,d),false);assert.match(recipeStatus(s,breakthrough,d),/chưa mở/);
+});
+test('8.1 three successful batches spend exact materials and fees, persist partial progress, and never repeat awards',()=>{
+ let s=initial();s.bag.herb_001=30;const money=s.stones,stock=s.bag.potion;assert.ok(startRecipe(s,'recipe_potion',d,3));tick(s,d,10,()=>0);assert.equal(s.session.units,1);assert.equal(s.bag.herb_001,25);assert.equal(s.stones,money-10);s=loadSave(JSON.stringify(s),d);assert.ok(s);tick(s,d,14,()=>0);assert.equal(s.bag.potion,stock+3);assert.equal(s.bag.herb_001,15);assert.equal(s.stones,money-30);assert.equal(s.professions.alchemy,45);assert.equal(s.reports.length,1);assert.deepEqual(s.reports[0].recipeResults,{success:3,failure:0});tick(s,d,100,()=>0);assert.equal(s.reports.length,1);assert.equal(s.bag.potion,stock+3);
+});
+test('8.1 failed pill batches consume one set of inputs each and award no item',()=>{
+ const s=initial();s.bag.herb_001=10;s.bag.processed_01_2=2;const money=s.stones;assert.ok(startRecipe(s,'recipe_pill_01_1',d,2));tick(s,d,60,()=>.99);assert.equal(s.bag.herb_001,0);assert.equal(s.bag.processed_01_2,0);assert.equal(s.stones,money-20);assert.equal(s.bag.pill_01_1,undefined);assert.deepEqual(s.reports[0].recipeResults,{success:0,failure:2});
+});
+test('8.1 stopping and stock changes preserve unspent materials and report only completed batches',()=>{
+ const s=initial();s.bag.herb_001=30;startRecipe(s,'recipe_potion',d,3);tick(s,d,9,()=>0);const stock=s.bag.herb_001,money=s.stones;finish(s,'Đã dừng');tick(s,d,100);assert.equal(s.bag.herb_001,stock);assert.equal(s.stones,money);assert.equal(s.reports[0].units,1);startRecipe(s,'recipe_potion',d,2);s.bag.herb_001=0;tick(s,d,8);assert.equal(s.reports[0].units,0);assert.match(s.reports[0].reason,/Thiếu/);
+});
+test('8.1 spirit extract refinery trains alchemy and works as input for a real pill',()=>{
+ const s=initial();s.bag.herb_001=8;assert.ok(startRecipe(s,'recipe_processed_01_2',d));tick(s,d,10,()=>0);assert.equal(s.professions.alchemy,15);assert.equal(s.professions.forging,0);assert.equal(s.bag.processed_01_2,1);assert.ok(startRecipe(s,'recipe_pill_01_1',d));tick(s,d,30,()=>0);assert.equal(s.bag.pill_01_1,1);assert.equal(s.bag.herb_001,0);assert.equal(s.bag.processed_01_2,0);assert.equal(s.professions.alchemy,30);
+});
+
+test('5.2 one shared equipment rule applies to every template with the same map and slot',()=>{for(const map of d.world.locations)for(const slot of ['weapon','head','chest','pants','feet','pendant']){const templates=equipmentForMap(d,map.id).filter(e=>e.slot===slot);const values=templates.map(e=>rollGear(d,e.id,'red',()=>.5).affixes);for(const affixes of values)assert.deepEqual(affixes,values[0]);}});

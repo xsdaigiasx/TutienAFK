@@ -1,0 +1,29 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
+import {initial,level,stats,qualities,statInfo,rollGear,addEquipment,gearValues,gearQuality,gearTemplate,gearComparison,equip,unequip,loadSave,startTravel,journeyRemaining,movementSpeed,setActivity,tick} from '../engine.js';
+const d=Object.fromEntries(Object.entries({world:'world',cultivation:'cultivation',combat:'combat_entities',equipment:'equipment',arts:'arts_and_relics',items:'items_and_recipes'}).map(([k,f])=>[k,JSON.parse(readFileSync(new URL('../data/'+f+'.json',import.meta.url)))]));
+const seed=n=>()=>((n=(Math.imul(n,1664525)+1013904223)>>>0)/4294967296);
+test('5.1 all 54 templates have nine explicit realm tiers and six slots; all 242 items have tier and rarity',()=>{
+ assert.equal(d.equipment.items.length,54);for(let tier=1;tier<=9;tier++)assert.equal(d.equipment.items.filter(e=>e.tier===tier).length,6);assert.equal(new Set(d.equipment.items.map(e=>e.slot)).size,6);for(const item of d.items.items){assert.ok(Number.isInteger(item.tier)&&item.tier>=0&&item.tier<=9);assert.ok(qualities[item.quality]);if(item.tier===0)assert.equal(item.category,'utility')}
+ assert.deepEqual(Object.keys(qualities),['white','green','blue','purple','gold','red']);assert.ok(!Object.hasOwn(d.equipment.quality_multipliers,'orange'));
+});
+test('5.2 all six rarities roll their specified 3–6 distinct lines for every template without exceeding the slot pool',()=>{
+ for(const e of d.equipment.items)for(const [quality,q] of Object.entries(qualities)){const g=rollGear(d,e.id,quality,seed(e.tier*991+e.id.length));assert.ok(g.affixes.length>=q.minLines&&g.affixes.length<=q.maxLines);assert.equal(new Set(g.affixes.map(a=>a.stat)).size,g.affixes.length);assert.ok(g.affixes.every(a=>statInfo[a.stat]&&a.value>0&&Number.isFinite(a.value)));assert.equal(g.tier,e.tier);assert.equal(g.affixes[0].stat,{weapon:'attack',head:'mp',chest:'hp',pants:'defense',feet:'speed',pendant:'dodge'}[e.slot]);}
+});
+test('5.4 two copies of the same template remain distinct and retain their rolls through viewing, equip and reload',()=>{
+ let s=initial();const a=addEquipment(s,d,'equip_001_sword_weapon','green',seed(4)),b=addEquipment(s,d,'equip_001_sword_weapon','red',seed(8));assert.notEqual(a,b);assert.equal(gearTemplate(s,a,d).id,gearTemplate(s,b,d).id);const before=JSON.stringify(s.gearInstances);gearValues(s,a,d);gearValues(s,a,d);assert.ok(equip(s,b,d));assert.equal(JSON.stringify(s.gearInstances),before);s=loadSave(JSON.stringify(s),d);assert.ok(s);assert.equal(JSON.stringify(s.gearInstances[a]),JSON.stringify(JSON.parse(before)[a]));assert.equal(gearQuality(s,b),'red');assert.equal(s.equipment.weapon,b);assert.equal(s.owned.filter(id=>gearTemplate(s,id,d)?.id==='equip_001_sword_weapon').length,3);
+});
+test('5.4 comparison subtracts the exact worn instance, including lost secondary stats, and repeating equip never duplicates bonuses',()=>{
+ const s=initial(),a=addEquipment(s,d,'equip_001_sword_weapon','purple',seed(8)),b=addEquipment(s,d,'equip_001_sword_weapon','white',seed(9));equip(s,a,d);const base=stats(s,d),delta=gearComparison(s,b,d).delta,old=gearValues(s,a,d),next=gearValues(s,b,d);for(const k of Object.keys(statInfo))assert.equal(delta[k],next[k]-old[k]);equip(s,a,d);assert.deepEqual(stats(s,d),base);equip(s,b,d);assert.equal(stats(s,d).attack,base.attack+delta.attack);assert.ok(Object.values(delta).some(v=>v<0));
+});
+test('5.4 boots speed feeds actual travel ETA and removing HP gear clamps health',()=>{
+ const s=initial();s.floor=3;s.unlocked=1;const boots=addEquipment(s,d,'equip_001_sword_feet','red',seed(5)),speed=movementSpeed(s,d);equip(s,boots,d);assert.ok(movementSpeed(s,d)>speed);assert.equal(stats(s,d).speed,+level(s,d).speed+gearValues(s,boots,d).speed);startTravel(s,d,1);const fast=journeyRemaining(s,d);unequip(s,'feet',d);assert.ok(journeyRemaining(s,d)>fast);const chest=addEquipment(s,d,'equip_001_sword_chest','gold',seed(1));equip(s,chest,d);s.hp=stats(s,d).hp;unequip(s,'chest',d);assert.equal(s.hp,stats(s,d).hp);
+});
+test('5.2 old orange/purple/green gear migrates to frozen values with no reroll or duplicated bonus',()=>{
+ for(const [oldQuality,newQuality,multiplier] of [['orange','gold',3],['purple','purple',2],['green','green',1.2]]){const s=initial();delete s.gearSchema;delete s.gearInstances;s.gearQuality.equip_001_sword_weapon=oldQuality;s.equipment.weapon='equip_001_sword_weapon';const a=loadSave(JSON.stringify(s),d);assert.ok(a);assert.equal(gearQuality(a,s.equipment.weapon),newQuality);assert.equal(gearValues(a,s.equipment.weapon,d).attack,Math.floor(33*multiplier+.5));const b=loadSave(JSON.stringify(a),d);assert.deepEqual(b.gearInstances,a.gearInstances);assert.equal(stats(b,d).attack,stats(a,d).attack)}
+});
+test('5.4 invalid rolls, duplicate lines, wrong slots and unknown stat keys are rejected on import',()=>{
+ const s=initial(),id=addEquipment(s,d,'equip_001_sword_weapon','red',seed(5));for(const mutate of [x=>x.gearInstances[id].affixes[1].stat=x.gearInstances[id].affixes[0].stat,x=>x.gearInstances[id].affixes[1].value=-1,x=>x.gearInstances[id].affixes[1].stat='invalid',x=>x.gearInstances[id].tier=9,x=>x.equipment.chest=id,x=>x.gearQuality[id]='green']){const x=structuredClone(s);mutate(x);assert.equal(loadSave(JSON.stringify(x),d),null)}
+});
+test('5.2 crafting and loot produce real stored rolls without rerolling existing gear',()=>{
+ const s=initial();s.stones=1e6;s.bag.ore_001=100;const existing=gearValues(s,'equip_001_sword_weapon',d);for(let i=0;i<8;i++){setActivity(s,'forge',{goal:1});tick(s,d,12,seed(i+1));}assert.equal(s.reports.length,8);assert.ok(s.reports.every(r=>r.gear.length===1&&s.gearInstances[r.gear[0]]));assert.deepEqual(gearValues(s,'equip_001_sword_weapon',d),existing);assert.ok(s.owned.length>=10);assert.ok(loadSave(JSON.stringify(s),d));
+});
