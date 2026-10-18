@@ -1,0 +1,88 @@
+{
+  "version": "0.11.0",
+  "phase": 1,
+  "first_map": "map_001",
+  "last_map": "map_010",
+  "locations": {
+    "map_001": {
+      "name": "Vô Danh Thôn",
+      "src": "assets/stage1-v011/map_001.webp",
+      "width": 1536,
+      "height": 1024,
+      "tier": 1,
+      "landmark": "a humble rural hamlet with straw roofs beside a winding stream, bamboo groves, small vegetable plots and a worn wooden footbridge; human scale, no magic monuments"
+    },
+    "map_002": {
+      "name": "Thanh Ngưu Trấn",
+      "src": "assets/stage1-v011/map_002.webp",
+      "width": 1536,
+      "height": 1024,
+      "tier": 1,
+      "landmark": "a modest market town, grey tiled roofs along a curved river, one small stone arch bridge and an ox-shaped carved gate stone, nearby green paddocks"
+    },
+    "map_003": {
+      "name": "Thất Huyền Môn",
+      "src": "assets/stage1-v011/map_003.webp",
+      "width": 1536,
+      "height": 1024,
+      "tier": 1,
+      "landmark": "a martial sect mountain gate, seven distinct slender mountain ridges, stepped path winding up to austere timber halls; pine trees, restrained buildings, no huge celestial palace"
+    },
+    "map_004": {
+      "name": "Hắc Phong Sơn",
+      "src": "assets/stage1-v011/map_004.webp",
+      "width": 1536,
+      "height": 1024,
+      "tier": 1,
+      "landmark": "a dark wind-beaten mountain gorge, black rocky crags, twisted pines, weathered rope bridge and a rough bandit palisade on a cliff; an open path through the gorge"
+    },
+    "map_005": {
+      "name": "Thái Nam Cốc",
+      "src": "assets/stage1-v011/map_005.webp",
+      "width": 1536,
+      "height": 1024,
+      "tier": 1,
+      "landmark": "a hidden jade valley with natural river loops, terraced meadows, a small cultivator market of cloth awnings and bamboo cottages, flowering medicinal herbs, surrounding rounded mountains"
+    },
+    "map_006": {
+      "name": "Hoàng Phong Cốc",
+      "src": "assets/stage1-v011/map_006.webp",
+      "width": 1536,
+      "height": 1024,
+      "tier": 2,
+      "landmark": "an expansive golden valley, amber cliffs, wind-swept autumn pines, an elegant but modest cultivation sect hall nested between cliffs and a curving stone stair; stage2 more refined than villages"
+    },
+    "map_007": {
+      "name": "Huyết Sắc Cấm Địa",
+      "src": "assets/stage1-v011/map_007.webp",
+      "width": 1536,
+      "height": 1024,
+      "tier": 2,
+      "landmark": "a sealed ancient red forest sanctuary, crimson foliage, broken stone gate with a faint crimson seal, dark jade marsh and winding path between ancient roots; no gore"
+    },
+    "map_008": {
+      "name": "Yểm Nguyệt Tông",
+      "src": "assets/stage1-v011/map_008.webp",
+      "width": 1536,
+      "height": 1024,
+      "tier": 2,
+      "landmark": "a secluded moon sect on a curving mountain lake, white tiled pavilions and slender arched walkways, crescent moon reflection, flowering pale trees and low drifting mist; restrained magic"
+    },
+    "map_009": {
+      "name": "Vạn Khôi Sơn",
+      "src": "assets/stage1-v011/map_009.webp",
+      "width": 1536,
+      "height": 1024,
+      "tier": 2,
+      "landmark": "a rugged mountain workshop sect, stepped stone terraces, small carved wooden and bronze training puppets beside the path, carved stone halls, ore carts and a waterwheel; no modern machinery"
+    },
+    "map_010": {
+      "name": "Việt Kinh Thành",
+      "src": "assets/stage1-v011/map_010.webp",
+      "width": 1536,
+      "height": 1024,
+      "tier": 2,
+      "landmark": "an impressive human imperial capital with ancient city walls, broad curved canal, layered traditional red-gold palace roofs in the distance, patterned market districts and a large stone gate; grand mortal scale, not celestial"
+    }
+  }
+}

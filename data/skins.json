@@ -1,0 +1,60 @@
+{
+  "version": "0.12.0",
+  "default_skin": "skin_thanh_phong",
+  "items": [
+    {
+      "id": "skin_thanh_phong",
+      "name": "Thanh Phong Đạo Bào",
+      "required_realm": 0,
+      "src": "assets/skins-v012/skin_thanh_phong.webp",
+      "cosmetic": true,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "skin_mac_truc",
+      "name": "Mặc Trúc Kiếm Y",
+      "required_realm": 0,
+      "src": "assets/skins-v012/skin_mac_truc.webp",
+      "cosmetic": true,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "skin_ngu_phong",
+      "name": "Ngự Phong Kiếm Y",
+      "required_realm": 1,
+      "src": "assets/skins-v012/skin_ngu_phong.webp",
+      "cosmetic": true,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "skin_nguyet_anh",
+      "name": "Nguyệt Ảnh Pháp Y",
+      "required_realm": 1,
+      "src": "assets/skins-v012/skin_nguyet_anh.webp",
+      "cosmetic": true,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "skin_thien_huyen",
+      "name": "Thiên Huyền Thần Y",
+      "required_realm": 4,
+      "src": "assets/skins-v012/skin_thien_huyen.webp",
+      "cosmetic": true,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "skin_tinh_ha",
+      "name": "Tinh Hà Tiên Bào",
+      "required_realm": 8,
+      "src": "assets/skins-v012/skin_tinh_ha.webp",
+      "cosmetic": true,
+      "width": 1024,
+      "height": 1536
+    }
+  ]
+}

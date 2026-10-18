@@ -1,0 +1,1757 @@
+[
+  {
+    "id": "monster_001_1",
+    "source": "01_Luyen_Khi.png",
+    "bounds": [
+      36,
+      55,
+      317,
+      322
+    ],
+    "size": 323,
+    "padding": 21,
+    "pixels": 48121
+  },
+  {
+    "id": "monster_001_2",
+    "source": "01_Luyen_Khi.png",
+    "bounds": [
+      375,
+      38,
+      622,
+      319
+    ],
+    "size": 323,
+    "padding": 21,
+    "pixels": 37118
+  },
+  {
+    "id": "monster_001_3",
+    "source": "01_Luyen_Khi.png",
+    "bounds": [
+      643,
+      28,
+      937,
+      321
+    ],
+    "size": 338,
+    "padding": 22,
+    "pixels": 43273
+  },
+  {
+    "id": "monster_002_1",
+    "source": "01_Luyen_Khi.png",
+    "bounds": [
+      33,
+      358,
+      317,
+      637
+    ],
+    "size": 326,
+    "padding": 21,
+    "pixels": 49877
+  },
+  {
+    "id": "monster_002_2",
+    "source": "01_Luyen_Khi.png",
+    "bounds": [
+      340,
+      346,
+      637,
+      640
+    ],
+    "size": 341,
+    "padding": 22,
+    "pixels": 66314
+  },
+  {
+    "id": "monster_002_3",
+    "source": "01_Luyen_Khi.png",
+    "bounds": [
+      667,
+      341,
+      952,
+      641
+    ],
+    "size": 344,
+    "padding": 22,
+    "pixels": 41973
+  },
+  {
+    "id": "monster_003_1",
+    "source": "01_Luyen_Khi.png",
+    "bounds": [
+      15,
+      646,
+      330,
+      967
+    ],
+    "size": 369,
+    "padding": 24,
+    "pixels": 48817
+  },
+  {
+    "id": "monster_003_2",
+    "source": "01_Luyen_Khi.png",
+    "bounds": [
+      364,
+      647,
+      610,
+      959
+    ],
+    "size": 358,
+    "padding": 23,
+    "pixels": 36414
+  },
+  {
+    "id": "monster_003_3",
+    "source": "01_Luyen_Khi.png",
+    "bounds": [
+      646,
+      672,
+      955,
+      956
+    ],
+    "size": 355,
+    "padding": 23,
+    "pixels": 48793
+  },
+  {
+    "id": "monster_004_1",
+    "source": "01_Luyen_Khi.png",
+    "bounds": [
+      18,
+      976,
+      327,
+      1267
+    ],
+    "size": 355,
+    "padding": 23,
+    "pixels": 61793
+  },
+  {
+    "id": "monster_004_2",
+    "source": "01_Luyen_Khi.png",
+    "bounds": [
+      339,
+      957,
+      635,
+      1254
+    ],
+    "size": 341,
+    "padding": 22,
+    "pixels": 50999
+  },
+  {
+    "id": "monster_004_3",
+    "source": "01_Luyen_Khi.png",
+    "bounds": [
+      644,
+      973,
+      951,
+      1277
+    ],
+    "size": 353,
+    "padding": 23,
+    "pixels": 54164
+  },
+  {
+    "id": "monster_005_1",
+    "source": "01_Luyen_Khi.png",
+    "bounds": [
+      28,
+      1261,
+      323,
+      1594
+    ],
+    "size": 383,
+    "padding": 25,
+    "pixels": 56134
+  },
+  {
+    "id": "monster_005_2",
+    "source": "01_Luyen_Khi.png",
+    "bounds": [
+      346,
+      1285,
+      637,
+      1572
+    ],
+    "size": 335,
+    "padding": 22,
+    "pixels": 54126
+  },
+  {
+    "id": "monster_005_3",
+    "source": "01_Luyen_Khi.png",
+    "bounds": [
+      644,
+      1293,
+      953,
+      1581
+    ],
+    "size": 355,
+    "padding": 23,
+    "pixels": 43038
+  },
+  {
+    "id": "monster_006_1",
+    "source": "02_Truc_Co.png",
+    "bounds": [
+      14,
+      31,
+      332,
+      313
+    ],
+    "size": 366,
+    "padding": 24,
+    "pixels": 61159
+  },
+  {
+    "id": "monster_006_2",
+    "source": "02_Truc_Co.png",
+    "bounds": [
+      366,
+      14,
+      616,
+      313
+    ],
+    "size": 343,
+    "padding": 22,
+    "pixels": 34525
+  },
+  {
+    "id": "monster_006_3",
+    "source": "02_Truc_Co.png",
+    "bounds": [
+      642,
+      12,
+      957,
+      316
+    ],
+    "size": 363,
+    "padding": 24,
+    "pixels": 43349
+  },
+  {
+    "id": "monster_007_1",
+    "source": "02_Truc_Co.png",
+    "bounds": [
+      27,
+      316,
+      329,
+      622
+    ],
+    "size": 352,
+    "padding": 23,
+    "pixels": 43290
+  },
+  {
+    "id": "monster_007_2",
+    "source": "02_Truc_Co.png",
+    "bounds": [
+      340,
+      320,
+      628,
+      625
+    ],
+    "size": 351,
+    "padding": 23,
+    "pixels": 63865
+  },
+  {
+    "id": "monster_007_3",
+    "source": "02_Truc_Co.png",
+    "bounds": [
+      656,
+      340,
+      949,
+      622
+    ],
+    "size": 337,
+    "padding": 22,
+    "pixels": 60237
+  },
+  {
+    "id": "monster_008_1",
+    "source": "02_Truc_Co.png",
+    "bounds": [
+      15,
+      631,
+      352,
+      932
+    ],
+    "size": 387,
+    "padding": 25,
+    "pixels": 64563
+  },
+  {
+    "id": "monster_008_2",
+    "source": "02_Truc_Co.png",
+    "bounds": [
+      346,
+      639,
+      631,
+      930
+    ],
+    "size": 335,
+    "padding": 22,
+    "pixels": 63283
+  },
+  {
+    "id": "monster_008_3",
+    "source": "02_Truc_Co.png",
+    "bounds": [
+      658,
+      645,
+      954,
+      931
+    ],
+    "size": 340,
+    "padding": 22,
+    "pixels": 57706
+  },
+  {
+    "id": "monster_009_1",
+    "source": "02_Truc_Co.png",
+    "bounds": [
+      17,
+      933,
+      305,
+      1246
+    ],
+    "size": 359,
+    "padding": 23,
+    "pixels": 49369
+  },
+  {
+    "id": "monster_009_2",
+    "source": "02_Truc_Co.png",
+    "bounds": [
+      339,
+      952,
+      636,
+      1230
+    ],
+    "size": 341,
+    "padding": 22,
+    "pixels": 49629
+  },
+  {
+    "id": "monster_009_3",
+    "source": "02_Truc_Co.png",
+    "bounds": [
+      666,
+      952,
+      950,
+      1250
+    ],
+    "size": 342,
+    "padding": 22,
+    "pixels": 48351
+  },
+  {
+    "id": "monster_010_1",
+    "source": "02_Truc_Co.png",
+    "bounds": [
+      15,
+      1234,
+      333,
+      1605
+    ],
+    "size": 427,
+    "padding": 28,
+    "pixels": 62413
+  },
+  {
+    "id": "monster_010_2",
+    "source": "02_Truc_Co.png",
+    "bounds": [
+      351,
+      1246,
+      629,
+      1598
+    ],
+    "size": 404,
+    "padding": 26,
+    "pixels": 59662
+  },
+  {
+    "id": "monster_010_3",
+    "source": "02_Truc_Co.png",
+    "bounds": [
+      670,
+      1250,
+      955,
+      1605
+    ],
+    "size": 409,
+    "padding": 27,
+    "pixels": 66505
+  },
+  {
+    "id": "monster_011_1",
+    "source": "03_Kim_Dan.png",
+    "bounds": [
+      11,
+      32,
+      350,
+      319
+    ],
+    "size": 389,
+    "padding": 25,
+    "pixels": 60127
+  },
+  {
+    "id": "monster_011_2",
+    "source": "03_Kim_Dan.png",
+    "bounds": [
+      359,
+      26,
+      644,
+      325
+    ],
+    "size": 343,
+    "padding": 22,
+    "pixels": 45951
+  },
+  {
+    "id": "monster_011_3",
+    "source": "03_Kim_Dan.png",
+    "bounds": [
+      674,
+      8,
+      952,
+      321
+    ],
+    "size": 359,
+    "padding": 23,
+    "pixels": 38137
+  },
+  {
+    "id": "monster_012_1",
+    "source": "03_Kim_Dan.png",
+    "bounds": [
+      5,
+      335,
+      359,
+      650
+    ],
+    "size": 408,
+    "padding": 27,
+    "pixels": 66872
+  },
+  {
+    "id": "monster_012_2",
+    "source": "03_Kim_Dan.png",
+    "bounds": [
+      333,
+      311,
+      645,
+      641
+    ],
+    "size": 380,
+    "padding": 25,
+    "pixels": 49962
+  },
+  {
+    "id": "monster_012_3",
+    "source": "03_Kim_Dan.png",
+    "bounds": [
+      658,
+      333,
+      967,
+      642
+    ],
+    "size": 355,
+    "padding": 23,
+    "pixels": 56774
+  },
+  {
+    "id": "monster_013_1",
+    "source": "03_Kim_Dan.png",
+    "bounds": [
+      12,
+      652,
+      328,
+      950
+    ],
+    "size": 364,
+    "padding": 24,
+    "pixels": 56485
+  },
+  {
+    "id": "monster_013_2",
+    "source": "03_Kim_Dan.png",
+    "bounds": [
+      324,
+      651,
+      677,
+      948
+    ],
+    "size": 405,
+    "padding": 26,
+    "pixels": 58641
+  },
+  {
+    "id": "monster_013_3",
+    "source": "03_Kim_Dan.png",
+    "bounds": [
+      713,
+      643,
+      951,
+      949
+    ],
+    "size": 352,
+    "padding": 23,
+    "pixels": 37121
+  },
+  {
+    "id": "monster_014_1",
+    "source": "03_Kim_Dan.png",
+    "bounds": [
+      14,
+      942,
+      329,
+      1267
+    ],
+    "size": 373,
+    "padding": 24,
+    "pixels": 60781
+  },
+  {
+    "id": "monster_014_2",
+    "source": "03_Kim_Dan.png",
+    "bounds": [
+      315,
+      941,
+      665,
+      1249
+    ],
+    "size": 402,
+    "padding": 26,
+    "pixels": 61537
+  },
+  {
+    "id": "monster_014_3",
+    "source": "03_Kim_Dan.png",
+    "bounds": [
+      583,
+      943,
+      962,
+      1266
+    ],
+    "size": 435,
+    "padding": 28,
+    "pixels": 61306
+  },
+  {
+    "id": "monster_015_1",
+    "source": "03_Kim_Dan.png",
+    "bounds": [
+      11,
+      1250,
+      337,
+      1605
+    ],
+    "size": 409,
+    "padding": 27,
+    "pixels": 70718
+  },
+  {
+    "id": "monster_015_2",
+    "source": "03_Kim_Dan.png",
+    "bounds": [
+      334,
+      1257,
+      644,
+      1602
+    ],
+    "size": 397,
+    "padding": 26,
+    "pixels": 66694
+  },
+  {
+    "id": "monster_015_3",
+    "source": "03_Kim_Dan.png",
+    "bounds": [
+      616,
+      1266,
+      961,
+      1606
+    ],
+    "size": 397,
+    "padding": 26,
+    "pixels": 84574
+  },
+  {
+    "id": "monster_016_1",
+    "source": "04_Nguyen_Anh.png",
+    "bounds": [
+      30,
+      7,
+      282,
+      317
+    ],
+    "size": 356,
+    "padding": 23,
+    "pixels": 46445
+  },
+  {
+    "id": "monster_016_2",
+    "source": "04_Nguyen_Anh.png",
+    "bounds": [
+      300,
+      16,
+      666,
+      319
+    ],
+    "size": 420,
+    "padding": 27,
+    "pixels": 61914
+  },
+  {
+    "id": "monster_016_3",
+    "source": "04_Nguyen_Anh.png",
+    "bounds": [
+      676,
+      6,
+      954,
+      318
+    ],
+    "size": 358,
+    "padding": 23,
+    "pixels": 55980
+  },
+  {
+    "id": "monster_017_1",
+    "source": "04_Nguyen_Anh.png",
+    "bounds": [
+      8,
+      312,
+      372,
+      662
+    ],
+    "size": 418,
+    "padding": 27,
+    "pixels": 64433
+  },
+  {
+    "id": "monster_017_2",
+    "source": "04_Nguyen_Anh.png",
+    "bounds": [
+      367,
+      323,
+      627,
+      665
+    ],
+    "size": 394,
+    "padding": 26,
+    "pixels": 54651
+  },
+  {
+    "id": "monster_017_3",
+    "source": "04_Nguyen_Anh.png",
+    "bounds": [
+      675,
+      327,
+      957,
+      660
+    ],
+    "size": 383,
+    "padding": 25,
+    "pixels": 65100
+  },
+  {
+    "id": "monster_018_1",
+    "source": "04_Nguyen_Anh.png",
+    "bounds": [
+      20,
+      668,
+      332,
+      965
+    ],
+    "size": 358,
+    "padding": 23,
+    "pixels": 60094
+  },
+  {
+    "id": "monster_018_2",
+    "source": "04_Nguyen_Anh.png",
+    "bounds": [
+      342,
+      652,
+      642,
+      958
+    ],
+    "size": 352,
+    "padding": 23,
+    "pixels": 61064
+  },
+  {
+    "id": "monster_018_3",
+    "source": "04_Nguyen_Anh.png",
+    "bounds": [
+      677,
+      674,
+      961,
+      953
+    ],
+    "size": 326,
+    "padding": 21,
+    "pixels": 52040
+  },
+  {
+    "id": "monster_019_1",
+    "source": "04_Nguyen_Anh.png",
+    "bounds": [
+      10,
+      946,
+      362,
+      1277
+    ],
+    "size": 404,
+    "padding": 26,
+    "pixels": 76664
+  },
+  {
+    "id": "monster_019_2",
+    "source": "04_Nguyen_Anh.png",
+    "bounds": [
+      322,
+      961,
+      637,
+      1293
+    ],
+    "size": 382,
+    "padding": 25,
+    "pixels": 51148
+  },
+  {
+    "id": "monster_019_3",
+    "source": "04_Nguyen_Anh.png",
+    "bounds": [
+      660,
+      959,
+      959,
+      1272
+    ],
+    "size": 359,
+    "padding": 23,
+    "pixels": 55820
+  },
+  {
+    "id": "monster_020_1",
+    "source": "04_Nguyen_Anh.png",
+    "bounds": [
+      20,
+      1275,
+      304,
+      1607
+    ],
+    "size": 382,
+    "padding": 25,
+    "pixels": 61702
+  },
+  {
+    "id": "monster_020_2",
+    "source": "04_Nguyen_Anh.png",
+    "bounds": [
+      317,
+      1284,
+      621,
+      1601
+    ],
+    "size": 365,
+    "padding": 24,
+    "pixels": 61693
+  },
+  {
+    "id": "monster_020_3",
+    "source": "04_Nguyen_Anh.png",
+    "bounds": [
+      630,
+      1280,
+      961,
+      1600
+    ],
+    "size": 381,
+    "padding": 25,
+    "pixels": 68186
+  },
+  {
+    "id": "monster_021_1",
+    "source": "05_Hoa_Than.png",
+    "bounds": [
+      4,
+      6,
+      328,
+      322
+    ],
+    "size": 372,
+    "padding": 24,
+    "pixels": 47873
+  },
+  {
+    "id": "monster_021_2",
+    "source": "05_Hoa_Than.png",
+    "bounds": [
+      347,
+      28,
+      648,
+      316
+    ],
+    "size": 347,
+    "padding": 23,
+    "pixels": 52249
+  },
+  {
+    "id": "monster_021_3",
+    "source": "05_Hoa_Than.png",
+    "bounds": [
+      678,
+      5,
+      965,
+      323
+    ],
+    "size": 366,
+    "padding": 24,
+    "pixels": 54055
+  },
+  {
+    "id": "monster_022_1",
+    "source": "05_Hoa_Than.png",
+    "bounds": [
+      23,
+      321,
+      324,
+      648
+    ],
+    "size": 377,
+    "padding": 25,
+    "pixels": 51931
+  },
+  {
+    "id": "monster_022_2",
+    "source": "05_Hoa_Than.png",
+    "bounds": [
+      371,
+      318,
+      628,
+      647
+    ],
+    "size": 379,
+    "padding": 25,
+    "pixels": 40723
+  },
+  {
+    "id": "monster_022_3",
+    "source": "05_Hoa_Than.png",
+    "bounds": [
+      648,
+      318,
+      957,
+      700
+    ],
+    "size": 440,
+    "padding": 29,
+    "pixels": 58853
+  },
+  {
+    "id": "monster_023_1",
+    "source": "05_Hoa_Than.png",
+    "bounds": [
+      7,
+      642,
+      330,
+      959
+    ],
+    "size": 371,
+    "padding": 24,
+    "pixels": 72631
+  },
+  {
+    "id": "monster_023_2",
+    "source": "05_Hoa_Than.png",
+    "bounds": [
+      350,
+      643,
+      660,
+      966
+    ],
+    "size": 371,
+    "padding": 24,
+    "pixels": 62380
+  },
+  {
+    "id": "monster_023_3",
+    "source": "05_Hoa_Than.png",
+    "bounds": [
+      669,
+      634,
+      964,
+      973
+    ],
+    "size": 389,
+    "padding": 25,
+    "pixels": 41309
+  },
+  {
+    "id": "monster_024_1",
+    "source": "05_Hoa_Than.png",
+    "bounds": [
+      0,
+      948,
+      353,
+      1262
+    ],
+    "size": 405,
+    "padding": 26,
+    "pixels": 64662
+  },
+  {
+    "id": "monster_024_2",
+    "source": "05_Hoa_Than.png",
+    "bounds": [
+      354,
+      955,
+      663,
+      1252
+    ],
+    "size": 355,
+    "padding": 23,
+    "pixels": 53022
+  },
+  {
+    "id": "monster_024_3",
+    "source": "05_Hoa_Than.png",
+    "bounds": [
+      662,
+      946,
+      964,
+      1283
+    ],
+    "size": 387,
+    "padding": 25,
+    "pixels": 65484
+  },
+  {
+    "id": "monster_025_1",
+    "source": "05_Hoa_Than.png",
+    "bounds": [
+      7,
+      1252,
+      342,
+      1600
+    ],
+    "size": 400,
+    "padding": 26,
+    "pixels": 59713
+  },
+  {
+    "id": "monster_025_2",
+    "source": "05_Hoa_Than.png",
+    "bounds": [
+      351,
+      1243,
+      661,
+      1599
+    ],
+    "size": 410,
+    "padding": 27,
+    "pixels": 76767
+  },
+  {
+    "id": "monster_025_3",
+    "source": "05_Hoa_Than.png",
+    "bounds": [
+      646,
+      1243,
+      964,
+      1598
+    ],
+    "size": 409,
+    "padding": 27,
+    "pixels": 62053
+  },
+  {
+    "id": "monster_026_1",
+    "source": "06_Luyen_Hu.png",
+    "bounds": [
+      18,
+      7,
+      308,
+      317
+    ],
+    "size": 356,
+    "padding": 23,
+    "pixels": 53286
+  },
+  {
+    "id": "monster_026_2",
+    "source": "06_Luyen_Hu.png",
+    "bounds": [
+      345,
+      11,
+      616,
+      311
+    ],
+    "size": 344,
+    "padding": 22,
+    "pixels": 43355
+  },
+  {
+    "id": "monster_026_3",
+    "source": "06_Luyen_Hu.png",
+    "bounds": [
+      650,
+      9,
+      959,
+      315
+    ],
+    "size": 355,
+    "padding": 23,
+    "pixels": 62856
+  },
+  {
+    "id": "monster_027_1",
+    "source": "06_Luyen_Hu.png",
+    "bounds": [
+      7,
+      321,
+      326,
+      628
+    ],
+    "size": 367,
+    "padding": 24,
+    "pixels": 52370
+  },
+  {
+    "id": "monster_027_2",
+    "source": "06_Luyen_Hu.png",
+    "bounds": [
+      347,
+      326,
+      637,
+      630
+    ],
+    "size": 350,
+    "padding": 23,
+    "pixels": 57912
+  },
+  {
+    "id": "monster_027_3",
+    "source": "06_Luyen_Hu.png",
+    "bounds": [
+      687,
+      318,
+      941,
+      629
+    ],
+    "size": 357,
+    "padding": 23,
+    "pixels": 42216
+  },
+  {
+    "id": "monster_028_1",
+    "source": "06_Luyen_Hu.png",
+    "bounds": [
+      20,
+      629,
+      323,
+      956
+    ],
+    "size": 377,
+    "padding": 25,
+    "pixels": 55069
+  },
+  {
+    "id": "monster_028_2",
+    "source": "06_Luyen_Hu.png",
+    "bounds": [
+      348,
+      634,
+      634,
+      943
+    ],
+    "size": 355,
+    "padding": 23,
+    "pixels": 53347
+  },
+  {
+    "id": "monster_028_3",
+    "source": "06_Luyen_Hu.png",
+    "bounds": [
+      671,
+      617,
+      951,
+      957
+    ],
+    "size": 392,
+    "padding": 26,
+    "pixels": 54762
+  },
+  {
+    "id": "monster_029_1",
+    "source": "06_Luyen_Hu.png",
+    "bounds": [
+      12,
+      933,
+      322,
+      1252
+    ],
+    "size": 367,
+    "padding": 24,
+    "pixels": 75583
+  },
+  {
+    "id": "monster_029_2",
+    "source": "06_Luyen_Hu.png",
+    "bounds": [
+      341,
+      955,
+      631,
+      1275
+    ],
+    "size": 368,
+    "padding": 24,
+    "pixels": 60229
+  },
+  {
+    "id": "monster_029_3",
+    "source": "06_Luyen_Hu.png",
+    "bounds": [
+      653,
+      949,
+      954,
+      1261
+    ],
+    "size": 358,
+    "padding": 23,
+    "pixels": 53518
+  },
+  {
+    "id": "monster_030_1",
+    "source": "06_Luyen_Hu.png",
+    "bounds": [
+      25,
+      1260,
+      309,
+      1603
+    ],
+    "size": 395,
+    "padding": 26,
+    "pixels": 62927
+  },
+  {
+    "id": "monster_030_2",
+    "source": "06_Luyen_Hu.png",
+    "bounds": [
+      338,
+      1267,
+      632,
+      1600
+    ],
+    "size": 383,
+    "padding": 25,
+    "pixels": 68500
+  },
+  {
+    "id": "monster_030_3",
+    "source": "06_Luyen_Hu.png",
+    "bounds": [
+      650,
+      1267,
+      956,
+      1590
+    ],
+    "size": 371,
+    "padding": 24,
+    "pixels": 64621
+  },
+  {
+    "id": "monster_031_1",
+    "source": "07_Hop_The.png",
+    "bounds": [
+      13,
+      25,
+      307,
+      311
+    ],
+    "size": 338,
+    "padding": 22,
+    "pixels": 36524
+  },
+  {
+    "id": "monster_031_2",
+    "source": "07_Hop_The.png",
+    "bounds": [
+      341,
+      9,
+      626,
+      317
+    ],
+    "size": 354,
+    "padding": 23,
+    "pixels": 46612
+  },
+  {
+    "id": "monster_031_3",
+    "source": "07_Hop_The.png",
+    "bounds": [
+      672,
+      8,
+      952,
+      311
+    ],
+    "size": 349,
+    "padding": 23,
+    "pixels": 48213
+  },
+  {
+    "id": "monster_032_1",
+    "source": "07_Hop_The.png",
+    "bounds": [
+      33,
+      333,
+      319,
+      628
+    ],
+    "size": 339,
+    "padding": 22,
+    "pixels": 52686
+  },
+  {
+    "id": "monster_032_2",
+    "source": "07_Hop_The.png",
+    "bounds": [
+      340,
+      323,
+      638,
+      632
+    ],
+    "size": 355,
+    "padding": 23,
+    "pixels": 57043
+  },
+  {
+    "id": "monster_032_3",
+    "source": "07_Hop_The.png",
+    "bounds": [
+      660,
+      321,
+      949,
+      630
+    ],
+    "size": 355,
+    "padding": 23,
+    "pixels": 59414
+  },
+  {
+    "id": "monster_033_1",
+    "source": "07_Hop_The.png",
+    "bounds": [
+      11,
+      625,
+      359,
+      932
+    ],
+    "size": 400,
+    "padding": 26,
+    "pixels": 75971
+  },
+  {
+    "id": "monster_033_2",
+    "source": "07_Hop_The.png",
+    "bounds": [
+      343,
+      635,
+      632,
+      933
+    ],
+    "size": 342,
+    "padding": 22,
+    "pixels": 38284
+  },
+  {
+    "id": "monster_033_3",
+    "source": "07_Hop_The.png",
+    "bounds": [
+      652,
+      642,
+      955,
+      934
+    ],
+    "size": 349,
+    "padding": 23,
+    "pixels": 48504
+  },
+  {
+    "id": "monster_034_1",
+    "source": "07_Hop_The.png",
+    "bounds": [
+      15,
+      938,
+      316,
+      1257
+    ],
+    "size": 367,
+    "padding": 24,
+    "pixels": 65026
+  },
+  {
+    "id": "monster_034_2",
+    "source": "07_Hop_The.png",
+    "bounds": [
+      312,
+      947,
+      632,
+      1306
+    ],
+    "size": 413,
+    "padding": 27,
+    "pixels": 53030
+  },
+  {
+    "id": "monster_034_3",
+    "source": "07_Hop_The.png",
+    "bounds": [
+      666,
+      940,
+      952,
+      1312
+    ],
+    "size": 428,
+    "padding": 28,
+    "pixels": 65279
+  },
+  {
+    "id": "monster_035_1",
+    "source": "07_Hop_The.png",
+    "bounds": [
+      17,
+      1267,
+      328,
+      1612
+    ],
+    "size": 397,
+    "padding": 26,
+    "pixels": 65846
+  },
+  {
+    "id": "monster_035_2",
+    "source": "07_Hop_The.png",
+    "bounds": [
+      340,
+      1253,
+      650,
+      1609
+    ],
+    "size": 410,
+    "padding": 27,
+    "pixels": 53119
+  },
+  {
+    "id": "monster_035_3",
+    "source": "07_Hop_The.png",
+    "bounds": [
+      670,
+      1285,
+      957,
+      1597
+    ],
+    "size": 358,
+    "padding": 23,
+    "pixels": 55603
+  },
+  {
+    "id": "monster_036_1",
+    "source": "08_Dai_Thua.png",
+    "bounds": [
+      10,
+      9,
+      322,
+      313
+    ],
+    "size": 358,
+    "padding": 23,
+    "pixels": 51522
+  },
+  {
+    "id": "monster_036_2",
+    "source": "08_Dai_Thua.png",
+    "bounds": [
+      338,
+      15,
+      641,
+      313
+    ],
+    "size": 349,
+    "padding": 23,
+    "pixels": 53588
+  },
+  {
+    "id": "monster_036_3",
+    "source": "08_Dai_Thua.png",
+    "bounds": [
+      686,
+      9,
+      951,
+      314
+    ],
+    "size": 351,
+    "padding": 23,
+    "pixels": 45910
+  },
+  {
+    "id": "monster_037_1",
+    "source": "08_Dai_Thua.png",
+    "bounds": [
+      12,
+      323,
+      338,
+      628
+    ],
+    "size": 374,
+    "padding": 24,
+    "pixels": 71073
+  },
+  {
+    "id": "monster_037_2",
+    "source": "08_Dai_Thua.png",
+    "bounds": [
+      368,
+      317,
+      630,
+      629
+    ],
+    "size": 358,
+    "padding": 23,
+    "pixels": 43152
+  },
+  {
+    "id": "monster_037_3",
+    "source": "08_Dai_Thua.png",
+    "bounds": [
+      651,
+      323,
+      956,
+      629
+    ],
+    "size": 352,
+    "padding": 23,
+    "pixels": 67055
+  },
+  {
+    "id": "monster_038_1",
+    "source": "08_Dai_Thua.png",
+    "bounds": [
+      20,
+      640,
+      328,
+      938
+    ],
+    "size": 354,
+    "padding": 23,
+    "pixels": 63772
+  },
+  {
+    "id": "monster_038_2",
+    "source": "08_Dai_Thua.png",
+    "bounds": [
+      343,
+      618,
+      651,
+      946
+    ],
+    "size": 378,
+    "padding": 25,
+    "pixels": 71209
+  },
+  {
+    "id": "monster_038_3",
+    "source": "08_Dai_Thua.png",
+    "bounds": [
+      633,
+      637,
+      952,
+      947
+    ],
+    "size": 367,
+    "padding": 24,
+    "pixels": 51013
+  },
+  {
+    "id": "monster_039_1",
+    "source": "08_Dai_Thua.png",
+    "bounds": [
+      27,
+      943,
+      326,
+      1269
+    ],
+    "size": 374,
+    "padding": 24,
+    "pixels": 56914
+  },
+  {
+    "id": "monster_039_2",
+    "source": "08_Dai_Thua.png",
+    "bounds": [
+      349,
+      928,
+      635,
+      1279
+    ],
+    "size": 403,
+    "padding": 26,
+    "pixels": 58450
+  },
+  {
+    "id": "monster_039_3",
+    "source": "08_Dai_Thua.png",
+    "bounds": [
+      672,
+      951,
+      957,
+      1274
+    ],
+    "size": 371,
+    "padding": 24,
+    "pixels": 43947
+  },
+  {
+    "id": "monster_040_1",
+    "source": "08_Dai_Thua.png",
+    "bounds": [
+      20,
+      1271,
+      320,
+      1608
+    ],
+    "size": 387,
+    "padding": 25,
+    "pixels": 66044
+  },
+  {
+    "id": "monster_040_2",
+    "source": "08_Dai_Thua.png",
+    "bounds": [
+      326,
+      1268,
+      668,
+      1608
+    ],
+    "size": 394,
+    "padding": 26,
+    "pixels": 83962
+  },
+  {
+    "id": "monster_040_3",
+    "source": "08_Dai_Thua.png",
+    "bounds": [
+      690,
+      1268,
+      952,
+      1609
+    ],
+    "size": 393,
+    "padding": 26,
+    "pixels": 51403
+  },
+  {
+    "id": "monster_041_1",
+    "source": "09_Chan_Tien.png",
+    "bounds": [
+      32,
+      5,
+      325,
+      328
+    ],
+    "size": 371,
+    "padding": 24,
+    "pixels": 52411
+  },
+  {
+    "id": "monster_041_2",
+    "source": "09_Chan_Tien.png",
+    "bounds": [
+      356,
+      10,
+      649,
+      335
+    ],
+    "size": 373,
+    "padding": 24,
+    "pixels": 48342
+  },
+  {
+    "id": "monster_041_3",
+    "source": "09_Chan_Tien.png",
+    "bounds": [
+      684,
+      7,
+      935,
+      333
+    ],
+    "size": 374,
+    "padding": 24,
+    "pixels": 38302
+  },
+  {
+    "id": "monster_042_1",
+    "source": "09_Chan_Tien.png",
+    "bounds": [
+      42,
+      337,
+      331,
+      637
+    ],
+    "size": 344,
+    "padding": 22,
+    "pixels": 58500
+  },
+  {
+    "id": "monster_042_2",
+    "source": "09_Chan_Tien.png",
+    "bounds": [
+      366,
+      338,
+      630,
+      639
+    ],
+    "size": 347,
+    "padding": 23,
+    "pixels": 51739
+  },
+  {
+    "id": "monster_042_3",
+    "source": "09_Chan_Tien.png",
+    "bounds": [
+      655,
+      344,
+      955,
+      635
+    ],
+    "size": 344,
+    "padding": 22,
+    "pixels": 52273
+  },
+  {
+    "id": "monster_043_1",
+    "source": "09_Chan_Tien.png",
+    "bounds": [
+      13,
+      641,
+      344,
+      959
+    ],
+    "size": 381,
+    "padding": 25,
+    "pixels": 56637
+  },
+  {
+    "id": "monster_043_2",
+    "source": "09_Chan_Tien.png",
+    "bounds": [
+      366,
+      625,
+      661,
+      946
+    ],
+    "size": 369,
+    "padding": 24,
+    "pixels": 64363
+  },
+  {
+    "id": "monster_043_3",
+    "source": "09_Chan_Tien.png",
+    "bounds": [
+      676,
+      636,
+      948,
+      951
+    ],
+    "size": 363,
+    "padding": 24,
+    "pixels": 50647
+  },
+  {
+    "id": "monster_044_1",
+    "source": "09_Chan_Tien.png",
+    "bounds": [
+      13,
+      954,
+      335,
+      1266
+    ],
+    "size": 370,
+    "padding": 24,
+    "pixels": 56914
+  },
+  {
+    "id": "monster_044_2",
+    "source": "09_Chan_Tien.png",
+    "bounds": [
+      349,
+      947,
+      646,
+      1268
+    ],
+    "size": 369,
+    "padding": 24,
+    "pixels": 59144
+  },
+  {
+    "id": "monster_044_3",
+    "source": "09_Chan_Tien.png",
+    "bounds": [
+      668,
+      957,
+      956,
+      1266
+    ],
+    "size": 355,
+    "padding": 23,
+    "pixels": 62417
+  },
+  {
+    "id": "monster_045_1",
+    "source": "09_Chan_Tien.png",
+    "bounds": [
+      18,
+      1252,
+      331,
+      1611
+    ],
+    "size": 413,
+    "padding": 27,
+    "pixels": 67416
+  },
+  {
+    "id": "monster_045_2",
+    "source": "09_Chan_Tien.png",
+    "bounds": [
+      331,
+      1264,
+      639,
+      1604
+    ],
+    "size": 392,
+    "padding": 26,
+    "pixels": 61363
+  },
+  {
+    "id": "monster_045_3",
+    "source": "09_Chan_Tien.png",
+    "bounds": [
+      644,
+      1261,
+      971,
+      1600
+    ],
+    "size": 389,
+    "padding": 25,
+    "pixels": 79848
+  }
+]

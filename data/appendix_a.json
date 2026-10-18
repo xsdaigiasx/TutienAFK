@@ -1,0 +1,452 @@
+[
+  {
+    "id": "map_001",
+    "name": "Vô Danh Thôn",
+    "region": "Thất Huyền Sơn Vực",
+    "country": "Việt Quốc",
+    "sector": "Thiên Nam Tinh Vực",
+    "world": "Nhân Giới",
+    "recommendation": "Luyện Khí · Tầng 1",
+    "source_recommendation": "Luyện Khí tầng 1"
+  },
+  {
+    "id": "map_002",
+    "name": "Thanh Ngưu Trấn",
+    "region": "Thất Huyền Sơn Vực",
+    "country": "Việt Quốc",
+    "sector": "Thiên Nam Tinh Vực",
+    "world": "Nhân Giới",
+    "recommendation": "Luyện Khí · Tầng 3",
+    "source_recommendation": "Luyện Khí tầng 3"
+  },
+  {
+    "id": "map_003",
+    "name": "Thất Huyền Môn",
+    "region": "Thất Huyền Sơn Vực",
+    "country": "Việt Quốc",
+    "sector": "Thiên Nam Tinh Vực",
+    "world": "Nhân Giới",
+    "recommendation": "Luyện Khí · Tầng 5",
+    "source_recommendation": "Luyện Khí tầng 5"
+  },
+  {
+    "id": "map_004",
+    "name": "Hắc Phong Sơn",
+    "region": "Thái Nam Sơn Vực",
+    "country": "Việt Quốc",
+    "sector": "Thiên Nam Tinh Vực",
+    "world": "Nhân Giới",
+    "recommendation": "Luyện Khí · Tầng 7",
+    "source_recommendation": "Luyện Khí tầng 7"
+  },
+  {
+    "id": "map_005",
+    "name": "Thái Nam Cốc",
+    "region": "Thái Nam Sơn Vực",
+    "country": "Việt Quốc",
+    "sector": "Thiên Nam Tinh Vực",
+    "world": "Nhân Giới",
+    "recommendation": "Luyện Khí · Tầng 9",
+    "source_recommendation": "Luyện Khí tầng 9"
+  },
+  {
+    "id": "map_006",
+    "name": "Hoàng Phong Cốc",
+    "region": "Hoàng Phong Sơn Vực",
+    "country": "Việt Quốc",
+    "sector": "Thiên Nam Tinh Vực",
+    "world": "Nhân Giới",
+    "recommendation": "Trúc Cơ · Sơ kỳ",
+    "source_recommendation": "Trúc Cơ tầng 1"
+  },
+  {
+    "id": "map_007",
+    "name": "Huyết Sắc Cấm Địa",
+    "region": "Hoàng Phong Sơn Vực",
+    "country": "Việt Quốc",
+    "sector": "Thiên Nam Tinh Vực",
+    "world": "Nhân Giới",
+    "recommendation": "Trúc Cơ · Trung kỳ",
+    "source_recommendation": "Trúc Cơ tầng 3"
+  },
+  {
+    "id": "map_008",
+    "name": "Yểm Nguyệt Tông",
+    "region": "Hoàng Phong Sơn Vực",
+    "country": "Việt Quốc",
+    "sector": "Thiên Nam Tinh Vực",
+    "world": "Nhân Giới",
+    "recommendation": "Trúc Cơ · Hậu kỳ",
+    "source_recommendation": "Trúc Cơ tầng 5"
+  },
+  {
+    "id": "map_009",
+    "name": "Vạn Khôi Sơn",
+    "region": "Việt Kinh Vực",
+    "country": "Việt Quốc",
+    "sector": "Thiên Nam Tinh Vực",
+    "world": "Nhân Giới",
+    "recommendation": "Trúc Cơ · Đỉnh phong",
+    "source_recommendation": "Trúc Cơ tầng 7"
+  },
+  {
+    "id": "map_010",
+    "name": "Việt Kinh Thành",
+    "region": "Việt Kinh Vực",
+    "country": "Việt Quốc",
+    "sector": "Thiên Nam Tinh Vực",
+    "world": "Nhân Giới",
+    "recommendation": "Trúc Cơ · Đỉnh phong",
+    "source_recommendation": "Trúc Cơ tầng 9"
+  },
+  {
+    "id": "map_011",
+    "name": "Thiên Tinh Nội Hải",
+    "region": "Loạn Tinh Nội Hải",
+    "country": "Thiên Tinh Liên Quốc",
+    "sector": "Loạn Tinh Tinh Vực",
+    "world": "Nhân Giới",
+    "recommendation": "Kim Đan · Sơ kỳ",
+    "source_recommendation": "Kim Đan tầng 1"
+  },
+  {
+    "id": "map_012",
+    "name": "Vạn Yêu Cốc",
+    "region": "Loạn Tinh Nội Hải",
+    "country": "Thiên Tinh Liên Quốc",
+    "sector": "Loạn Tinh Tinh Vực",
+    "world": "Nhân Giới",
+    "recommendation": "Kim Đan · Trung kỳ",
+    "source_recommendation": "Kim Đan tầng 3"
+  },
+  {
+    "id": "map_013",
+    "name": "Bích Linh Đảo",
+    "region": "Loạn Tinh Nội Hải",
+    "country": "Thiên Tinh Liên Quốc",
+    "sector": "Loạn Tinh Tinh Vực",
+    "world": "Nhân Giới",
+    "recommendation": "Kim Đan · Hậu kỳ",
+    "source_recommendation": "Kim Đan tầng 5"
+  },
+  {
+    "id": "map_014",
+    "name": "Hư Thiên Điện",
+    "region": "Phong Bạo Ngoại Hải",
+    "country": "Thiên Tinh Liên Quốc",
+    "sector": "Loạn Tinh Tinh Vực",
+    "world": "Nhân Giới",
+    "recommendation": "Kim Đan · Đỉnh phong",
+    "source_recommendation": "Kim Đan tầng 7"
+  },
+  {
+    "id": "map_015",
+    "name": "Ngoại Hải Phong Bạo",
+    "region": "Phong Bạo Ngoại Hải",
+    "country": "Thiên Tinh Liên Quốc",
+    "sector": "Loạn Tinh Tinh Vực",
+    "world": "Nhân Giới",
+    "recommendation": "Kim Đan · Đỉnh phong",
+    "source_recommendation": "Kim Đan tầng 9"
+  },
+  {
+    "id": "map_016",
+    "name": "Mộ Lan Thảo Nguyên",
+    "region": "Mộ Lan Biên Vực",
+    "country": "Đại Tấn Hoàng Triều",
+    "sector": "Đại Tấn Tinh Vực",
+    "world": "Nhân Giới",
+    "recommendation": "Nguyên Anh · Sơ kỳ",
+    "source_recommendation": "Nguyên Anh tầng 1"
+  },
+  {
+    "id": "map_017",
+    "name": "Thiên Lan Thánh Điện",
+    "region": "Mộ Lan Biên Vực",
+    "country": "Đại Tấn Hoàng Triều",
+    "sector": "Đại Tấn Tinh Vực",
+    "world": "Nhân Giới",
+    "recommendation": "Nguyên Anh · Trung kỳ",
+    "source_recommendation": "Nguyên Anh tầng 3"
+  },
+  {
+    "id": "map_018",
+    "name": "Âm Minh Chi Địa",
+    "region": "Mộ Lan Biên Vực",
+    "country": "Đại Tấn Hoàng Triều",
+    "sector": "Đại Tấn Tinh Vực",
+    "world": "Nhân Giới",
+    "recommendation": "Nguyên Anh · Hậu kỳ",
+    "source_recommendation": "Nguyên Anh tầng 5"
+  },
+  {
+    "id": "map_019",
+    "name": "Côn Ngô Sơn",
+    "region": "Trụy Ma Sơn Vực",
+    "country": "Đại Tấn Hoàng Triều",
+    "sector": "Đại Tấn Tinh Vực",
+    "world": "Nhân Giới",
+    "recommendation": "Nguyên Anh · Đỉnh phong",
+    "source_recommendation": "Nguyên Anh tầng 7"
+  },
+  {
+    "id": "map_020",
+    "name": "Trụy Ma Cốc",
+    "region": "Trụy Ma Sơn Vực",
+    "country": "Đại Tấn Hoàng Triều",
+    "sector": "Đại Tấn Tinh Vực",
+    "world": "Nhân Giới",
+    "recommendation": "Nguyên Anh · Đỉnh phong",
+    "source_recommendation": "Nguyên Anh tầng 9"
+  },
+  {
+    "id": "map_021",
+    "name": "Chu Tước Tinh - Xích Viêm Hoang Địa",
+    "region": "Chu Tước Nam Vực",
+    "country": "Chu Tước Linh Quốc",
+    "sector": "Chu Tước Tinh Vực",
+    "world": "Linh Giới",
+    "recommendation": "Hóa Thần · Sơ kỳ",
+    "source_recommendation": "Hóa Thần tầng 1"
+  },
+  {
+    "id": "map_022",
+    "name": "Vũ Tiên Môn",
+    "region": "Chu Tước Nam Vực",
+    "country": "Chu Tước Linh Quốc",
+    "sector": "Chu Tước Tinh Vực",
+    "world": "Linh Giới",
+    "recommendation": "Hóa Thần · Trung kỳ",
+    "source_recommendation": "Hóa Thần tầng 3"
+  },
+  {
+    "id": "map_023",
+    "name": "Vực Ngoại Chiến Trường",
+    "region": "Chu Tước Nam Vực",
+    "country": "Chu Tước Linh Quốc",
+    "sector": "Chu Tước Tinh Vực",
+    "world": "Linh Giới",
+    "recommendation": "Hóa Thần · Hậu kỳ",
+    "source_recommendation": "Hóa Thần tầng 5"
+  },
+  {
+    "id": "map_024",
+    "name": "Yêu Linh Chi Địa",
+    "region": "Băng Phong Bắc Vực",
+    "country": "Chu Tước Linh Quốc",
+    "sector": "Chu Tước Tinh Vực",
+    "world": "Linh Giới",
+    "recommendation": "Hóa Thần · Đỉnh phong",
+    "source_recommendation": "Hóa Thần tầng 7"
+  },
+  {
+    "id": "map_025",
+    "name": "Băng Phong Cốc",
+    "region": "Băng Phong Bắc Vực",
+    "country": "Chu Tước Linh Quốc",
+    "sector": "Chu Tước Tinh Vực",
+    "world": "Linh Giới",
+    "recommendation": "Hóa Thần · Đỉnh phong",
+    "source_recommendation": "Hóa Thần tầng 9"
+  },
+  {
+    "id": "map_026",
+    "name": "Thiên Vận Tông",
+    "region": "Thiên Vận Đạo Vực",
+    "country": "Thiên Vận Cổ Quốc",
+    "sector": "La Thiên Tinh Vực",
+    "world": "Linh Giới",
+    "recommendation": "Luyện Hư · Sơ kỳ",
+    "source_recommendation": "Luyện Hư tầng 1"
+  },
+  {
+    "id": "map_027",
+    "name": "Lôi Tiên Điện",
+    "region": "Thiên Vận Đạo Vực",
+    "country": "Thiên Vận Cổ Quốc",
+    "sector": "La Thiên Tinh Vực",
+    "world": "Linh Giới",
+    "recommendation": "Luyện Hư · Trung kỳ",
+    "source_recommendation": "Luyện Hư tầng 3"
+  },
+  {
+    "id": "map_028",
+    "name": "Vẫn Tiên Hoang Nguyên",
+    "region": "Thiên Vận Đạo Vực",
+    "country": "Thiên Vận Cổ Quốc",
+    "sector": "La Thiên Tinh Vực",
+    "world": "Linh Giới",
+    "recommendation": "Luyện Hư · Hậu kỳ",
+    "source_recommendation": "Luyện Hư tầng 5"
+  },
+  {
+    "id": "map_029",
+    "name": "Ma Vân Hải",
+    "region": "Táng Tiên Cổ Vực",
+    "country": "Thiên Vận Cổ Quốc",
+    "sector": "La Thiên Tinh Vực",
+    "world": "Linh Giới",
+    "recommendation": "Luyện Hư · Đỉnh phong",
+    "source_recommendation": "Luyện Hư tầng 7"
+  },
+  {
+    "id": "map_030",
+    "name": "Táng Tiên Trì",
+    "region": "Táng Tiên Cổ Vực",
+    "country": "Thiên Vận Cổ Quốc",
+    "sector": "La Thiên Tinh Vực",
+    "world": "Linh Giới",
+    "recommendation": "Luyện Hư · Đỉnh phong",
+    "source_recommendation": "Luyện Hư tầng 9"
+  },
+  {
+    "id": "map_031",
+    "name": "Thiên Uyên Thành",
+    "region": "Thiên Uyên Biên Vực",
+    "country": "Thiên Uyên Liên Quốc",
+    "sector": "Phong Nguyên Tinh Vực",
+    "world": "Linh Giới",
+    "recommendation": "Hợp Thể · Sơ kỳ",
+    "source_recommendation": "Hợp Thể tầng 1"
+  },
+  {
+    "id": "map_032",
+    "name": "Minh Hà Chi Địa",
+    "region": "Thiên Uyên Biên Vực",
+    "country": "Thiên Uyên Liên Quốc",
+    "sector": "Phong Nguyên Tinh Vực",
+    "world": "Linh Giới",
+    "recommendation": "Hợp Thể · Trung kỳ",
+    "source_recommendation": "Hợp Thể tầng 3"
+  },
+  {
+    "id": "map_033",
+    "name": "Man Hoang - Cự Thú Cốc",
+    "region": "Thiên Uyên Biên Vực",
+    "country": "Thiên Uyên Liên Quốc",
+    "sector": "Phong Nguyên Tinh Vực",
+    "world": "Linh Giới",
+    "recommendation": "Hợp Thể · Hậu kỳ",
+    "source_recommendation": "Hợp Thể tầng 5"
+  },
+  {
+    "id": "map_034",
+    "name": "Mộc Tộc Lãnh Địa",
+    "region": "Quảng Hàn Cổ Vực",
+    "country": "Thiên Uyên Liên Quốc",
+    "sector": "Phong Nguyên Tinh Vực",
+    "world": "Linh Giới",
+    "recommendation": "Hợp Thể · Đỉnh phong",
+    "source_recommendation": "Hợp Thể tầng 7"
+  },
+  {
+    "id": "map_035",
+    "name": "Quảng Hàn - Nguyệt Ảnh Đài",
+    "region": "Quảng Hàn Cổ Vực",
+    "country": "Thiên Uyên Liên Quốc",
+    "sector": "Phong Nguyên Tinh Vực",
+    "world": "Linh Giới",
+    "recommendation": "Hợp Thể · Đỉnh phong",
+    "source_recommendation": "Hợp Thể tầng 9"
+  },
+  {
+    "id": "map_036",
+    "name": "Huyết Thiên - Huyết Nguyên",
+    "region": "Huyết Thiên Chiến Vực",
+    "country": "Huyết Thiên Ma Quốc",
+    "sector": "Huyết Thiên Tinh Vực",
+    "world": "Linh Giới",
+    "recommendation": "Đại Thừa · Sơ kỳ",
+    "source_recommendation": "Đại Thừa tầng 1"
+  },
+  {
+    "id": "map_037",
+    "name": "Ma Nguyên Hải",
+    "region": "Huyết Thiên Chiến Vực",
+    "country": "Huyết Thiên Ma Quốc",
+    "sector": "Huyết Thiên Tinh Vực",
+    "world": "Linh Giới",
+    "recommendation": "Đại Thừa · Trung kỳ",
+    "source_recommendation": "Đại Thừa tầng 3"
+  },
+  {
+    "id": "map_038",
+    "name": "Tiểu Cực Cung",
+    "region": "Huyết Thiên Chiến Vực",
+    "country": "Huyết Thiên Ma Quốc",
+    "sector": "Huyết Thiên Tinh Vực",
+    "world": "Linh Giới",
+    "recommendation": "Đại Thừa · Hậu kỳ",
+    "source_recommendation": "Đại Thừa tầng 5"
+  },
+  {
+    "id": "map_039",
+    "name": "Đăng Tiên Đài",
+    "region": "Đăng Tiên Thánh Vực",
+    "country": "Huyết Thiên Ma Quốc",
+    "sector": "Huyết Thiên Tinh Vực",
+    "world": "Linh Giới",
+    "recommendation": "Đại Thừa · Đỉnh phong",
+    "source_recommendation": "Đại Thừa tầng 7"
+  },
+  {
+    "id": "map_040",
+    "name": "Phi Thăng Lôi Trì",
+    "region": "Đăng Tiên Thánh Vực",
+    "country": "Huyết Thiên Ma Quốc",
+    "sector": "Huyết Thiên Tinh Vực",
+    "world": "Linh Giới",
+    "recommendation": "Đại Thừa · Đỉnh phong",
+    "source_recommendation": "Đại Thừa tầng 9"
+  },
+  {
+    "id": "map_041",
+    "name": "Bắc Hàn Tiên Cung",
+    "region": "Bắc Hàn Cung Vực",
+    "country": "Bắc Hàn Tiên Quốc",
+    "sector": "Bắc Hàn Tinh Vực",
+    "world": "Tiên Giới",
+    "recommendation": "Chân Tiên · Sơ kỳ",
+    "source_recommendation": "Chân Tiên tầng 1"
+  },
+  {
+    "id": "map_042",
+    "name": "Minh Hàn Tiên Phủ",
+    "region": "Bắc Hàn Cung Vực",
+    "country": "Bắc Hàn Tiên Quốc",
+    "sector": "Bắc Hàn Tinh Vực",
+    "world": "Tiên Giới",
+    "recommendation": "Chân Tiên · Trung kỳ",
+    "source_recommendation": "Chân Tiên tầng 3"
+  },
+  {
+    "id": "map_043",
+    "name": "Man Hoang Tiên Vực - Bạch Trạch Lâm",
+    "region": "Bắc Hàn Cung Vực",
+    "country": "Bắc Hàn Tiên Quốc",
+    "sector": "Bắc Hàn Tinh Vực",
+    "world": "Tiên Giới",
+    "recommendation": "Chân Tiên · Hậu kỳ",
+    "source_recommendation": "Chân Tiên tầng 5"
+  },
+  {
+    "id": "map_044",
+    "name": "Hôi Giới - Tử Khí Cốc",
+    "region": "Thiên Đình Ngoại Vực",
+    "country": "Bắc Hàn Tiên Quốc",
+    "sector": "Bắc Hàn Tinh Vực",
+    "world": "Tiên Giới",
+    "recommendation": "Chân Tiên · Đỉnh phong",
+    "source_recommendation": "Chân Tiên tầng 7"
+  },
+  {
+    "id": "map_045",
+    "name": "Nam Thiên Môn",
+    "region": "Thiên Đình Ngoại Vực",
+    "country": "Bắc Hàn Tiên Quốc",
+    "sector": "Bắc Hàn Tinh Vực",
+    "world": "Tiên Giới",
+    "recommendation": "Chân Tiên · Đỉnh phong",
+    "source_recommendation": "Chân Tiên tầng 9"
+  }
+]

@@ -1,0 +1,1115 @@
+{
+  "version": "3.0.0",
+  "worlds": [
+    {
+      "id": "world_human",
+      "name": "Nhân Giới",
+      "tier": 1
+    },
+    {
+      "id": "world_spirit",
+      "name": "Linh Giới",
+      "tier": 2
+    },
+    {
+      "id": "world_immortal",
+      "name": "Tiên Giới",
+      "tier": 3
+    }
+  ],
+  "sectors": [
+    {
+      "id": "sector_01",
+      "name": "Thiên Nam Tinh Vực",
+      "parent_id": "world_human"
+    },
+    {
+      "id": "sector_02",
+      "name": "Loạn Tinh Tinh Vực",
+      "parent_id": "world_human"
+    },
+    {
+      "id": "sector_03",
+      "name": "Đại Tấn Tinh Vực",
+      "parent_id": "world_human"
+    },
+    {
+      "id": "sector_04",
+      "name": "Chu Tước Tinh Vực",
+      "parent_id": "world_spirit"
+    },
+    {
+      "id": "sector_05",
+      "name": "La Thiên Tinh Vực",
+      "parent_id": "world_spirit"
+    },
+    {
+      "id": "sector_06",
+      "name": "Phong Nguyên Tinh Vực",
+      "parent_id": "world_spirit"
+    },
+    {
+      "id": "sector_07",
+      "name": "Huyết Thiên Tinh Vực",
+      "parent_id": "world_spirit"
+    },
+    {
+      "id": "sector_08",
+      "name": "Bắc Hàn Tinh Vực",
+      "parent_id": "world_immortal"
+    }
+  ],
+  "countries": [
+    {
+      "id": "country_01",
+      "name": "Việt Quốc",
+      "parent_id": "sector_01"
+    },
+    {
+      "id": "country_02",
+      "name": "Thiên Tinh Liên Quốc",
+      "parent_id": "sector_02"
+    },
+    {
+      "id": "country_03",
+      "name": "Đại Tấn Hoàng Triều",
+      "parent_id": "sector_03"
+    },
+    {
+      "id": "country_04",
+      "name": "Chu Tước Linh Quốc",
+      "parent_id": "sector_04"
+    },
+    {
+      "id": "country_05",
+      "name": "Thiên Vận Cổ Quốc",
+      "parent_id": "sector_05"
+    },
+    {
+      "id": "country_06",
+      "name": "Thiên Uyên Liên Quốc",
+      "parent_id": "sector_06"
+    },
+    {
+      "id": "country_07",
+      "name": "Huyết Thiên Ma Quốc",
+      "parent_id": "sector_07"
+    },
+    {
+      "id": "country_08",
+      "name": "Bắc Hàn Tiên Quốc",
+      "parent_id": "sector_08"
+    }
+  ],
+  "regions": [
+    {
+      "id": "region_01",
+      "name": "Thất Huyền Sơn Vực",
+      "parent_id": "country_01"
+    },
+    {
+      "id": "region_02",
+      "name": "Thái Nam Sơn Vực",
+      "parent_id": "country_01"
+    },
+    {
+      "id": "region_03",
+      "name": "Hoàng Phong Sơn Vực",
+      "parent_id": "country_01"
+    },
+    {
+      "id": "region_04",
+      "name": "Việt Kinh Vực",
+      "parent_id": "country_01"
+    },
+    {
+      "id": "region_05",
+      "name": "Loạn Tinh Nội Hải",
+      "parent_id": "country_02"
+    },
+    {
+      "id": "region_06",
+      "name": "Phong Bạo Ngoại Hải",
+      "parent_id": "country_02"
+    },
+    {
+      "id": "region_07",
+      "name": "Mộ Lan Biên Vực",
+      "parent_id": "country_03"
+    },
+    {
+      "id": "region_08",
+      "name": "Trụy Ma Sơn Vực",
+      "parent_id": "country_03"
+    },
+    {
+      "id": "region_09",
+      "name": "Chu Tước Nam Vực",
+      "parent_id": "country_04"
+    },
+    {
+      "id": "region_10",
+      "name": "Băng Phong Bắc Vực",
+      "parent_id": "country_04"
+    },
+    {
+      "id": "region_11",
+      "name": "Thiên Vận Đạo Vực",
+      "parent_id": "country_05"
+    },
+    {
+      "id": "region_12",
+      "name": "Táng Tiên Cổ Vực",
+      "parent_id": "country_05"
+    },
+    {
+      "id": "region_13",
+      "name": "Thiên Uyên Biên Vực",
+      "parent_id": "country_06"
+    },
+    {
+      "id": "region_14",
+      "name": "Quảng Hàn Cổ Vực",
+      "parent_id": "country_06"
+    },
+    {
+      "id": "region_15",
+      "name": "Huyết Thiên Chiến Vực",
+      "parent_id": "country_07"
+    },
+    {
+      "id": "region_16",
+      "name": "Đăng Tiên Thánh Vực",
+      "parent_id": "country_07"
+    },
+    {
+      "id": "region_17",
+      "name": "Bắc Hàn Cung Vực",
+      "parent_id": "country_08"
+    },
+    {
+      "id": "region_18",
+      "name": "Thiên Đình Ngoại Vực",
+      "parent_id": "country_08"
+    }
+  ],
+  "locations": [
+    {
+      "id": "map_001",
+      "name": "Vô Danh Thôn",
+      "legacy_name": "Vô Danh Thôn",
+      "parent_id": "region_01",
+      "cultivation_id": "cultivation_01",
+      "recommended_floor": 1,
+      "previous_map_id": null,
+      "boss_id": "boss_001",
+      "status": "available_in_design",
+      "required_floor": 1,
+      "requirement_label": "Luyện Khí · Tầng 1"
+    },
+    {
+      "id": "map_002",
+      "name": "Thanh Ngưu Trấn",
+      "legacy_name": "Thanh Ngưu Trấn",
+      "parent_id": "region_01",
+      "cultivation_id": "cultivation_01",
+      "recommended_floor": 3,
+      "previous_map_id": "map_001",
+      "boss_id": "boss_002",
+      "status": "available_in_design",
+      "required_floor": 3,
+      "requirement_label": "Luyện Khí · Tầng 3"
+    },
+    {
+      "id": "map_003",
+      "name": "Thất Huyền Môn",
+      "legacy_name": "Thất Huyền Môn",
+      "parent_id": "region_01",
+      "cultivation_id": "cultivation_01",
+      "recommended_floor": 5,
+      "previous_map_id": "map_002",
+      "boss_id": "boss_003",
+      "status": "available_in_design",
+      "required_floor": 5,
+      "requirement_label": "Luyện Khí · Tầng 5"
+    },
+    {
+      "id": "map_004",
+      "name": "Hắc Phong Sơn",
+      "legacy_name": "Hắc Phong Sơn",
+      "parent_id": "region_02",
+      "cultivation_id": "cultivation_01",
+      "recommended_floor": 7,
+      "previous_map_id": "map_003",
+      "boss_id": "boss_004",
+      "status": "available_in_design",
+      "required_floor": 7,
+      "requirement_label": "Luyện Khí · Tầng 7"
+    },
+    {
+      "id": "map_005",
+      "name": "Thái Nam Cốc",
+      "legacy_name": "Thái Nam Cốc",
+      "parent_id": "region_02",
+      "cultivation_id": "cultivation_01",
+      "recommended_floor": 9,
+      "previous_map_id": "map_004",
+      "boss_id": "boss_005",
+      "status": "available_in_design",
+      "required_floor": 9,
+      "requirement_label": "Luyện Khí · Tầng 9"
+    },
+    {
+      "id": "map_006",
+      "name": "Hoàng Phong Cốc",
+      "legacy_name": "Hoàng Phong Cốc",
+      "parent_id": "region_03",
+      "cultivation_id": "cultivation_02",
+      "recommended_floor": 1,
+      "previous_map_id": "map_005",
+      "boss_id": "boss_006",
+      "status": "available_in_design",
+      "required_floor": 1,
+      "requirement_label": "Trúc Cơ · Sơ kỳ"
+    },
+    {
+      "id": "map_007",
+      "name": "Huyết Sắc Cấm Địa",
+      "legacy_name": "Huyết Sắc Cấm Địa",
+      "parent_id": "region_03",
+      "cultivation_id": "cultivation_02",
+      "recommended_floor": 2,
+      "previous_map_id": "map_006",
+      "boss_id": "boss_007",
+      "status": "available_in_design",
+      "required_floor": 2,
+      "requirement_label": "Trúc Cơ · Trung kỳ"
+    },
+    {
+      "id": "map_008",
+      "name": "Yểm Nguyệt Tông",
+      "legacy_name": "Yểm Nguyệt Tông",
+      "parent_id": "region_03",
+      "cultivation_id": "cultivation_02",
+      "recommended_floor": 3,
+      "previous_map_id": "map_007",
+      "boss_id": "boss_008",
+      "status": "available_in_design",
+      "required_floor": 3,
+      "requirement_label": "Trúc Cơ · Hậu kỳ"
+    },
+    {
+      "id": "map_009",
+      "name": "Vạn Khôi Sơn",
+      "legacy_name": "Vạn Khôi Sơn",
+      "parent_id": "region_04",
+      "cultivation_id": "cultivation_02",
+      "recommended_floor": 4,
+      "previous_map_id": "map_008",
+      "boss_id": "boss_009",
+      "status": "available_in_design",
+      "required_floor": 4,
+      "requirement_label": "Trúc Cơ · Đỉnh phong"
+    },
+    {
+      "id": "map_010",
+      "name": "Việt Kinh Thành",
+      "legacy_name": "Việt Kinh Thành",
+      "parent_id": "region_04",
+      "cultivation_id": "cultivation_02",
+      "recommended_floor": 4,
+      "previous_map_id": "map_009",
+      "boss_id": "boss_010",
+      "status": "available_in_design",
+      "required_floor": 4,
+      "requirement_label": "Trúc Cơ · Đỉnh phong"
+    },
+    {
+      "id": "map_011",
+      "name": "Thiên Tinh Nội Hải",
+      "legacy_name": "Thiên Tinh Nội Hải",
+      "parent_id": "region_05",
+      "cultivation_id": "cultivation_03",
+      "recommended_floor": 1,
+      "previous_map_id": "map_010",
+      "boss_id": "boss_011",
+      "status": "available_in_design",
+      "required_floor": 1,
+      "requirement_label": "Kim Đan · Sơ kỳ"
+    },
+    {
+      "id": "map_012",
+      "name": "Vạn Yêu Cốc",
+      "legacy_name": "Vạn Yêu Cốc",
+      "parent_id": "region_05",
+      "cultivation_id": "cultivation_03",
+      "recommended_floor": 2,
+      "previous_map_id": "map_011",
+      "boss_id": "boss_012",
+      "status": "available_in_design",
+      "required_floor": 2,
+      "requirement_label": "Kim Đan · Trung kỳ"
+    },
+    {
+      "id": "map_013",
+      "name": "Bích Linh Đảo",
+      "legacy_name": "Bích Linh Đảo",
+      "parent_id": "region_05",
+      "cultivation_id": "cultivation_03",
+      "recommended_floor": 3,
+      "previous_map_id": "map_012",
+      "boss_id": "boss_013",
+      "status": "available_in_design",
+      "required_floor": 3,
+      "requirement_label": "Kim Đan · Hậu kỳ"
+    },
+    {
+      "id": "map_014",
+      "name": "Hư Thiên Điện",
+      "legacy_name": "Hư Thiên Điện",
+      "parent_id": "region_06",
+      "cultivation_id": "cultivation_03",
+      "recommended_floor": 4,
+      "previous_map_id": "map_013",
+      "boss_id": "boss_014",
+      "status": "available_in_design",
+      "required_floor": 4,
+      "requirement_label": "Kim Đan · Đỉnh phong"
+    },
+    {
+      "id": "map_015",
+      "name": "Ngoại Hải Phong Bạo",
+      "legacy_name": "Ngoại Hải Phong Bạo",
+      "parent_id": "region_06",
+      "cultivation_id": "cultivation_03",
+      "recommended_floor": 4,
+      "previous_map_id": "map_014",
+      "boss_id": "boss_015",
+      "status": "available_in_design",
+      "required_floor": 4,
+      "requirement_label": "Kim Đan · Đỉnh phong"
+    },
+    {
+      "id": "map_016",
+      "name": "Mộ Lan Thảo Nguyên",
+      "legacy_name": "Mộ Lan Thảo Nguyên",
+      "parent_id": "region_07",
+      "cultivation_id": "cultivation_04",
+      "recommended_floor": 1,
+      "previous_map_id": "map_015",
+      "boss_id": "boss_016",
+      "status": "available_in_design",
+      "required_floor": 1,
+      "requirement_label": "Nguyên Anh · Sơ kỳ"
+    },
+    {
+      "id": "map_017",
+      "name": "Thiên Lan Thánh Điện",
+      "legacy_name": "Thiên Lan Thánh Điện",
+      "parent_id": "region_07",
+      "cultivation_id": "cultivation_04",
+      "recommended_floor": 2,
+      "previous_map_id": "map_016",
+      "boss_id": "boss_017",
+      "status": "available_in_design",
+      "required_floor": 2,
+      "requirement_label": "Nguyên Anh · Trung kỳ"
+    },
+    {
+      "id": "map_018",
+      "name": "Âm Minh Chi Địa",
+      "legacy_name": "Âm Minh Chi Địa",
+      "parent_id": "region_07",
+      "cultivation_id": "cultivation_04",
+      "recommended_floor": 3,
+      "previous_map_id": "map_017",
+      "boss_id": "boss_018",
+      "status": "available_in_design",
+      "required_floor": 3,
+      "requirement_label": "Nguyên Anh · Hậu kỳ"
+    },
+    {
+      "id": "map_019",
+      "name": "Côn Ngô Sơn",
+      "legacy_name": "Côn Ngô Sơn",
+      "parent_id": "region_08",
+      "cultivation_id": "cultivation_04",
+      "recommended_floor": 4,
+      "previous_map_id": "map_018",
+      "boss_id": "boss_019",
+      "status": "available_in_design",
+      "required_floor": 4,
+      "requirement_label": "Nguyên Anh · Đỉnh phong"
+    },
+    {
+      "id": "map_020",
+      "name": "Trụy Ma Cốc",
+      "legacy_name": "Trụy Ma Cốc",
+      "parent_id": "region_08",
+      "cultivation_id": "cultivation_04",
+      "recommended_floor": 4,
+      "previous_map_id": "map_019",
+      "boss_id": "boss_020",
+      "status": "available_in_design",
+      "required_floor": 4,
+      "requirement_label": "Nguyên Anh · Đỉnh phong"
+    },
+    {
+      "id": "map_021",
+      "name": "Chu Tước Tinh - Xích Viêm Hoang Địa",
+      "legacy_name": "Chu Tước Tinh",
+      "parent_id": "region_09",
+      "cultivation_id": "cultivation_05",
+      "recommended_floor": 1,
+      "previous_map_id": "map_020",
+      "boss_id": "boss_021",
+      "status": "available_in_design",
+      "required_floor": 1,
+      "requirement_label": "Hóa Thần · Sơ kỳ"
+    },
+    {
+      "id": "map_022",
+      "name": "Vũ Tiên Môn",
+      "legacy_name": "Vũ Tiên Môn",
+      "parent_id": "region_09",
+      "cultivation_id": "cultivation_05",
+      "recommended_floor": 2,
+      "previous_map_id": "map_021",
+      "boss_id": "boss_022",
+      "status": "available_in_design",
+      "required_floor": 2,
+      "requirement_label": "Hóa Thần · Trung kỳ"
+    },
+    {
+      "id": "map_023",
+      "name": "Vực Ngoại Chiến Trường",
+      "legacy_name": "Vực Ngoại Chiến Trường",
+      "parent_id": "region_09",
+      "cultivation_id": "cultivation_05",
+      "recommended_floor": 3,
+      "previous_map_id": "map_022",
+      "boss_id": "boss_023",
+      "status": "available_in_design",
+      "required_floor": 3,
+      "requirement_label": "Hóa Thần · Hậu kỳ"
+    },
+    {
+      "id": "map_024",
+      "name": "Yêu Linh Chi Địa",
+      "legacy_name": "Yêu Linh Chi Địa",
+      "parent_id": "region_10",
+      "cultivation_id": "cultivation_05",
+      "recommended_floor": 4,
+      "previous_map_id": "map_023",
+      "boss_id": "boss_024",
+      "status": "available_in_design",
+      "required_floor": 4,
+      "requirement_label": "Hóa Thần · Đỉnh phong"
+    },
+    {
+      "id": "map_025",
+      "name": "Băng Phong Cốc",
+      "legacy_name": "Băng Phong Cốc",
+      "parent_id": "region_10",
+      "cultivation_id": "cultivation_05",
+      "recommended_floor": 4,
+      "previous_map_id": "map_024",
+      "boss_id": "boss_025",
+      "status": "available_in_design",
+      "required_floor": 4,
+      "requirement_label": "Hóa Thần · Đỉnh phong"
+    },
+    {
+      "id": "map_026",
+      "name": "Thiên Vận Tông",
+      "legacy_name": "Thiên Vận Tông",
+      "parent_id": "region_11",
+      "cultivation_id": "cultivation_06",
+      "recommended_floor": 1,
+      "previous_map_id": "map_025",
+      "boss_id": "boss_026",
+      "status": "available_in_design",
+      "required_floor": 1,
+      "requirement_label": "Luyện Hư · Sơ kỳ"
+    },
+    {
+      "id": "map_027",
+      "name": "Lôi Tiên Điện",
+      "legacy_name": "Lôi Tiên Điện",
+      "parent_id": "region_11",
+      "cultivation_id": "cultivation_06",
+      "recommended_floor": 2,
+      "previous_map_id": "map_026",
+      "boss_id": "boss_027",
+      "status": "available_in_design",
+      "required_floor": 2,
+      "requirement_label": "Luyện Hư · Trung kỳ"
+    },
+    {
+      "id": "map_028",
+      "name": "Vẫn Tiên Hoang Nguyên",
+      "legacy_name": "Vẫn Tiên Hoang Nguyên",
+      "parent_id": "region_11",
+      "cultivation_id": "cultivation_06",
+      "recommended_floor": 3,
+      "previous_map_id": "map_027",
+      "boss_id": "boss_028",
+      "status": "available_in_design",
+      "required_floor": 3,
+      "requirement_label": "Luyện Hư · Hậu kỳ"
+    },
+    {
+      "id": "map_029",
+      "name": "Ma Vân Hải",
+      "legacy_name": "Ma Vân Hải",
+      "parent_id": "region_12",
+      "cultivation_id": "cultivation_06",
+      "recommended_floor": 4,
+      "previous_map_id": "map_028",
+      "boss_id": "boss_029",
+      "status": "available_in_design",
+      "required_floor": 4,
+      "requirement_label": "Luyện Hư · Đỉnh phong"
+    },
+    {
+      "id": "map_030",
+      "name": "Táng Tiên Trì",
+      "legacy_name": "Táng Tiên Trì",
+      "parent_id": "region_12",
+      "cultivation_id": "cultivation_06",
+      "recommended_floor": 4,
+      "previous_map_id": "map_029",
+      "boss_id": "boss_030",
+      "status": "available_in_design",
+      "required_floor": 4,
+      "requirement_label": "Luyện Hư · Đỉnh phong"
+    },
+    {
+      "id": "map_031",
+      "name": "Thiên Uyên Thành",
+      "legacy_name": "Thiên Uyên Thành",
+      "parent_id": "region_13",
+      "cultivation_id": "cultivation_07",
+      "recommended_floor": 1,
+      "previous_map_id": "map_030",
+      "boss_id": "boss_031",
+      "status": "available_in_design",
+      "required_floor": 1,
+      "requirement_label": "Hợp Thể · Sơ kỳ"
+    },
+    {
+      "id": "map_032",
+      "name": "Minh Hà Chi Địa",
+      "legacy_name": "Minh Hà Chi Địa",
+      "parent_id": "region_13",
+      "cultivation_id": "cultivation_07",
+      "recommended_floor": 2,
+      "previous_map_id": "map_031",
+      "boss_id": "boss_032",
+      "status": "available_in_design",
+      "required_floor": 2,
+      "requirement_label": "Hợp Thể · Trung kỳ"
+    },
+    {
+      "id": "map_033",
+      "name": "Man Hoang - Cự Thú Cốc",
+      "legacy_name": "Man Hoang Thế Giới",
+      "parent_id": "region_13",
+      "cultivation_id": "cultivation_07",
+      "recommended_floor": 3,
+      "previous_map_id": "map_032",
+      "boss_id": "boss_033",
+      "status": "available_in_design",
+      "required_floor": 3,
+      "requirement_label": "Hợp Thể · Hậu kỳ"
+    },
+    {
+      "id": "map_034",
+      "name": "Mộc Tộc Lãnh Địa",
+      "legacy_name": "Mộc Tộc Lãnh Địa",
+      "parent_id": "region_14",
+      "cultivation_id": "cultivation_07",
+      "recommended_floor": 4,
+      "previous_map_id": "map_033",
+      "boss_id": "boss_034",
+      "status": "available_in_design",
+      "required_floor": 4,
+      "requirement_label": "Hợp Thể · Đỉnh phong"
+    },
+    {
+      "id": "map_035",
+      "name": "Quảng Hàn - Nguyệt Ảnh Đài",
+      "legacy_name": "Quảng Hàn Giới",
+      "parent_id": "region_14",
+      "cultivation_id": "cultivation_07",
+      "recommended_floor": 4,
+      "previous_map_id": "map_034",
+      "boss_id": "boss_035",
+      "status": "available_in_design",
+      "required_floor": 4,
+      "requirement_label": "Hợp Thể · Đỉnh phong"
+    },
+    {
+      "id": "map_036",
+      "name": "Huyết Thiên - Huyết Nguyên",
+      "legacy_name": "Huyết Thiên Đại Lục",
+      "parent_id": "region_15",
+      "cultivation_id": "cultivation_08",
+      "recommended_floor": 1,
+      "previous_map_id": "map_035",
+      "boss_id": "boss_036",
+      "status": "available_in_design",
+      "required_floor": 1,
+      "requirement_label": "Đại Thừa · Sơ kỳ"
+    },
+    {
+      "id": "map_037",
+      "name": "Ma Nguyên Hải",
+      "legacy_name": "Ma Nguyên Hải",
+      "parent_id": "region_15",
+      "cultivation_id": "cultivation_08",
+      "recommended_floor": 2,
+      "previous_map_id": "map_036",
+      "boss_id": "boss_037",
+      "status": "available_in_design",
+      "required_floor": 2,
+      "requirement_label": "Đại Thừa · Trung kỳ"
+    },
+    {
+      "id": "map_038",
+      "name": "Tiểu Cực Cung",
+      "legacy_name": "Tiểu Cực Cung",
+      "parent_id": "region_15",
+      "cultivation_id": "cultivation_08",
+      "recommended_floor": 3,
+      "previous_map_id": "map_037",
+      "boss_id": "boss_038",
+      "status": "available_in_design",
+      "required_floor": 3,
+      "requirement_label": "Đại Thừa · Hậu kỳ"
+    },
+    {
+      "id": "map_039",
+      "name": "Đăng Tiên Đài",
+      "legacy_name": "Đăng Tiên Đài",
+      "parent_id": "region_16",
+      "cultivation_id": "cultivation_08",
+      "recommended_floor": 4,
+      "previous_map_id": "map_038",
+      "boss_id": "boss_039",
+      "status": "available_in_design",
+      "required_floor": 4,
+      "requirement_label": "Đại Thừa · Đỉnh phong"
+    },
+    {
+      "id": "map_040",
+      "name": "Phi Thăng Lôi Trì",
+      "legacy_name": "Phi Thăng Lôi Trì",
+      "parent_id": "region_16",
+      "cultivation_id": "cultivation_08",
+      "recommended_floor": 4,
+      "previous_map_id": "map_039",
+      "boss_id": "boss_040",
+      "status": "available_in_design",
+      "required_floor": 4,
+      "requirement_label": "Đại Thừa · Đỉnh phong"
+    },
+    {
+      "id": "map_041",
+      "name": "Bắc Hàn Tiên Cung",
+      "legacy_name": "Bắc Hàn Tiên Cung",
+      "parent_id": "region_17",
+      "cultivation_id": "cultivation_09",
+      "recommended_floor": 1,
+      "previous_map_id": "map_040",
+      "boss_id": "boss_041",
+      "status": "available_in_design",
+      "required_floor": 1,
+      "requirement_label": "Chân Tiên · Sơ kỳ"
+    },
+    {
+      "id": "map_042",
+      "name": "Minh Hàn Tiên Phủ",
+      "legacy_name": "Minh Hàn Tiên Phủ",
+      "parent_id": "region_17",
+      "cultivation_id": "cultivation_09",
+      "recommended_floor": 2,
+      "previous_map_id": "map_041",
+      "boss_id": "boss_042",
+      "status": "available_in_design",
+      "required_floor": 2,
+      "requirement_label": "Chân Tiên · Trung kỳ"
+    },
+    {
+      "id": "map_043",
+      "name": "Man Hoang Tiên Vực - Bạch Trạch Lâm",
+      "legacy_name": "Man Hoang Tiên Vực",
+      "parent_id": "region_17",
+      "cultivation_id": "cultivation_09",
+      "recommended_floor": 3,
+      "previous_map_id": "map_042",
+      "boss_id": "boss_043",
+      "status": "available_in_design",
+      "required_floor": 3,
+      "requirement_label": "Chân Tiên · Hậu kỳ"
+    },
+    {
+      "id": "map_044",
+      "name": "Hôi Giới - Tử Khí Cốc",
+      "legacy_name": "Hôi Giới",
+      "parent_id": "region_18",
+      "cultivation_id": "cultivation_09",
+      "recommended_floor": 4,
+      "previous_map_id": "map_043",
+      "boss_id": "boss_044",
+      "status": "available_in_design",
+      "required_floor": 4,
+      "requirement_label": "Chân Tiên · Đỉnh phong"
+    },
+    {
+      "id": "map_045",
+      "name": "Nam Thiên Môn",
+      "legacy_name": "Nam Thiên Môn",
+      "parent_id": "region_18",
+      "cultivation_id": "cultivation_09",
+      "recommended_floor": 4,
+      "previous_map_id": "map_044",
+      "boss_id": "boss_045",
+      "status": "available_in_design",
+      "required_floor": 4,
+      "requirement_label": "Chân Tiên · Đỉnh phong"
+    }
+  ],
+  "transport": {
+    "version": 4,
+    "balance_status": "prototype",
+    "unit": "dặm",
+    "speed_unit": "m/s",
+    "teleport_base_cost": 50,
+    "teleport_cost_per_li": 2,
+    "teleport_seconds": 3,
+    "routes": [
+      {
+        "from": "map_001",
+        "to": "map_002",
+        "distance_li": 4.4,
+        "distance_m": 247.5
+      },
+      {
+        "from": "map_002",
+        "to": "map_003",
+        "distance_li": 4.8,
+        "distance_m": 270.0
+      },
+      {
+        "from": "map_003",
+        "to": "map_004",
+        "distance_li": 5.2,
+        "distance_m": 292.5
+      },
+      {
+        "from": "map_004",
+        "to": "map_005",
+        "distance_li": 5.6,
+        "distance_m": 315.0
+      },
+      {
+        "from": "map_005",
+        "to": "map_006",
+        "distance_li": 12.0,
+        "distance_m": 675.0
+      },
+      {
+        "from": "map_006",
+        "to": "map_007",
+        "distance_li": 12.6,
+        "distance_m": 708.75
+      },
+      {
+        "from": "map_007",
+        "to": "map_008",
+        "distance_li": 13.2,
+        "distance_m": 742.5
+      },
+      {
+        "from": "map_008",
+        "to": "map_009",
+        "distance_li": 13.8,
+        "distance_m": 776.25
+      },
+      {
+        "from": "map_009",
+        "to": "map_010",
+        "distance_li": 13.8,
+        "distance_m": 776.25
+      },
+      {
+        "from": "map_010",
+        "to": "map_011",
+        "distance_li": 30.0,
+        "distance_m": 1687.5
+      },
+      {
+        "from": "map_011",
+        "to": "map_012",
+        "distance_li": 31.5,
+        "distance_m": 1771.875
+      },
+      {
+        "from": "map_012",
+        "to": "map_013",
+        "distance_li": 33.0,
+        "distance_m": 1856.25
+      },
+      {
+        "from": "map_013",
+        "to": "map_014",
+        "distance_li": 34.5,
+        "distance_m": 1940.625
+      },
+      {
+        "from": "map_014",
+        "to": "map_015",
+        "distance_li": 34.5,
+        "distance_m": 1940.625
+      },
+      {
+        "from": "map_015",
+        "to": "map_016",
+        "distance_li": 60.0,
+        "distance_m": 3375.0
+      },
+      {
+        "from": "map_016",
+        "to": "map_017",
+        "distance_li": 63.0,
+        "distance_m": 3543.75
+      },
+      {
+        "from": "map_017",
+        "to": "map_018",
+        "distance_li": 66.0,
+        "distance_m": 3712.5
+      },
+      {
+        "from": "map_018",
+        "to": "map_019",
+        "distance_li": 69.0,
+        "distance_m": 3881.25
+      },
+      {
+        "from": "map_019",
+        "to": "map_020",
+        "distance_li": 69.0,
+        "distance_m": 3881.25
+      },
+      {
+        "from": "map_021",
+        "to": "map_022",
+        "distance_li": 126.0,
+        "distance_m": 7087.5
+      },
+      {
+        "from": "map_022",
+        "to": "map_023",
+        "distance_li": 132.0,
+        "distance_m": 7425.0
+      },
+      {
+        "from": "map_023",
+        "to": "map_024",
+        "distance_li": 138.0,
+        "distance_m": 7762.5
+      },
+      {
+        "from": "map_024",
+        "to": "map_025",
+        "distance_li": 138.0,
+        "distance_m": 7762.5
+      },
+      {
+        "from": "map_025",
+        "to": "map_026",
+        "distance_li": 240.0,
+        "distance_m": 13500.0
+      },
+      {
+        "from": "map_026",
+        "to": "map_027",
+        "distance_li": 252.0,
+        "distance_m": 14175.0
+      },
+      {
+        "from": "map_027",
+        "to": "map_028",
+        "distance_li": 264.0,
+        "distance_m": 14850.0
+      },
+      {
+        "from": "map_028",
+        "to": "map_029",
+        "distance_li": 276.0,
+        "distance_m": 15525.0
+      },
+      {
+        "from": "map_029",
+        "to": "map_030",
+        "distance_li": 276.0,
+        "distance_m": 15525.0
+      },
+      {
+        "from": "map_030",
+        "to": "map_031",
+        "distance_li": 480.0,
+        "distance_m": 27000.0
+      },
+      {
+        "from": "map_031",
+        "to": "map_032",
+        "distance_li": 504.0,
+        "distance_m": 28350.0
+      },
+      {
+        "from": "map_032",
+        "to": "map_033",
+        "distance_li": 528.0,
+        "distance_m": 29700.0
+      },
+      {
+        "from": "map_033",
+        "to": "map_034",
+        "distance_li": 552.0,
+        "distance_m": 31050.0
+      },
+      {
+        "from": "map_034",
+        "to": "map_035",
+        "distance_li": 552.0,
+        "distance_m": 31050.0
+      },
+      {
+        "from": "map_035",
+        "to": "map_036",
+        "distance_li": 960.0,
+        "distance_m": 54000.0
+      },
+      {
+        "from": "map_036",
+        "to": "map_037",
+        "distance_li": 1008.0,
+        "distance_m": 56700.0
+      },
+      {
+        "from": "map_037",
+        "to": "map_038",
+        "distance_li": 1056.0,
+        "distance_m": 59400.0
+      },
+      {
+        "from": "map_038",
+        "to": "map_039",
+        "distance_li": 1104.0,
+        "distance_m": 62100.0
+      },
+      {
+        "from": "map_039",
+        "to": "map_040",
+        "distance_li": 1104.0,
+        "distance_m": 62100.0
+      },
+      {
+        "from": "map_041",
+        "to": "map_042",
+        "distance_li": 2016.0,
+        "distance_m": 113400.0
+      },
+      {
+        "from": "map_042",
+        "to": "map_043",
+        "distance_li": 2112.0,
+        "distance_m": 118800.0
+      },
+      {
+        "from": "map_043",
+        "to": "map_044",
+        "distance_li": 2208.0,
+        "distance_m": 124200.0
+      },
+      {
+        "from": "map_044",
+        "to": "map_045",
+        "distance_li": 2208.0,
+        "distance_m": 124200.0
+      }
+    ],
+    "teleport_stations": [
+      "map_001",
+      "map_002",
+      "map_003",
+      "map_004",
+      "map_005",
+      "map_006",
+      "map_007",
+      "map_008",
+      "map_009",
+      "map_010",
+      "map_011",
+      "map_012",
+      "map_013",
+      "map_014",
+      "map_015",
+      "map_016",
+      "map_017",
+      "map_018",
+      "map_019",
+      "map_020",
+      "map_021",
+      "map_022",
+      "map_023",
+      "map_024",
+      "map_025",
+      "map_026",
+      "map_027",
+      "map_028",
+      "map_029",
+      "map_030",
+      "map_031",
+      "map_032",
+      "map_033",
+      "map_034",
+      "map_035",
+      "map_036",
+      "map_037",
+      "map_038",
+      "map_039",
+      "map_040",
+      "map_041",
+      "map_042",
+      "map_043",
+      "map_044",
+      "map_045"
+    ],
+    "gates": [
+      {
+        "id": "gate_human_spirit",
+        "name": "Tiếp điểm phi thăng Nhân–Linh",
+        "from": "map_020",
+        "to": "map_021",
+        "required_realm": 4,
+        "boss_map": 19,
+        "seconds": 30
+      },
+      {
+        "id": "gate_spirit_immortal",
+        "name": "Tiếp điểm phi thăng Linh–Tiên",
+        "from": "map_040",
+        "to": "map_041",
+        "required_realm": 8,
+        "boss_map": 39,
+        "seconds": 30
+      }
+    ],
+    "distance_unit": "m",
+    "teleport_cost_per_m": 0.035555555555555556
+  }
+}

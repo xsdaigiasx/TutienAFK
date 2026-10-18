@@ -1,0 +1,5570 @@
+{
+  "quality_multipliers": {
+    "white": 1,
+    "green": 1.15,
+    "blue": 1.35,
+    "purple": 1.6,
+    "gold": 1.9,
+    "red": 2.3
+  },
+  "sets": [
+    {
+      "id": "set_001_sword",
+      "name": "Bộ Thanh Phong",
+      "map_id": "map_001",
+      "class_id": "sword",
+      "white_total_hp": "600",
+      "white_total_attack": "50",
+      "white_total_defense": "17",
+      "source": "PDF tier names and orange anchors; V3 derived white allocation",
+      "tier": 1
+    },
+    {
+      "id": "set_006_sword",
+      "name": "Bộ Ngự Phong",
+      "map_id": "map_006",
+      "class_id": "sword",
+      "white_total_hp": "6000",
+      "white_total_attack": "467",
+      "white_total_defense": "167",
+      "source": "PDF tier names and orange anchors; V3 derived white allocation",
+      "tier": 2
+    },
+    {
+      "id": "set_011_sword",
+      "name": "Bộ Thanh Trúc",
+      "map_id": "map_011",
+      "class_id": "sword",
+      "white_total_hp": "66667",
+      "white_total_attack": "4333",
+      "white_total_defense": "1833",
+      "source": "PDF tier names and orange anchors; V3 derived white allocation",
+      "tier": 3
+    },
+    {
+      "id": "set_016_sword",
+      "name": "Bộ Thất Tinh",
+      "map_id": "map_016",
+      "class_id": "sword",
+      "white_total_hp": "733333",
+      "white_total_attack": "41667",
+      "white_total_defense": "18333",
+      "source": "PDF tier names and orange anchors; V3 derived white allocation",
+      "tier": 4
+    },
+    {
+      "id": "set_021_sword",
+      "name": "Bộ Chu Tước",
+      "map_id": "map_021",
+      "class_id": "sword",
+      "white_total_hp": "8000000",
+      "white_total_attack": "400000",
+      "white_total_defense": "200000",
+      "source": "PDF tier names and orange anchors; V3 derived white allocation",
+      "tier": 5
+    },
+    {
+      "id": "set_026_sword",
+      "name": "Bộ Phá Hư",
+      "map_id": "map_026",
+      "class_id": "sword",
+      "white_total_hp": "86666667",
+      "white_total_attack": "3833333",
+      "white_total_defense": "2166667",
+      "source": "PDF tier names and orange anchors; V3 derived white allocation",
+      "tier": 6
+    },
+    {
+      "id": "set_031_sword",
+      "name": "Bộ Thiên Uyên",
+      "map_id": "map_031",
+      "class_id": "sword",
+      "white_total_hp": "933333333",
+      "white_total_attack": "36666667",
+      "white_total_defense": "23333333",
+      "source": "PDF tier names and orange anchors; V3 derived white allocation",
+      "tier": 7
+    },
+    {
+      "id": "set_036_sword",
+      "name": "Bộ Huyết Thiên",
+      "map_id": "map_036",
+      "class_id": "sword",
+      "white_total_hp": "10000000000",
+      "white_total_attack": "350000000",
+      "white_total_defense": "250000000",
+      "source": "PDF tier names and orange anchors; V3 derived white allocation",
+      "tier": 8
+    },
+    {
+      "id": "set_041_sword",
+      "name": "Bộ Bắc Hàn",
+      "map_id": "map_041",
+      "class_id": "sword",
+      "white_total_hp": "116666666667",
+      "white_total_attack": "3333333333",
+      "white_total_defense": "2833333333",
+      "source": "PDF tier names and orange anchors; V3 derived white allocation",
+      "tier": 9
+    }
+  ],
+  "items": [
+    {
+      "id": "equip_001_sword_weapon",
+      "name": "Thanh Phong Kiếm Trang · Kiếm",
+      "set_id": "set_001_sword",
+      "slot": "weapon",
+      "map_id": "map_001",
+      "class_id": "sword",
+      "white_hp": "0",
+      "white_attack": "33",
+      "white_defense": "0",
+      "balance_status": "draft",
+      "display_name": "Thanh Phong Kiếm",
+      "tier": 1,
+      "quality": "white",
+      "cultivation_id": "cultivation_01"
+    },
+    {
+      "id": "equip_001_sword_head",
+      "name": "Thanh Phong Kiếm Trang · Quan",
+      "set_id": "set_001_sword",
+      "slot": "head",
+      "map_id": "map_001",
+      "class_id": "sword",
+      "white_hp": "90",
+      "white_attack": "0",
+      "white_defense": "3",
+      "balance_status": "draft",
+      "display_name": "Thanh Phong Quan",
+      "tier": 1,
+      "quality": "white",
+      "cultivation_id": "cultivation_01"
+    },
+    {
+      "id": "equip_001_sword_chest",
+      "name": "Thanh Phong Kiếm Trang · Bào",
+      "set_id": "set_001_sword",
+      "slot": "chest",
+      "map_id": "map_001",
+      "class_id": "sword",
+      "white_hp": "240",
+      "white_attack": "0",
+      "white_defense": "8",
+      "balance_status": "draft",
+      "display_name": "Thanh Phong Bào",
+      "tier": 1,
+      "quality": "white",
+      "cultivation_id": "cultivation_01"
+    },
+    {
+      "id": "equip_001_sword_wrists",
+      "name": "Thanh Phong Quần",
+      "set_id": "set_001_sword",
+      "slot": "pants",
+      "map_id": "map_001",
+      "class_id": "sword",
+      "white_hp": "30",
+      "white_attack": "12",
+      "white_defense": "3",
+      "balance_status": "draft",
+      "display_name": "Thanh Phong Quần",
+      "tier": 1,
+      "quality": "white",
+      "cultivation_id": "cultivation_01"
+    },
+    {
+      "id": "equip_001_sword_feet",
+      "name": "Thanh Phong Kiếm Trang · Ngoa",
+      "set_id": "set_001_sword",
+      "slot": "feet",
+      "map_id": "map_001",
+      "class_id": "sword",
+      "white_hp": "120",
+      "white_attack": "0",
+      "white_defense": "2",
+      "balance_status": "draft",
+      "display_name": "Thanh Phong Ngoa",
+      "tier": 1,
+      "quality": "white",
+      "cultivation_id": "cultivation_01"
+    },
+    {
+      "id": "equip_001_sword_pendant",
+      "name": "Thanh Phong Kiếm Trang · Ngọc Bội",
+      "set_id": "set_001_sword",
+      "slot": "pendant",
+      "map_id": "map_001",
+      "class_id": "sword",
+      "white_hp": "120",
+      "white_attack": "5",
+      "white_defense": "1",
+      "balance_status": "draft",
+      "display_name": "Thanh Phong Ngọc Bội",
+      "tier": 1,
+      "quality": "white",
+      "cultivation_id": "cultivation_01"
+    },
+    {
+      "id": "equip_006_sword_weapon",
+      "name": "Ngự Phong Kiếm Trang · Kiếm",
+      "set_id": "set_006_sword",
+      "slot": "weapon",
+      "map_id": "map_006",
+      "class_id": "sword",
+      "white_hp": "0",
+      "white_attack": "303",
+      "white_defense": "0",
+      "balance_status": "draft",
+      "display_name": "Ngự Phong Kiếm",
+      "tier": 2,
+      "quality": "white",
+      "cultivation_id": "cultivation_02"
+    },
+    {
+      "id": "equip_006_sword_head",
+      "name": "Ngự Phong Kiếm Trang · Quan",
+      "set_id": "set_006_sword",
+      "slot": "head",
+      "map_id": "map_006",
+      "class_id": "sword",
+      "white_hp": "900",
+      "white_attack": "0",
+      "white_defense": "34",
+      "balance_status": "draft",
+      "display_name": "Ngự Phong Quan",
+      "tier": 2,
+      "quality": "white",
+      "cultivation_id": "cultivation_02"
+    },
+    {
+      "id": "equip_006_sword_chest",
+      "name": "Ngự Phong Kiếm Trang · Bào",
+      "set_id": "set_006_sword",
+      "slot": "chest",
+      "map_id": "map_006",
+      "class_id": "sword",
+      "white_hp": "2400",
+      "white_attack": "0",
+      "white_defense": "75",
+      "balance_status": "draft",
+      "display_name": "Ngự Phong Bào",
+      "tier": 2,
+      "quality": "white",
+      "cultivation_id": "cultivation_02"
+    },
+    {
+      "id": "equip_006_sword_wrists",
+      "name": "Ngự Phong Quần",
+      "set_id": "set_006_sword",
+      "slot": "pants",
+      "map_id": "map_006",
+      "class_id": "sword",
+      "white_hp": "300",
+      "white_attack": "117",
+      "white_defense": "25",
+      "balance_status": "draft",
+      "display_name": "Ngự Phong Quần",
+      "tier": 2,
+      "quality": "white",
+      "cultivation_id": "cultivation_02"
+    },
+    {
+      "id": "equip_006_sword_feet",
+      "name": "Ngự Phong Kiếm Trang · Ngoa",
+      "set_id": "set_006_sword",
+      "slot": "feet",
+      "map_id": "map_006",
+      "class_id": "sword",
+      "white_hp": "1200",
+      "white_attack": "0",
+      "white_defense": "25",
+      "balance_status": "draft",
+      "display_name": "Ngự Phong Ngoa",
+      "tier": 2,
+      "quality": "white",
+      "cultivation_id": "cultivation_02"
+    },
+    {
+      "id": "equip_006_sword_pendant",
+      "name": "Ngự Phong Kiếm Trang · Ngọc Bội",
+      "set_id": "set_006_sword",
+      "slot": "pendant",
+      "map_id": "map_006",
+      "class_id": "sword",
+      "white_hp": "1200",
+      "white_attack": "47",
+      "white_defense": "8",
+      "balance_status": "draft",
+      "display_name": "Ngự Phong Ngọc Bội",
+      "tier": 2,
+      "quality": "white",
+      "cultivation_id": "cultivation_02"
+    },
+    {
+      "id": "equip_011_sword_weapon",
+      "name": "Thanh Trúc Kiếm Trang · Kiếm",
+      "set_id": "set_011_sword",
+      "slot": "weapon",
+      "map_id": "map_011",
+      "class_id": "sword",
+      "white_hp": "0",
+      "white_attack": "2817",
+      "white_defense": "0",
+      "balance_status": "draft",
+      "display_name": "Thanh Trúc Kiếm",
+      "tier": 3,
+      "quality": "white",
+      "cultivation_id": "cultivation_03"
+    },
+    {
+      "id": "equip_011_sword_head",
+      "name": "Thanh Trúc Kiếm Trang · Quan",
+      "set_id": "set_011_sword",
+      "slot": "head",
+      "map_id": "map_011",
+      "class_id": "sword",
+      "white_hp": "10000",
+      "white_attack": "0",
+      "white_defense": "366",
+      "balance_status": "draft",
+      "display_name": "Thanh Trúc Quan",
+      "tier": 3,
+      "quality": "white",
+      "cultivation_id": "cultivation_03"
+    },
+    {
+      "id": "equip_011_sword_chest",
+      "name": "Thanh Trúc Kiếm Trang · Bào",
+      "set_id": "set_011_sword",
+      "slot": "chest",
+      "map_id": "map_011",
+      "class_id": "sword",
+      "white_hp": "26667",
+      "white_attack": "0",
+      "white_defense": "825",
+      "balance_status": "draft",
+      "display_name": "Thanh Trúc Bào",
+      "tier": 3,
+      "quality": "white",
+      "cultivation_id": "cultivation_03"
+    },
+    {
+      "id": "equip_011_sword_wrists",
+      "name": "Thanh Trúc Quần",
+      "set_id": "set_011_sword",
+      "slot": "pants",
+      "map_id": "map_011",
+      "class_id": "sword",
+      "white_hp": "3333",
+      "white_attack": "1083",
+      "white_defense": "275",
+      "balance_status": "draft",
+      "display_name": "Thanh Trúc Quần",
+      "tier": 3,
+      "quality": "white",
+      "cultivation_id": "cultivation_03"
+    },
+    {
+      "id": "equip_011_sword_feet",
+      "name": "Thanh Trúc Kiếm Trang · Ngoa",
+      "set_id": "set_011_sword",
+      "slot": "feet",
+      "map_id": "map_011",
+      "class_id": "sword",
+      "white_hp": "13334",
+      "white_attack": "0",
+      "white_defense": "275",
+      "balance_status": "draft",
+      "display_name": "Thanh Trúc Ngoa",
+      "tier": 3,
+      "quality": "white",
+      "cultivation_id": "cultivation_03"
+    },
+    {
+      "id": "equip_011_sword_pendant",
+      "name": "Thanh Trúc Kiếm Trang · Ngọc Bội",
+      "set_id": "set_011_sword",
+      "slot": "pendant",
+      "map_id": "map_011",
+      "class_id": "sword",
+      "white_hp": "13333",
+      "white_attack": "433",
+      "white_defense": "92",
+      "balance_status": "draft",
+      "display_name": "Thanh Trúc Ngọc Bội",
+      "tier": 3,
+      "quality": "white",
+      "cultivation_id": "cultivation_03"
+    },
+    {
+      "id": "equip_016_sword_weapon",
+      "name": "Thất Tinh Kiếm Trang · Kiếm",
+      "set_id": "set_016_sword",
+      "slot": "weapon",
+      "map_id": "map_016",
+      "class_id": "sword",
+      "white_hp": "0",
+      "white_attack": "27083",
+      "white_defense": "0",
+      "balance_status": "draft",
+      "display_name": "Thất Tinh Kiếm",
+      "tier": 4,
+      "quality": "white",
+      "cultivation_id": "cultivation_04"
+    },
+    {
+      "id": "equip_016_sword_head",
+      "name": "Thất Tinh Kiếm Trang · Quan",
+      "set_id": "set_016_sword",
+      "slot": "head",
+      "map_id": "map_016",
+      "class_id": "sword",
+      "white_hp": "110000",
+      "white_attack": "0",
+      "white_defense": "3666",
+      "balance_status": "draft",
+      "display_name": "Thất Tinh Quan",
+      "tier": 4,
+      "quality": "white",
+      "cultivation_id": "cultivation_04"
+    },
+    {
+      "id": "equip_016_sword_chest",
+      "name": "Thất Tinh Kiếm Trang · Bào",
+      "set_id": "set_016_sword",
+      "slot": "chest",
+      "map_id": "map_016",
+      "class_id": "sword",
+      "white_hp": "293333",
+      "white_attack": "0",
+      "white_defense": "8250",
+      "balance_status": "draft",
+      "display_name": "Thất Tinh Bào",
+      "tier": 4,
+      "quality": "white",
+      "cultivation_id": "cultivation_04"
+    },
+    {
+      "id": "equip_016_sword_wrists",
+      "name": "Thất Tinh Quần",
+      "set_id": "set_016_sword",
+      "slot": "pants",
+      "map_id": "map_016",
+      "class_id": "sword",
+      "white_hp": "36667",
+      "white_attack": "10417",
+      "white_defense": "2750",
+      "balance_status": "draft",
+      "display_name": "Thất Tinh Quần",
+      "tier": 4,
+      "quality": "white",
+      "cultivation_id": "cultivation_04"
+    },
+    {
+      "id": "equip_016_sword_feet",
+      "name": "Thất Tinh Kiếm Trang · Ngoa",
+      "set_id": "set_016_sword",
+      "slot": "feet",
+      "map_id": "map_016",
+      "class_id": "sword",
+      "white_hp": "146667",
+      "white_attack": "0",
+      "white_defense": "2750",
+      "balance_status": "draft",
+      "display_name": "Thất Tinh Ngoa",
+      "tier": 4,
+      "quality": "white",
+      "cultivation_id": "cultivation_04"
+    },
+    {
+      "id": "equip_016_sword_pendant",
+      "name": "Thất Tinh Kiếm Trang · Ngọc Bội",
+      "set_id": "set_016_sword",
+      "slot": "pendant",
+      "map_id": "map_016",
+      "class_id": "sword",
+      "white_hp": "146666",
+      "white_attack": "4167",
+      "white_defense": "917",
+      "balance_status": "draft",
+      "display_name": "Thất Tinh Ngọc Bội",
+      "tier": 4,
+      "quality": "white",
+      "cultivation_id": "cultivation_04"
+    },
+    {
+      "id": "equip_021_sword_weapon",
+      "name": "Chu Tước Kiếm Trang · Kiếm",
+      "set_id": "set_021_sword",
+      "slot": "weapon",
+      "map_id": "map_021",
+      "class_id": "sword",
+      "white_hp": "0",
+      "white_attack": "260000",
+      "white_defense": "0",
+      "balance_status": "draft",
+      "display_name": "Chu Tước Kiếm",
+      "tier": 5,
+      "quality": "white",
+      "cultivation_id": "cultivation_05"
+    },
+    {
+      "id": "equip_021_sword_head",
+      "name": "Chu Tước Kiếm Trang · Quan",
+      "set_id": "set_021_sword",
+      "slot": "head",
+      "map_id": "map_021",
+      "class_id": "sword",
+      "white_hp": "1200000",
+      "white_attack": "0",
+      "white_defense": "40000",
+      "balance_status": "draft",
+      "display_name": "Chu Tước Quan",
+      "tier": 5,
+      "quality": "white",
+      "cultivation_id": "cultivation_05"
+    },
+    {
+      "id": "equip_021_sword_chest",
+      "name": "Chu Tước Kiếm Trang · Bào",
+      "set_id": "set_021_sword",
+      "slot": "chest",
+      "map_id": "map_021",
+      "class_id": "sword",
+      "white_hp": "3200000",
+      "white_attack": "0",
+      "white_defense": "90000",
+      "balance_status": "draft",
+      "display_name": "Chu Tước Bào",
+      "tier": 5,
+      "quality": "white",
+      "cultivation_id": "cultivation_05"
+    },
+    {
+      "id": "equip_021_sword_wrists",
+      "name": "Chu Tước Quần",
+      "set_id": "set_021_sword",
+      "slot": "pants",
+      "map_id": "map_021",
+      "class_id": "sword",
+      "white_hp": "400000",
+      "white_attack": "100000",
+      "white_defense": "30000",
+      "balance_status": "draft",
+      "display_name": "Chu Tước Quần",
+      "tier": 5,
+      "quality": "white",
+      "cultivation_id": "cultivation_05"
+    },
+    {
+      "id": "equip_021_sword_feet",
+      "name": "Chu Tước Kiếm Trang · Ngoa",
+      "set_id": "set_021_sword",
+      "slot": "feet",
+      "map_id": "map_021",
+      "class_id": "sword",
+      "white_hp": "1600000",
+      "white_attack": "0",
+      "white_defense": "30000",
+      "balance_status": "draft",
+      "display_name": "Chu Tước Ngoa",
+      "tier": 5,
+      "quality": "white",
+      "cultivation_id": "cultivation_05"
+    },
+    {
+      "id": "equip_021_sword_pendant",
+      "name": "Chu Tước Kiếm Trang · Ngọc Bội",
+      "set_id": "set_021_sword",
+      "slot": "pendant",
+      "map_id": "map_021",
+      "class_id": "sword",
+      "white_hp": "1600000",
+      "white_attack": "40000",
+      "white_defense": "10000",
+      "balance_status": "draft",
+      "display_name": "Chu Tước Ngọc Bội",
+      "tier": 5,
+      "quality": "white",
+      "cultivation_id": "cultivation_05"
+    },
+    {
+      "id": "equip_026_sword_weapon",
+      "name": "Phá Hư Kiếm Trang · Kiếm",
+      "set_id": "set_026_sword",
+      "slot": "weapon",
+      "map_id": "map_026",
+      "class_id": "sword",
+      "white_hp": "0",
+      "white_attack": "2491667",
+      "white_defense": "0",
+      "balance_status": "draft",
+      "display_name": "Phá Hư Kiếm",
+      "tier": 6,
+      "quality": "white",
+      "cultivation_id": "cultivation_06"
+    },
+    {
+      "id": "equip_026_sword_head",
+      "name": "Phá Hư Kiếm Trang · Quan",
+      "set_id": "set_026_sword",
+      "slot": "head",
+      "map_id": "map_026",
+      "class_id": "sword",
+      "white_hp": "13000000",
+      "white_attack": "0",
+      "white_defense": "433334",
+      "balance_status": "draft",
+      "display_name": "Phá Hư Quan",
+      "tier": 6,
+      "quality": "white",
+      "cultivation_id": "cultivation_06"
+    },
+    {
+      "id": "equip_026_sword_chest",
+      "name": "Phá Hư Kiếm Trang · Bào",
+      "set_id": "set_026_sword",
+      "slot": "chest",
+      "map_id": "map_026",
+      "class_id": "sword",
+      "white_hp": "34666667",
+      "white_attack": "0",
+      "white_defense": "975000",
+      "balance_status": "draft",
+      "display_name": "Phá Hư Bào",
+      "tier": 6,
+      "quality": "white",
+      "cultivation_id": "cultivation_06"
+    },
+    {
+      "id": "equip_026_sword_wrists",
+      "name": "Phá Hư Quần",
+      "set_id": "set_026_sword",
+      "slot": "pants",
+      "map_id": "map_026",
+      "class_id": "sword",
+      "white_hp": "4333333",
+      "white_attack": "958333",
+      "white_defense": "325000",
+      "balance_status": "draft",
+      "display_name": "Phá Hư Quần",
+      "tier": 6,
+      "quality": "white",
+      "cultivation_id": "cultivation_06"
+    },
+    {
+      "id": "equip_026_sword_feet",
+      "name": "Phá Hư Kiếm Trang · Ngoa",
+      "set_id": "set_026_sword",
+      "slot": "feet",
+      "map_id": "map_026",
+      "class_id": "sword",
+      "white_hp": "17333334",
+      "white_attack": "0",
+      "white_defense": "325000",
+      "balance_status": "draft",
+      "display_name": "Phá Hư Ngoa",
+      "tier": 6,
+      "quality": "white",
+      "cultivation_id": "cultivation_06"
+    },
+    {
+      "id": "equip_026_sword_pendant",
+      "name": "Phá Hư Kiếm Trang · Ngọc Bội",
+      "set_id": "set_026_sword",
+      "slot": "pendant",
+      "map_id": "map_026",
+      "class_id": "sword",
+      "white_hp": "17333333",
+      "white_attack": "383333",
+      "white_defense": "108333",
+      "balance_status": "draft",
+      "display_name": "Phá Hư Ngọc Bội",
+      "tier": 6,
+      "quality": "white",
+      "cultivation_id": "cultivation_06"
+    },
+    {
+      "id": "equip_031_sword_weapon",
+      "name": "Thiên Uyên Kiếm Trang · Kiếm",
+      "set_id": "set_031_sword",
+      "slot": "weapon",
+      "map_id": "map_031",
+      "class_id": "sword",
+      "white_hp": "0",
+      "white_attack": "23833333",
+      "white_defense": "0",
+      "balance_status": "draft",
+      "display_name": "Thiên Uyên Kiếm",
+      "tier": 7,
+      "quality": "white",
+      "cultivation_id": "cultivation_07"
+    },
+    {
+      "id": "equip_031_sword_head",
+      "name": "Thiên Uyên Kiếm Trang · Quan",
+      "set_id": "set_031_sword",
+      "slot": "head",
+      "map_id": "map_031",
+      "class_id": "sword",
+      "white_hp": "140000000",
+      "white_attack": "0",
+      "white_defense": "4666666",
+      "balance_status": "draft",
+      "display_name": "Thiên Uyên Quan",
+      "tier": 7,
+      "quality": "white",
+      "cultivation_id": "cultivation_07"
+    },
+    {
+      "id": "equip_031_sword_chest",
+      "name": "Thiên Uyên Kiếm Trang · Bào",
+      "set_id": "set_031_sword",
+      "slot": "chest",
+      "map_id": "map_031",
+      "class_id": "sword",
+      "white_hp": "373333333",
+      "white_attack": "0",
+      "white_defense": "10500000",
+      "balance_status": "draft",
+      "display_name": "Thiên Uyên Bào",
+      "tier": 7,
+      "quality": "white",
+      "cultivation_id": "cultivation_07"
+    },
+    {
+      "id": "equip_031_sword_wrists",
+      "name": "Thiên Uyên Quần",
+      "set_id": "set_031_sword",
+      "slot": "pants",
+      "map_id": "map_031",
+      "class_id": "sword",
+      "white_hp": "46666667",
+      "white_attack": "9166667",
+      "white_defense": "3500000",
+      "balance_status": "draft",
+      "display_name": "Thiên Uyên Quần",
+      "tier": 7,
+      "quality": "white",
+      "cultivation_id": "cultivation_07"
+    },
+    {
+      "id": "equip_031_sword_feet",
+      "name": "Thiên Uyên Kiếm Trang · Ngoa",
+      "set_id": "set_031_sword",
+      "slot": "feet",
+      "map_id": "map_031",
+      "class_id": "sword",
+      "white_hp": "186666667",
+      "white_attack": "0",
+      "white_defense": "3500000",
+      "balance_status": "draft",
+      "display_name": "Thiên Uyên Ngoa",
+      "tier": 7,
+      "quality": "white",
+      "cultivation_id": "cultivation_07"
+    },
+    {
+      "id": "equip_031_sword_pendant",
+      "name": "Thiên Uyên Kiếm Trang · Ngọc Bội",
+      "set_id": "set_031_sword",
+      "slot": "pendant",
+      "map_id": "map_031",
+      "class_id": "sword",
+      "white_hp": "186666666",
+      "white_attack": "3666667",
+      "white_defense": "1166667",
+      "balance_status": "draft",
+      "display_name": "Thiên Uyên Ngọc Bội",
+      "tier": 7,
+      "quality": "white",
+      "cultivation_id": "cultivation_07"
+    },
+    {
+      "id": "equip_036_sword_weapon",
+      "name": "Huyết Thiên Kiếm Trang · Kiếm",
+      "set_id": "set_036_sword",
+      "slot": "weapon",
+      "map_id": "map_036",
+      "class_id": "sword",
+      "white_hp": "0",
+      "white_attack": "227500000",
+      "white_defense": "0",
+      "balance_status": "draft",
+      "display_name": "Huyết Thiên Kiếm",
+      "tier": 8,
+      "quality": "white",
+      "cultivation_id": "cultivation_08"
+    },
+    {
+      "id": "equip_036_sword_head",
+      "name": "Huyết Thiên Kiếm Trang · Quan",
+      "set_id": "set_036_sword",
+      "slot": "head",
+      "map_id": "map_036",
+      "class_id": "sword",
+      "white_hp": "1500000000",
+      "white_attack": "0",
+      "white_defense": "50000000",
+      "balance_status": "draft",
+      "display_name": "Huyết Thiên Quan",
+      "tier": 8,
+      "quality": "white",
+      "cultivation_id": "cultivation_08"
+    },
+    {
+      "id": "equip_036_sword_chest",
+      "name": "Huyết Thiên Kiếm Trang · Bào",
+      "set_id": "set_036_sword",
+      "slot": "chest",
+      "map_id": "map_036",
+      "class_id": "sword",
+      "white_hp": "4000000000",
+      "white_attack": "0",
+      "white_defense": "112500000",
+      "balance_status": "draft",
+      "display_name": "Huyết Thiên Bào",
+      "tier": 8,
+      "quality": "white",
+      "cultivation_id": "cultivation_08"
+    },
+    {
+      "id": "equip_036_sword_wrists",
+      "name": "Huyết Thiên Quần",
+      "set_id": "set_036_sword",
+      "slot": "pants",
+      "map_id": "map_036",
+      "class_id": "sword",
+      "white_hp": "500000000",
+      "white_attack": "87500000",
+      "white_defense": "37500000",
+      "balance_status": "draft",
+      "display_name": "Huyết Thiên Quần",
+      "tier": 8,
+      "quality": "white",
+      "cultivation_id": "cultivation_08"
+    },
+    {
+      "id": "equip_036_sword_feet",
+      "name": "Huyết Thiên Kiếm Trang · Ngoa",
+      "set_id": "set_036_sword",
+      "slot": "feet",
+      "map_id": "map_036",
+      "class_id": "sword",
+      "white_hp": "2000000000",
+      "white_attack": "0",
+      "white_defense": "37500000",
+      "balance_status": "draft",
+      "display_name": "Huyết Thiên Ngoa",
+      "tier": 8,
+      "quality": "white",
+      "cultivation_id": "cultivation_08"
+    },
+    {
+      "id": "equip_036_sword_pendant",
+      "name": "Huyết Thiên Kiếm Trang · Ngọc Bội",
+      "set_id": "set_036_sword",
+      "slot": "pendant",
+      "map_id": "map_036",
+      "class_id": "sword",
+      "white_hp": "2000000000",
+      "white_attack": "35000000",
+      "white_defense": "12500000",
+      "balance_status": "draft",
+      "display_name": "Huyết Thiên Ngọc Bội",
+      "tier": 8,
+      "quality": "white",
+      "cultivation_id": "cultivation_08"
+    },
+    {
+      "id": "equip_041_sword_weapon",
+      "name": "Bắc Hàn Kiếm Trang · Kiếm",
+      "set_id": "set_041_sword",
+      "slot": "weapon",
+      "map_id": "map_041",
+      "class_id": "sword",
+      "white_hp": "0",
+      "white_attack": "2166666667",
+      "white_defense": "0",
+      "balance_status": "draft",
+      "display_name": "Bắc Hàn Kiếm",
+      "tier": 9,
+      "quality": "white",
+      "cultivation_id": "cultivation_09"
+    },
+    {
+      "id": "equip_041_sword_head",
+      "name": "Bắc Hàn Kiếm Trang · Quan",
+      "set_id": "set_041_sword",
+      "slot": "head",
+      "map_id": "map_041",
+      "class_id": "sword",
+      "white_hp": "17500000000",
+      "white_attack": "0",
+      "white_defense": "566666666",
+      "balance_status": "draft",
+      "display_name": "Bắc Hàn Quan",
+      "tier": 9,
+      "quality": "white",
+      "cultivation_id": "cultivation_09"
+    },
+    {
+      "id": "equip_041_sword_chest",
+      "name": "Bắc Hàn Kiếm Trang · Bào",
+      "set_id": "set_041_sword",
+      "slot": "chest",
+      "map_id": "map_041",
+      "class_id": "sword",
+      "white_hp": "46666666667",
+      "white_attack": "0",
+      "white_defense": "1275000000",
+      "balance_status": "draft",
+      "display_name": "Bắc Hàn Bào",
+      "tier": 9,
+      "quality": "white",
+      "cultivation_id": "cultivation_09"
+    },
+    {
+      "id": "equip_041_sword_wrists",
+      "name": "Bắc Hàn Quần",
+      "set_id": "set_041_sword",
+      "slot": "pants",
+      "map_id": "map_041",
+      "class_id": "sword",
+      "white_hp": "5833333333",
+      "white_attack": "833333333",
+      "white_defense": "425000000",
+      "balance_status": "draft",
+      "display_name": "Bắc Hàn Quần",
+      "tier": 9,
+      "quality": "white",
+      "cultivation_id": "cultivation_09"
+    },
+    {
+      "id": "equip_041_sword_feet",
+      "name": "Bắc Hàn Kiếm Trang · Ngoa",
+      "set_id": "set_041_sword",
+      "slot": "feet",
+      "map_id": "map_041",
+      "class_id": "sword",
+      "white_hp": "23333333334",
+      "white_attack": "0",
+      "white_defense": "425000000",
+      "balance_status": "draft",
+      "display_name": "Bắc Hàn Ngoa",
+      "tier": 9,
+      "quality": "white",
+      "cultivation_id": "cultivation_09"
+    },
+    {
+      "id": "equip_041_sword_pendant",
+      "name": "Bắc Hàn Kiếm Trang · Ngọc Bội",
+      "set_id": "set_041_sword",
+      "slot": "pendant",
+      "map_id": "map_041",
+      "class_id": "sword",
+      "white_hp": "23333333333",
+      "white_attack": "333333333",
+      "white_defense": "141666667",
+      "balance_status": "draft",
+      "display_name": "Bắc Hàn Ngọc Bội",
+      "tier": 9,
+      "quality": "white",
+      "cultivation_id": "cultivation_09"
+    }
+  ],
+  "balance_v2": {
+    "version": 5,
+    "status": "prototype",
+    "main_scale": {
+      "weapon": {
+        "stat": "attack",
+        "ratio": 0.25
+      },
+      "head": {
+        "stat": "mp",
+        "ratio": 0.2
+      },
+      "chest": {
+        "stat": "hp",
+        "ratio": 0.18
+      },
+      "feet": {
+        "stat": "speed",
+        "ratio": 0.05
+      },
+      "pendant": {
+        "stat": "dodge",
+        "ratio": 0.01
+      },
+      "pants": {
+        "stat": "defense",
+        "ratio": 0.22
+      }
+    },
+    "secondary_flat_scale": {
+      "hp": 0.035,
+      "attack": 0.035,
+      "defense": 0.04,
+      "speed": 0.015
+    },
+    "secondary_rates": {
+      "critRate": 0.006,
+      "critDamage": 0.025,
+      "attackSpeed": 0.015,
+      "cooldownReduction": 0.005,
+      "damageReduction": 0.004
+    },
+    "main_roll": [
+      1,
+      1
+    ],
+    "secondary_roll": [
+      0.85,
+      1.15
+    ],
+    "secondary_pool": "all_character_stats_without_repeated_keys"
+  },
+  "catalog_version": 2,
+  "template_aliases": {
+    "equip_001_spell_weapon": "equip_001_sword_weapon",
+    "equip_001_spell_head": "equip_001_sword_head",
+    "equip_001_spell_chest": "equip_001_sword_chest",
+    "equip_001_spell_wrists": "equip_001_sword_wrists",
+    "equip_001_spell_feet": "equip_001_sword_feet",
+    "equip_001_spell_pendant": "equip_001_sword_pendant",
+    "equip_001_body_weapon": "equip_001_sword_weapon",
+    "equip_001_body_head": "equip_001_sword_head",
+    "equip_001_body_chest": "equip_001_sword_chest",
+    "equip_001_body_wrists": "equip_001_sword_wrists",
+    "equip_001_body_feet": "equip_001_sword_feet",
+    "equip_001_body_pendant": "equip_001_sword_pendant",
+    "equip_002_sword_weapon": "equip_001_sword_weapon",
+    "equip_002_sword_head": "equip_001_sword_head",
+    "equip_002_sword_chest": "equip_001_sword_chest",
+    "equip_002_sword_wrists": "equip_001_sword_wrists",
+    "equip_002_sword_feet": "equip_001_sword_feet",
+    "equip_002_sword_pendant": "equip_001_sword_pendant",
+    "equip_002_spell_weapon": "equip_001_sword_weapon",
+    "equip_002_spell_head": "equip_001_sword_head",
+    "equip_002_spell_chest": "equip_001_sword_chest",
+    "equip_002_spell_wrists": "equip_001_sword_wrists",
+    "equip_002_spell_feet": "equip_001_sword_feet",
+    "equip_002_spell_pendant": "equip_001_sword_pendant",
+    "equip_002_body_weapon": "equip_001_sword_weapon",
+    "equip_002_body_head": "equip_001_sword_head",
+    "equip_002_body_chest": "equip_001_sword_chest",
+    "equip_002_body_wrists": "equip_001_sword_wrists",
+    "equip_002_body_feet": "equip_001_sword_feet",
+    "equip_002_body_pendant": "equip_001_sword_pendant",
+    "equip_003_sword_weapon": "equip_001_sword_weapon",
+    "equip_003_sword_head": "equip_001_sword_head",
+    "equip_003_sword_chest": "equip_001_sword_chest",
+    "equip_003_sword_wrists": "equip_001_sword_wrists",
+    "equip_003_sword_feet": "equip_001_sword_feet",
+    "equip_003_sword_pendant": "equip_001_sword_pendant",
+    "equip_003_spell_weapon": "equip_001_sword_weapon",
+    "equip_003_spell_head": "equip_001_sword_head",
+    "equip_003_spell_chest": "equip_001_sword_chest",
+    "equip_003_spell_wrists": "equip_001_sword_wrists",
+    "equip_003_spell_feet": "equip_001_sword_feet",
+    "equip_003_spell_pendant": "equip_001_sword_pendant",
+    "equip_003_body_weapon": "equip_001_sword_weapon",
+    "equip_003_body_head": "equip_001_sword_head",
+    "equip_003_body_chest": "equip_001_sword_chest",
+    "equip_003_body_wrists": "equip_001_sword_wrists",
+    "equip_003_body_feet": "equip_001_sword_feet",
+    "equip_003_body_pendant": "equip_001_sword_pendant",
+    "equip_004_sword_weapon": "equip_001_sword_weapon",
+    "equip_004_sword_head": "equip_001_sword_head",
+    "equip_004_sword_chest": "equip_001_sword_chest",
+    "equip_004_sword_wrists": "equip_001_sword_wrists",
+    "equip_004_sword_feet": "equip_001_sword_feet",
+    "equip_004_sword_pendant": "equip_001_sword_pendant",
+    "equip_004_spell_weapon": "equip_001_sword_weapon",
+    "equip_004_spell_head": "equip_001_sword_head",
+    "equip_004_spell_chest": "equip_001_sword_chest",
+    "equip_004_spell_wrists": "equip_001_sword_wrists",
+    "equip_004_spell_feet": "equip_001_sword_feet",
+    "equip_004_spell_pendant": "equip_001_sword_pendant",
+    "equip_004_body_weapon": "equip_001_sword_weapon",
+    "equip_004_body_head": "equip_001_sword_head",
+    "equip_004_body_chest": "equip_001_sword_chest",
+    "equip_004_body_wrists": "equip_001_sword_wrists",
+    "equip_004_body_feet": "equip_001_sword_feet",
+    "equip_004_body_pendant": "equip_001_sword_pendant",
+    "equip_005_sword_weapon": "equip_001_sword_weapon",
+    "equip_005_sword_head": "equip_001_sword_head",
+    "equip_005_sword_chest": "equip_001_sword_chest",
+    "equip_005_sword_wrists": "equip_001_sword_wrists",
+    "equip_005_sword_feet": "equip_001_sword_feet",
+    "equip_005_sword_pendant": "equip_001_sword_pendant",
+    "equip_005_spell_weapon": "equip_001_sword_weapon",
+    "equip_005_spell_head": "equip_001_sword_head",
+    "equip_005_spell_chest": "equip_001_sword_chest",
+    "equip_005_spell_wrists": "equip_001_sword_wrists",
+    "equip_005_spell_feet": "equip_001_sword_feet",
+    "equip_005_spell_pendant": "equip_001_sword_pendant",
+    "equip_005_body_weapon": "equip_001_sword_weapon",
+    "equip_005_body_head": "equip_001_sword_head",
+    "equip_005_body_chest": "equip_001_sword_chest",
+    "equip_005_body_wrists": "equip_001_sword_wrists",
+    "equip_005_body_feet": "equip_001_sword_feet",
+    "equip_005_body_pendant": "equip_001_sword_pendant",
+    "equip_006_spell_weapon": "equip_006_sword_weapon",
+    "equip_006_spell_head": "equip_006_sword_head",
+    "equip_006_spell_chest": "equip_006_sword_chest",
+    "equip_006_spell_wrists": "equip_006_sword_wrists",
+    "equip_006_spell_feet": "equip_006_sword_feet",
+    "equip_006_spell_pendant": "equip_006_sword_pendant",
+    "equip_006_body_weapon": "equip_006_sword_weapon",
+    "equip_006_body_head": "equip_006_sword_head",
+    "equip_006_body_chest": "equip_006_sword_chest",
+    "equip_006_body_wrists": "equip_006_sword_wrists",
+    "equip_006_body_feet": "equip_006_sword_feet",
+    "equip_006_body_pendant": "equip_006_sword_pendant",
+    "equip_007_sword_weapon": "equip_006_sword_weapon",
+    "equip_007_sword_head": "equip_006_sword_head",
+    "equip_007_sword_chest": "equip_006_sword_chest",
+    "equip_007_sword_wrists": "equip_006_sword_wrists",
+    "equip_007_sword_feet": "equip_006_sword_feet",
+    "equip_007_sword_pendant": "equip_006_sword_pendant",
+    "equip_007_spell_weapon": "equip_006_sword_weapon",
+    "equip_007_spell_head": "equip_006_sword_head",
+    "equip_007_spell_chest": "equip_006_sword_chest",
+    "equip_007_spell_wrists": "equip_006_sword_wrists",
+    "equip_007_spell_feet": "equip_006_sword_feet",
+    "equip_007_spell_pendant": "equip_006_sword_pendant",
+    "equip_007_body_weapon": "equip_006_sword_weapon",
+    "equip_007_body_head": "equip_006_sword_head",
+    "equip_007_body_chest": "equip_006_sword_chest",
+    "equip_007_body_wrists": "equip_006_sword_wrists",
+    "equip_007_body_feet": "equip_006_sword_feet",
+    "equip_007_body_pendant": "equip_006_sword_pendant",
+    "equip_008_sword_weapon": "equip_006_sword_weapon",
+    "equip_008_sword_head": "equip_006_sword_head",
+    "equip_008_sword_chest": "equip_006_sword_chest",
+    "equip_008_sword_wrists": "equip_006_sword_wrists",
+    "equip_008_sword_feet": "equip_006_sword_feet",
+    "equip_008_sword_pendant": "equip_006_sword_pendant",
+    "equip_008_spell_weapon": "equip_006_sword_weapon",
+    "equip_008_spell_head": "equip_006_sword_head",
+    "equip_008_spell_chest": "equip_006_sword_chest",
+    "equip_008_spell_wrists": "equip_006_sword_wrists",
+    "equip_008_spell_feet": "equip_006_sword_feet",
+    "equip_008_spell_pendant": "equip_006_sword_pendant",
+    "equip_008_body_weapon": "equip_006_sword_weapon",
+    "equip_008_body_head": "equip_006_sword_head",
+    "equip_008_body_chest": "equip_006_sword_chest",
+    "equip_008_body_wrists": "equip_006_sword_wrists",
+    "equip_008_body_feet": "equip_006_sword_feet",
+    "equip_008_body_pendant": "equip_006_sword_pendant",
+    "equip_009_sword_weapon": "equip_006_sword_weapon",
+    "equip_009_sword_head": "equip_006_sword_head",
+    "equip_009_sword_chest": "equip_006_sword_chest",
+    "equip_009_sword_wrists": "equip_006_sword_wrists",
+    "equip_009_sword_feet": "equip_006_sword_feet",
+    "equip_009_sword_pendant": "equip_006_sword_pendant",
+    "equip_009_spell_weapon": "equip_006_sword_weapon",
+    "equip_009_spell_head": "equip_006_sword_head",
+    "equip_009_spell_chest": "equip_006_sword_chest",
+    "equip_009_spell_wrists": "equip_006_sword_wrists",
+    "equip_009_spell_feet": "equip_006_sword_feet",
+    "equip_009_spell_pendant": "equip_006_sword_pendant",
+    "equip_009_body_weapon": "equip_006_sword_weapon",
+    "equip_009_body_head": "equip_006_sword_head",
+    "equip_009_body_chest": "equip_006_sword_chest",
+    "equip_009_body_wrists": "equip_006_sword_wrists",
+    "equip_009_body_feet": "equip_006_sword_feet",
+    "equip_009_body_pendant": "equip_006_sword_pendant",
+    "equip_010_sword_weapon": "equip_006_sword_weapon",
+    "equip_010_sword_head": "equip_006_sword_head",
+    "equip_010_sword_chest": "equip_006_sword_chest",
+    "equip_010_sword_wrists": "equip_006_sword_wrists",
+    "equip_010_sword_feet": "equip_006_sword_feet",
+    "equip_010_sword_pendant": "equip_006_sword_pendant",
+    "equip_010_spell_weapon": "equip_006_sword_weapon",
+    "equip_010_spell_head": "equip_006_sword_head",
+    "equip_010_spell_chest": "equip_006_sword_chest",
+    "equip_010_spell_wrists": "equip_006_sword_wrists",
+    "equip_010_spell_feet": "equip_006_sword_feet",
+    "equip_010_spell_pendant": "equip_006_sword_pendant",
+    "equip_010_body_weapon": "equip_006_sword_weapon",
+    "equip_010_body_head": "equip_006_sword_head",
+    "equip_010_body_chest": "equip_006_sword_chest",
+    "equip_010_body_wrists": "equip_006_sword_wrists",
+    "equip_010_body_feet": "equip_006_sword_feet",
+    "equip_010_body_pendant": "equip_006_sword_pendant",
+    "equip_011_spell_weapon": "equip_011_sword_weapon",
+    "equip_011_spell_head": "equip_011_sword_head",
+    "equip_011_spell_chest": "equip_011_sword_chest",
+    "equip_011_spell_wrists": "equip_011_sword_wrists",
+    "equip_011_spell_feet": "equip_011_sword_feet",
+    "equip_011_spell_pendant": "equip_011_sword_pendant",
+    "equip_011_body_weapon": "equip_011_sword_weapon",
+    "equip_011_body_head": "equip_011_sword_head",
+    "equip_011_body_chest": "equip_011_sword_chest",
+    "equip_011_body_wrists": "equip_011_sword_wrists",
+    "equip_011_body_feet": "equip_011_sword_feet",
+    "equip_011_body_pendant": "equip_011_sword_pendant",
+    "equip_012_sword_weapon": "equip_011_sword_weapon",
+    "equip_012_sword_head": "equip_011_sword_head",
+    "equip_012_sword_chest": "equip_011_sword_chest",
+    "equip_012_sword_wrists": "equip_011_sword_wrists",
+    "equip_012_sword_feet": "equip_011_sword_feet",
+    "equip_012_sword_pendant": "equip_011_sword_pendant",
+    "equip_012_spell_weapon": "equip_011_sword_weapon",
+    "equip_012_spell_head": "equip_011_sword_head",
+    "equip_012_spell_chest": "equip_011_sword_chest",
+    "equip_012_spell_wrists": "equip_011_sword_wrists",
+    "equip_012_spell_feet": "equip_011_sword_feet",
+    "equip_012_spell_pendant": "equip_011_sword_pendant",
+    "equip_012_body_weapon": "equip_011_sword_weapon",
+    "equip_012_body_head": "equip_011_sword_head",
+    "equip_012_body_chest": "equip_011_sword_chest",
+    "equip_012_body_wrists": "equip_011_sword_wrists",
+    "equip_012_body_feet": "equip_011_sword_feet",
+    "equip_012_body_pendant": "equip_011_sword_pendant",
+    "equip_013_sword_weapon": "equip_011_sword_weapon",
+    "equip_013_sword_head": "equip_011_sword_head",
+    "equip_013_sword_chest": "equip_011_sword_chest",
+    "equip_013_sword_wrists": "equip_011_sword_wrists",
+    "equip_013_sword_feet": "equip_011_sword_feet",
+    "equip_013_sword_pendant": "equip_011_sword_pendant",
+    "equip_013_spell_weapon": "equip_011_sword_weapon",
+    "equip_013_spell_head": "equip_011_sword_head",
+    "equip_013_spell_chest": "equip_011_sword_chest",
+    "equip_013_spell_wrists": "equip_011_sword_wrists",
+    "equip_013_spell_feet": "equip_011_sword_feet",
+    "equip_013_spell_pendant": "equip_011_sword_pendant",
+    "equip_013_body_weapon": "equip_011_sword_weapon",
+    "equip_013_body_head": "equip_011_sword_head",
+    "equip_013_body_chest": "equip_011_sword_chest",
+    "equip_013_body_wrists": "equip_011_sword_wrists",
+    "equip_013_body_feet": "equip_011_sword_feet",
+    "equip_013_body_pendant": "equip_011_sword_pendant",
+    "equip_014_sword_weapon": "equip_011_sword_weapon",
+    "equip_014_sword_head": "equip_011_sword_head",
+    "equip_014_sword_chest": "equip_011_sword_chest",
+    "equip_014_sword_wrists": "equip_011_sword_wrists",
+    "equip_014_sword_feet": "equip_011_sword_feet",
+    "equip_014_sword_pendant": "equip_011_sword_pendant",
+    "equip_014_spell_weapon": "equip_011_sword_weapon",
+    "equip_014_spell_head": "equip_011_sword_head",
+    "equip_014_spell_chest": "equip_011_sword_chest",
+    "equip_014_spell_wrists": "equip_011_sword_wrists",
+    "equip_014_spell_feet": "equip_011_sword_feet",
+    "equip_014_spell_pendant": "equip_011_sword_pendant",
+    "equip_014_body_weapon": "equip_011_sword_weapon",
+    "equip_014_body_head": "equip_011_sword_head",
+    "equip_014_body_chest": "equip_011_sword_chest",
+    "equip_014_body_wrists": "equip_011_sword_wrists",
+    "equip_014_body_feet": "equip_011_sword_feet",
+    "equip_014_body_pendant": "equip_011_sword_pendant",
+    "equip_015_sword_weapon": "equip_011_sword_weapon",
+    "equip_015_sword_head": "equip_011_sword_head",
+    "equip_015_sword_chest": "equip_011_sword_chest",
+    "equip_015_sword_wrists": "equip_011_sword_wrists",
+    "equip_015_sword_feet": "equip_011_sword_feet",
+    "equip_015_sword_pendant": "equip_011_sword_pendant",
+    "equip_015_spell_weapon": "equip_011_sword_weapon",
+    "equip_015_spell_head": "equip_011_sword_head",
+    "equip_015_spell_chest": "equip_011_sword_chest",
+    "equip_015_spell_wrists": "equip_011_sword_wrists",
+    "equip_015_spell_feet": "equip_011_sword_feet",
+    "equip_015_spell_pendant": "equip_011_sword_pendant",
+    "equip_015_body_weapon": "equip_011_sword_weapon",
+    "equip_015_body_head": "equip_011_sword_head",
+    "equip_015_body_chest": "equip_011_sword_chest",
+    "equip_015_body_wrists": "equip_011_sword_wrists",
+    "equip_015_body_feet": "equip_011_sword_feet",
+    "equip_015_body_pendant": "equip_011_sword_pendant",
+    "equip_016_spell_weapon": "equip_016_sword_weapon",
+    "equip_016_spell_head": "equip_016_sword_head",
+    "equip_016_spell_chest": "equip_016_sword_chest",
+    "equip_016_spell_wrists": "equip_016_sword_wrists",
+    "equip_016_spell_feet": "equip_016_sword_feet",
+    "equip_016_spell_pendant": "equip_016_sword_pendant",
+    "equip_016_body_weapon": "equip_016_sword_weapon",
+    "equip_016_body_head": "equip_016_sword_head",
+    "equip_016_body_chest": "equip_016_sword_chest",
+    "equip_016_body_wrists": "equip_016_sword_wrists",
+    "equip_016_body_feet": "equip_016_sword_feet",
+    "equip_016_body_pendant": "equip_016_sword_pendant",
+    "equip_017_sword_weapon": "equip_016_sword_weapon",
+    "equip_017_sword_head": "equip_016_sword_head",
+    "equip_017_sword_chest": "equip_016_sword_chest",
+    "equip_017_sword_wrists": "equip_016_sword_wrists",
+    "equip_017_sword_feet": "equip_016_sword_feet",
+    "equip_017_sword_pendant": "equip_016_sword_pendant",
+    "equip_017_spell_weapon": "equip_016_sword_weapon",
+    "equip_017_spell_head": "equip_016_sword_head",
+    "equip_017_spell_chest": "equip_016_sword_chest",
+    "equip_017_spell_wrists": "equip_016_sword_wrists",
+    "equip_017_spell_feet": "equip_016_sword_feet",
+    "equip_017_spell_pendant": "equip_016_sword_pendant",
+    "equip_017_body_weapon": "equip_016_sword_weapon",
+    "equip_017_body_head": "equip_016_sword_head",
+    "equip_017_body_chest": "equip_016_sword_chest",
+    "equip_017_body_wrists": "equip_016_sword_wrists",
+    "equip_017_body_feet": "equip_016_sword_feet",
+    "equip_017_body_pendant": "equip_016_sword_pendant",
+    "equip_018_sword_weapon": "equip_016_sword_weapon",
+    "equip_018_sword_head": "equip_016_sword_head",
+    "equip_018_sword_chest": "equip_016_sword_chest",
+    "equip_018_sword_wrists": "equip_016_sword_wrists",
+    "equip_018_sword_feet": "equip_016_sword_feet",
+    "equip_018_sword_pendant": "equip_016_sword_pendant",
+    "equip_018_spell_weapon": "equip_016_sword_weapon",
+    "equip_018_spell_head": "equip_016_sword_head",
+    "equip_018_spell_chest": "equip_016_sword_chest",
+    "equip_018_spell_wrists": "equip_016_sword_wrists",
+    "equip_018_spell_feet": "equip_016_sword_feet",
+    "equip_018_spell_pendant": "equip_016_sword_pendant",
+    "equip_018_body_weapon": "equip_016_sword_weapon",
+    "equip_018_body_head": "equip_016_sword_head",
+    "equip_018_body_chest": "equip_016_sword_chest",
+    "equip_018_body_wrists": "equip_016_sword_wrists",
+    "equip_018_body_feet": "equip_016_sword_feet",
+    "equip_018_body_pendant": "equip_016_sword_pendant",
+    "equip_019_sword_weapon": "equip_016_sword_weapon",
+    "equip_019_sword_head": "equip_016_sword_head",
+    "equip_019_sword_chest": "equip_016_sword_chest",
+    "equip_019_sword_wrists": "equip_016_sword_wrists",
+    "equip_019_sword_feet": "equip_016_sword_feet",
+    "equip_019_sword_pendant": "equip_016_sword_pendant",
+    "equip_019_spell_weapon": "equip_016_sword_weapon",
+    "equip_019_spell_head": "equip_016_sword_head",
+    "equip_019_spell_chest": "equip_016_sword_chest",
+    "equip_019_spell_wrists": "equip_016_sword_wrists",
+    "equip_019_spell_feet": "equip_016_sword_feet",
+    "equip_019_spell_pendant": "equip_016_sword_pendant",
+    "equip_019_body_weapon": "equip_016_sword_weapon",
+    "equip_019_body_head": "equip_016_sword_head",
+    "equip_019_body_chest": "equip_016_sword_chest",
+    "equip_019_body_wrists": "equip_016_sword_wrists",
+    "equip_019_body_feet": "equip_016_sword_feet",
+    "equip_019_body_pendant": "equip_016_sword_pendant",
+    "equip_020_sword_weapon": "equip_016_sword_weapon",
+    "equip_020_sword_head": "equip_016_sword_head",
+    "equip_020_sword_chest": "equip_016_sword_chest",
+    "equip_020_sword_wrists": "equip_016_sword_wrists",
+    "equip_020_sword_feet": "equip_016_sword_feet",
+    "equip_020_sword_pendant": "equip_016_sword_pendant",
+    "equip_020_spell_weapon": "equip_016_sword_weapon",
+    "equip_020_spell_head": "equip_016_sword_head",
+    "equip_020_spell_chest": "equip_016_sword_chest",
+    "equip_020_spell_wrists": "equip_016_sword_wrists",
+    "equip_020_spell_feet": "equip_016_sword_feet",
+    "equip_020_spell_pendant": "equip_016_sword_pendant",
+    "equip_020_body_weapon": "equip_016_sword_weapon",
+    "equip_020_body_head": "equip_016_sword_head",
+    "equip_020_body_chest": "equip_016_sword_chest",
+    "equip_020_body_wrists": "equip_016_sword_wrists",
+    "equip_020_body_feet": "equip_016_sword_feet",
+    "equip_020_body_pendant": "equip_016_sword_pendant",
+    "equip_021_spell_weapon": "equip_021_sword_weapon",
+    "equip_021_spell_head": "equip_021_sword_head",
+    "equip_021_spell_chest": "equip_021_sword_chest",
+    "equip_021_spell_wrists": "equip_021_sword_wrists",
+    "equip_021_spell_feet": "equip_021_sword_feet",
+    "equip_021_spell_pendant": "equip_021_sword_pendant",
+    "equip_021_body_weapon": "equip_021_sword_weapon",
+    "equip_021_body_head": "equip_021_sword_head",
+    "equip_021_body_chest": "equip_021_sword_chest",
+    "equip_021_body_wrists": "equip_021_sword_wrists",
+    "equip_021_body_feet": "equip_021_sword_feet",
+    "equip_021_body_pendant": "equip_021_sword_pendant",
+    "equip_022_sword_weapon": "equip_021_sword_weapon",
+    "equip_022_sword_head": "equip_021_sword_head",
+    "equip_022_sword_chest": "equip_021_sword_chest",
+    "equip_022_sword_wrists": "equip_021_sword_wrists",
+    "equip_022_sword_feet": "equip_021_sword_feet",
+    "equip_022_sword_pendant": "equip_021_sword_pendant",
+    "equip_022_spell_weapon": "equip_021_sword_weapon",
+    "equip_022_spell_head": "equip_021_sword_head",
+    "equip_022_spell_chest": "equip_021_sword_chest",
+    "equip_022_spell_wrists": "equip_021_sword_wrists",
+    "equip_022_spell_feet": "equip_021_sword_feet",
+    "equip_022_spell_pendant": "equip_021_sword_pendant",
+    "equip_022_body_weapon": "equip_021_sword_weapon",
+    "equip_022_body_head": "equip_021_sword_head",
+    "equip_022_body_chest": "equip_021_sword_chest",
+    "equip_022_body_wrists": "equip_021_sword_wrists",
+    "equip_022_body_feet": "equip_021_sword_feet",
+    "equip_022_body_pendant": "equip_021_sword_pendant",
+    "equip_023_sword_weapon": "equip_021_sword_weapon",
+    "equip_023_sword_head": "equip_021_sword_head",
+    "equip_023_sword_chest": "equip_021_sword_chest",
+    "equip_023_sword_wrists": "equip_021_sword_wrists",
+    "equip_023_sword_feet": "equip_021_sword_feet",
+    "equip_023_sword_pendant": "equip_021_sword_pendant",
+    "equip_023_spell_weapon": "equip_021_sword_weapon",
+    "equip_023_spell_head": "equip_021_sword_head",
+    "equip_023_spell_chest": "equip_021_sword_chest",
+    "equip_023_spell_wrists": "equip_021_sword_wrists",
+    "equip_023_spell_feet": "equip_021_sword_feet",
+    "equip_023_spell_pendant": "equip_021_sword_pendant",
+    "equip_023_body_weapon": "equip_021_sword_weapon",
+    "equip_023_body_head": "equip_021_sword_head",
+    "equip_023_body_chest": "equip_021_sword_chest",
+    "equip_023_body_wrists": "equip_021_sword_wrists",
+    "equip_023_body_feet": "equip_021_sword_feet",
+    "equip_023_body_pendant": "equip_021_sword_pendant",
+    "equip_024_sword_weapon": "equip_021_sword_weapon",
+    "equip_024_sword_head": "equip_021_sword_head",
+    "equip_024_sword_chest": "equip_021_sword_chest",
+    "equip_024_sword_wrists": "equip_021_sword_wrists",
+    "equip_024_sword_feet": "equip_021_sword_feet",
+    "equip_024_sword_pendant": "equip_021_sword_pendant",
+    "equip_024_spell_weapon": "equip_021_sword_weapon",
+    "equip_024_spell_head": "equip_021_sword_head",
+    "equip_024_spell_chest": "equip_021_sword_chest",
+    "equip_024_spell_wrists": "equip_021_sword_wrists",
+    "equip_024_spell_feet": "equip_021_sword_feet",
+    "equip_024_spell_pendant": "equip_021_sword_pendant",
+    "equip_024_body_weapon": "equip_021_sword_weapon",
+    "equip_024_body_head": "equip_021_sword_head",
+    "equip_024_body_chest": "equip_021_sword_chest",
+    "equip_024_body_wrists": "equip_021_sword_wrists",
+    "equip_024_body_feet": "equip_021_sword_feet",
+    "equip_024_body_pendant": "equip_021_sword_pendant",
+    "equip_025_sword_weapon": "equip_021_sword_weapon",
+    "equip_025_sword_head": "equip_021_sword_head",
+    "equip_025_sword_chest": "equip_021_sword_chest",
+    "equip_025_sword_wrists": "equip_021_sword_wrists",
+    "equip_025_sword_feet": "equip_021_sword_feet",
+    "equip_025_sword_pendant": "equip_021_sword_pendant",
+    "equip_025_spell_weapon": "equip_021_sword_weapon",
+    "equip_025_spell_head": "equip_021_sword_head",
+    "equip_025_spell_chest": "equip_021_sword_chest",
+    "equip_025_spell_wrists": "equip_021_sword_wrists",
+    "equip_025_spell_feet": "equip_021_sword_feet",
+    "equip_025_spell_pendant": "equip_021_sword_pendant",
+    "equip_025_body_weapon": "equip_021_sword_weapon",
+    "equip_025_body_head": "equip_021_sword_head",
+    "equip_025_body_chest": "equip_021_sword_chest",
+    "equip_025_body_wrists": "equip_021_sword_wrists",
+    "equip_025_body_feet": "equip_021_sword_feet",
+    "equip_025_body_pendant": "equip_021_sword_pendant",
+    "equip_026_spell_weapon": "equip_026_sword_weapon",
+    "equip_026_spell_head": "equip_026_sword_head",
+    "equip_026_spell_chest": "equip_026_sword_chest",
+    "equip_026_spell_wrists": "equip_026_sword_wrists",
+    "equip_026_spell_feet": "equip_026_sword_feet",
+    "equip_026_spell_pendant": "equip_026_sword_pendant",
+    "equip_026_body_weapon": "equip_026_sword_weapon",
+    "equip_026_body_head": "equip_026_sword_head",
+    "equip_026_body_chest": "equip_026_sword_chest",
+    "equip_026_body_wrists": "equip_026_sword_wrists",
+    "equip_026_body_feet": "equip_026_sword_feet",
+    "equip_026_body_pendant": "equip_026_sword_pendant",
+    "equip_027_sword_weapon": "equip_026_sword_weapon",
+    "equip_027_sword_head": "equip_026_sword_head",
+    "equip_027_sword_chest": "equip_026_sword_chest",
+    "equip_027_sword_wrists": "equip_026_sword_wrists",
+    "equip_027_sword_feet": "equip_026_sword_feet",
+    "equip_027_sword_pendant": "equip_026_sword_pendant",
+    "equip_027_spell_weapon": "equip_026_sword_weapon",
+    "equip_027_spell_head": "equip_026_sword_head",
+    "equip_027_spell_chest": "equip_026_sword_chest",
+    "equip_027_spell_wrists": "equip_026_sword_wrists",
+    "equip_027_spell_feet": "equip_026_sword_feet",
+    "equip_027_spell_pendant": "equip_026_sword_pendant",
+    "equip_027_body_weapon": "equip_026_sword_weapon",
+    "equip_027_body_head": "equip_026_sword_head",
+    "equip_027_body_chest": "equip_026_sword_chest",
+    "equip_027_body_wrists": "equip_026_sword_wrists",
+    "equip_027_body_feet": "equip_026_sword_feet",
+    "equip_027_body_pendant": "equip_026_sword_pendant",
+    "equip_028_sword_weapon": "equip_026_sword_weapon",
+    "equip_028_sword_head": "equip_026_sword_head",
+    "equip_028_sword_chest": "equip_026_sword_chest",
+    "equip_028_sword_wrists": "equip_026_sword_wrists",
+    "equip_028_sword_feet": "equip_026_sword_feet",
+    "equip_028_sword_pendant": "equip_026_sword_pendant",
+    "equip_028_spell_weapon": "equip_026_sword_weapon",
+    "equip_028_spell_head": "equip_026_sword_head",
+    "equip_028_spell_chest": "equip_026_sword_chest",
+    "equip_028_spell_wrists": "equip_026_sword_wrists",
+    "equip_028_spell_feet": "equip_026_sword_feet",
+    "equip_028_spell_pendant": "equip_026_sword_pendant",
+    "equip_028_body_weapon": "equip_026_sword_weapon",
+    "equip_028_body_head": "equip_026_sword_head",
+    "equip_028_body_chest": "equip_026_sword_chest",
+    "equip_028_body_wrists": "equip_026_sword_wrists",
+    "equip_028_body_feet": "equip_026_sword_feet",
+    "equip_028_body_pendant": "equip_026_sword_pendant",
+    "equip_029_sword_weapon": "equip_026_sword_weapon",
+    "equip_029_sword_head": "equip_026_sword_head",
+    "equip_029_sword_chest": "equip_026_sword_chest",
+    "equip_029_sword_wrists": "equip_026_sword_wrists",
+    "equip_029_sword_feet": "equip_026_sword_feet",
+    "equip_029_sword_pendant": "equip_026_sword_pendant",
+    "equip_029_spell_weapon": "equip_026_sword_weapon",
+    "equip_029_spell_head": "equip_026_sword_head",
+    "equip_029_spell_chest": "equip_026_sword_chest",
+    "equip_029_spell_wrists": "equip_026_sword_wrists",
+    "equip_029_spell_feet": "equip_026_sword_feet",
+    "equip_029_spell_pendant": "equip_026_sword_pendant",
+    "equip_029_body_weapon": "equip_026_sword_weapon",
+    "equip_029_body_head": "equip_026_sword_head",
+    "equip_029_body_chest": "equip_026_sword_chest",
+    "equip_029_body_wrists": "equip_026_sword_wrists",
+    "equip_029_body_feet": "equip_026_sword_feet",
+    "equip_029_body_pendant": "equip_026_sword_pendant",
+    "equip_030_sword_weapon": "equip_026_sword_weapon",
+    "equip_030_sword_head": "equip_026_sword_head",
+    "equip_030_sword_chest": "equip_026_sword_chest",
+    "equip_030_sword_wrists": "equip_026_sword_wrists",
+    "equip_030_sword_feet": "equip_026_sword_feet",
+    "equip_030_sword_pendant": "equip_026_sword_pendant",
+    "equip_030_spell_weapon": "equip_026_sword_weapon",
+    "equip_030_spell_head": "equip_026_sword_head",
+    "equip_030_spell_chest": "equip_026_sword_chest",
+    "equip_030_spell_wrists": "equip_026_sword_wrists",
+    "equip_030_spell_feet": "equip_026_sword_feet",
+    "equip_030_spell_pendant": "equip_026_sword_pendant",
+    "equip_030_body_weapon": "equip_026_sword_weapon",
+    "equip_030_body_head": "equip_026_sword_head",
+    "equip_030_body_chest": "equip_026_sword_chest",
+    "equip_030_body_wrists": "equip_026_sword_wrists",
+    "equip_030_body_feet": "equip_026_sword_feet",
+    "equip_030_body_pendant": "equip_026_sword_pendant",
+    "equip_031_spell_weapon": "equip_031_sword_weapon",
+    "equip_031_spell_head": "equip_031_sword_head",
+    "equip_031_spell_chest": "equip_031_sword_chest",
+    "equip_031_spell_wrists": "equip_031_sword_wrists",
+    "equip_031_spell_feet": "equip_031_sword_feet",
+    "equip_031_spell_pendant": "equip_031_sword_pendant",
+    "equip_031_body_weapon": "equip_031_sword_weapon",
+    "equip_031_body_head": "equip_031_sword_head",
+    "equip_031_body_chest": "equip_031_sword_chest",
+    "equip_031_body_wrists": "equip_031_sword_wrists",
+    "equip_031_body_feet": "equip_031_sword_feet",
+    "equip_031_body_pendant": "equip_031_sword_pendant",
+    "equip_032_sword_weapon": "equip_031_sword_weapon",
+    "equip_032_sword_head": "equip_031_sword_head",
+    "equip_032_sword_chest": "equip_031_sword_chest",
+    "equip_032_sword_wrists": "equip_031_sword_wrists",
+    "equip_032_sword_feet": "equip_031_sword_feet",
+    "equip_032_sword_pendant": "equip_031_sword_pendant",
+    "equip_032_spell_weapon": "equip_031_sword_weapon",
+    "equip_032_spell_head": "equip_031_sword_head",
+    "equip_032_spell_chest": "equip_031_sword_chest",
+    "equip_032_spell_wrists": "equip_031_sword_wrists",
+    "equip_032_spell_feet": "equip_031_sword_feet",
+    "equip_032_spell_pendant": "equip_031_sword_pendant",
+    "equip_032_body_weapon": "equip_031_sword_weapon",
+    "equip_032_body_head": "equip_031_sword_head",
+    "equip_032_body_chest": "equip_031_sword_chest",
+    "equip_032_body_wrists": "equip_031_sword_wrists",
+    "equip_032_body_feet": "equip_031_sword_feet",
+    "equip_032_body_pendant": "equip_031_sword_pendant",
+    "equip_033_sword_weapon": "equip_031_sword_weapon",
+    "equip_033_sword_head": "equip_031_sword_head",
+    "equip_033_sword_chest": "equip_031_sword_chest",
+    "equip_033_sword_wrists": "equip_031_sword_wrists",
+    "equip_033_sword_feet": "equip_031_sword_feet",
+    "equip_033_sword_pendant": "equip_031_sword_pendant",
+    "equip_033_spell_weapon": "equip_031_sword_weapon",
+    "equip_033_spell_head": "equip_031_sword_head",
+    "equip_033_spell_chest": "equip_031_sword_chest",
+    "equip_033_spell_wrists": "equip_031_sword_wrists",
+    "equip_033_spell_feet": "equip_031_sword_feet",
+    "equip_033_spell_pendant": "equip_031_sword_pendant",
+    "equip_033_body_weapon": "equip_031_sword_weapon",
+    "equip_033_body_head": "equip_031_sword_head",
+    "equip_033_body_chest": "equip_031_sword_chest",
+    "equip_033_body_wrists": "equip_031_sword_wrists",
+    "equip_033_body_feet": "equip_031_sword_feet",
+    "equip_033_body_pendant": "equip_031_sword_pendant",
+    "equip_034_sword_weapon": "equip_031_sword_weapon",
+    "equip_034_sword_head": "equip_031_sword_head",
+    "equip_034_sword_chest": "equip_031_sword_chest",
+    "equip_034_sword_wrists": "equip_031_sword_wrists",
+    "equip_034_sword_feet": "equip_031_sword_feet",
+    "equip_034_sword_pendant": "equip_031_sword_pendant",
+    "equip_034_spell_weapon": "equip_031_sword_weapon",
+    "equip_034_spell_head": "equip_031_sword_head",
+    "equip_034_spell_chest": "equip_031_sword_chest",
+    "equip_034_spell_wrists": "equip_031_sword_wrists",
+    "equip_034_spell_feet": "equip_031_sword_feet",
+    "equip_034_spell_pendant": "equip_031_sword_pendant",
+    "equip_034_body_weapon": "equip_031_sword_weapon",
+    "equip_034_body_head": "equip_031_sword_head",
+    "equip_034_body_chest": "equip_031_sword_chest",
+    "equip_034_body_wrists": "equip_031_sword_wrists",
+    "equip_034_body_feet": "equip_031_sword_feet",
+    "equip_034_body_pendant": "equip_031_sword_pendant",
+    "equip_035_sword_weapon": "equip_031_sword_weapon",
+    "equip_035_sword_head": "equip_031_sword_head",
+    "equip_035_sword_chest": "equip_031_sword_chest",
+    "equip_035_sword_wrists": "equip_031_sword_wrists",
+    "equip_035_sword_feet": "equip_031_sword_feet",
+    "equip_035_sword_pendant": "equip_031_sword_pendant",
+    "equip_035_spell_weapon": "equip_031_sword_weapon",
+    "equip_035_spell_head": "equip_031_sword_head",
+    "equip_035_spell_chest": "equip_031_sword_chest",
+    "equip_035_spell_wrists": "equip_031_sword_wrists",
+    "equip_035_spell_feet": "equip_031_sword_feet",
+    "equip_035_spell_pendant": "equip_031_sword_pendant",
+    "equip_035_body_weapon": "equip_031_sword_weapon",
+    "equip_035_body_head": "equip_031_sword_head",
+    "equip_035_body_chest": "equip_031_sword_chest",
+    "equip_035_body_wrists": "equip_031_sword_wrists",
+    "equip_035_body_feet": "equip_031_sword_feet",
+    "equip_035_body_pendant": "equip_031_sword_pendant",
+    "equip_036_spell_weapon": "equip_036_sword_weapon",
+    "equip_036_spell_head": "equip_036_sword_head",
+    "equip_036_spell_chest": "equip_036_sword_chest",
+    "equip_036_spell_wrists": "equip_036_sword_wrists",
+    "equip_036_spell_feet": "equip_036_sword_feet",
+    "equip_036_spell_pendant": "equip_036_sword_pendant",
+    "equip_036_body_weapon": "equip_036_sword_weapon",
+    "equip_036_body_head": "equip_036_sword_head",
+    "equip_036_body_chest": "equip_036_sword_chest",
+    "equip_036_body_wrists": "equip_036_sword_wrists",
+    "equip_036_body_feet": "equip_036_sword_feet",
+    "equip_036_body_pendant": "equip_036_sword_pendant",
+    "equip_037_sword_weapon": "equip_036_sword_weapon",
+    "equip_037_sword_head": "equip_036_sword_head",
+    "equip_037_sword_chest": "equip_036_sword_chest",
+    "equip_037_sword_wrists": "equip_036_sword_wrists",
+    "equip_037_sword_feet": "equip_036_sword_feet",
+    "equip_037_sword_pendant": "equip_036_sword_pendant",
+    "equip_037_spell_weapon": "equip_036_sword_weapon",
+    "equip_037_spell_head": "equip_036_sword_head",
+    "equip_037_spell_chest": "equip_036_sword_chest",
+    "equip_037_spell_wrists": "equip_036_sword_wrists",
+    "equip_037_spell_feet": "equip_036_sword_feet",
+    "equip_037_spell_pendant": "equip_036_sword_pendant",
+    "equip_037_body_weapon": "equip_036_sword_weapon",
+    "equip_037_body_head": "equip_036_sword_head",
+    "equip_037_body_chest": "equip_036_sword_chest",
+    "equip_037_body_wrists": "equip_036_sword_wrists",
+    "equip_037_body_feet": "equip_036_sword_feet",
+    "equip_037_body_pendant": "equip_036_sword_pendant",
+    "equip_038_sword_weapon": "equip_036_sword_weapon",
+    "equip_038_sword_head": "equip_036_sword_head",
+    "equip_038_sword_chest": "equip_036_sword_chest",
+    "equip_038_sword_wrists": "equip_036_sword_wrists",
+    "equip_038_sword_feet": "equip_036_sword_feet",
+    "equip_038_sword_pendant": "equip_036_sword_pendant",
+    "equip_038_spell_weapon": "equip_036_sword_weapon",
+    "equip_038_spell_head": "equip_036_sword_head",
+    "equip_038_spell_chest": "equip_036_sword_chest",
+    "equip_038_spell_wrists": "equip_036_sword_wrists",
+    "equip_038_spell_feet": "equip_036_sword_feet",
+    "equip_038_spell_pendant": "equip_036_sword_pendant",
+    "equip_038_body_weapon": "equip_036_sword_weapon",
+    "equip_038_body_head": "equip_036_sword_head",
+    "equip_038_body_chest": "equip_036_sword_chest",
+    "equip_038_body_wrists": "equip_036_sword_wrists",
+    "equip_038_body_feet": "equip_036_sword_feet",
+    "equip_038_body_pendant": "equip_036_sword_pendant",
+    "equip_039_sword_weapon": "equip_036_sword_weapon",
+    "equip_039_sword_head": "equip_036_sword_head",
+    "equip_039_sword_chest": "equip_036_sword_chest",
+    "equip_039_sword_wrists": "equip_036_sword_wrists",
+    "equip_039_sword_feet": "equip_036_sword_feet",
+    "equip_039_sword_pendant": "equip_036_sword_pendant",
+    "equip_039_spell_weapon": "equip_036_sword_weapon",
+    "equip_039_spell_head": "equip_036_sword_head",
+    "equip_039_spell_chest": "equip_036_sword_chest",
+    "equip_039_spell_wrists": "equip_036_sword_wrists",
+    "equip_039_spell_feet": "equip_036_sword_feet",
+    "equip_039_spell_pendant": "equip_036_sword_pendant",
+    "equip_039_body_weapon": "equip_036_sword_weapon",
+    "equip_039_body_head": "equip_036_sword_head",
+    "equip_039_body_chest": "equip_036_sword_chest",
+    "equip_039_body_wrists": "equip_036_sword_wrists",
+    "equip_039_body_feet": "equip_036_sword_feet",
+    "equip_039_body_pendant": "equip_036_sword_pendant",
+    "equip_040_sword_weapon": "equip_036_sword_weapon",
+    "equip_040_sword_head": "equip_036_sword_head",
+    "equip_040_sword_chest": "equip_036_sword_chest",
+    "equip_040_sword_wrists": "equip_036_sword_wrists",
+    "equip_040_sword_feet": "equip_036_sword_feet",
+    "equip_040_sword_pendant": "equip_036_sword_pendant",
+    "equip_040_spell_weapon": "equip_036_sword_weapon",
+    "equip_040_spell_head": "equip_036_sword_head",
+    "equip_040_spell_chest": "equip_036_sword_chest",
+    "equip_040_spell_wrists": "equip_036_sword_wrists",
+    "equip_040_spell_feet": "equip_036_sword_feet",
+    "equip_040_spell_pendant": "equip_036_sword_pendant",
+    "equip_040_body_weapon": "equip_036_sword_weapon",
+    "equip_040_body_head": "equip_036_sword_head",
+    "equip_040_body_chest": "equip_036_sword_chest",
+    "equip_040_body_wrists": "equip_036_sword_wrists",
+    "equip_040_body_feet": "equip_036_sword_feet",
+    "equip_040_body_pendant": "equip_036_sword_pendant",
+    "equip_041_spell_weapon": "equip_041_sword_weapon",
+    "equip_041_spell_head": "equip_041_sword_head",
+    "equip_041_spell_chest": "equip_041_sword_chest",
+    "equip_041_spell_wrists": "equip_041_sword_wrists",
+    "equip_041_spell_feet": "equip_041_sword_feet",
+    "equip_041_spell_pendant": "equip_041_sword_pendant",
+    "equip_041_body_weapon": "equip_041_sword_weapon",
+    "equip_041_body_head": "equip_041_sword_head",
+    "equip_041_body_chest": "equip_041_sword_chest",
+    "equip_041_body_wrists": "equip_041_sword_wrists",
+    "equip_041_body_feet": "equip_041_sword_feet",
+    "equip_041_body_pendant": "equip_041_sword_pendant",
+    "equip_042_sword_weapon": "equip_041_sword_weapon",
+    "equip_042_sword_head": "equip_041_sword_head",
+    "equip_042_sword_chest": "equip_041_sword_chest",
+    "equip_042_sword_wrists": "equip_041_sword_wrists",
+    "equip_042_sword_feet": "equip_041_sword_feet",
+    "equip_042_sword_pendant": "equip_041_sword_pendant",
+    "equip_042_spell_weapon": "equip_041_sword_weapon",
+    "equip_042_spell_head": "equip_041_sword_head",
+    "equip_042_spell_chest": "equip_041_sword_chest",
+    "equip_042_spell_wrists": "equip_041_sword_wrists",
+    "equip_042_spell_feet": "equip_041_sword_feet",
+    "equip_042_spell_pendant": "equip_041_sword_pendant",
+    "equip_042_body_weapon": "equip_041_sword_weapon",
+    "equip_042_body_head": "equip_041_sword_head",
+    "equip_042_body_chest": "equip_041_sword_chest",
+    "equip_042_body_wrists": "equip_041_sword_wrists",
+    "equip_042_body_feet": "equip_041_sword_feet",
+    "equip_042_body_pendant": "equip_041_sword_pendant",
+    "equip_043_sword_weapon": "equip_041_sword_weapon",
+    "equip_043_sword_head": "equip_041_sword_head",
+    "equip_043_sword_chest": "equip_041_sword_chest",
+    "equip_043_sword_wrists": "equip_041_sword_wrists",
+    "equip_043_sword_feet": "equip_041_sword_feet",
+    "equip_043_sword_pendant": "equip_041_sword_pendant",
+    "equip_043_spell_weapon": "equip_041_sword_weapon",
+    "equip_043_spell_head": "equip_041_sword_head",
+    "equip_043_spell_chest": "equip_041_sword_chest",
+    "equip_043_spell_wrists": "equip_041_sword_wrists",
+    "equip_043_spell_feet": "equip_041_sword_feet",
+    "equip_043_spell_pendant": "equip_041_sword_pendant",
+    "equip_043_body_weapon": "equip_041_sword_weapon",
+    "equip_043_body_head": "equip_041_sword_head",
+    "equip_043_body_chest": "equip_041_sword_chest",
+    "equip_043_body_wrists": "equip_041_sword_wrists",
+    "equip_043_body_feet": "equip_041_sword_feet",
+    "equip_043_body_pendant": "equip_041_sword_pendant",
+    "equip_044_sword_weapon": "equip_041_sword_weapon",
+    "equip_044_sword_head": "equip_041_sword_head",
+    "equip_044_sword_chest": "equip_041_sword_chest",
+    "equip_044_sword_wrists": "equip_041_sword_wrists",
+    "equip_044_sword_feet": "equip_041_sword_feet",
+    "equip_044_sword_pendant": "equip_041_sword_pendant",
+    "equip_044_spell_weapon": "equip_041_sword_weapon",
+    "equip_044_spell_head": "equip_041_sword_head",
+    "equip_044_spell_chest": "equip_041_sword_chest",
+    "equip_044_spell_wrists": "equip_041_sword_wrists",
+    "equip_044_spell_feet": "equip_041_sword_feet",
+    "equip_044_spell_pendant": "equip_041_sword_pendant",
+    "equip_044_body_weapon": "equip_041_sword_weapon",
+    "equip_044_body_head": "equip_041_sword_head",
+    "equip_044_body_chest": "equip_041_sword_chest",
+    "equip_044_body_wrists": "equip_041_sword_wrists",
+    "equip_044_body_feet": "equip_041_sword_feet",
+    "equip_044_body_pendant": "equip_041_sword_pendant",
+    "equip_045_sword_weapon": "equip_041_sword_weapon",
+    "equip_045_sword_head": "equip_041_sword_head",
+    "equip_045_sword_chest": "equip_041_sword_chest",
+    "equip_045_sword_wrists": "equip_041_sword_wrists",
+    "equip_045_sword_feet": "equip_041_sword_feet",
+    "equip_045_sword_pendant": "equip_041_sword_pendant",
+    "equip_045_spell_weapon": "equip_041_sword_weapon",
+    "equip_045_spell_head": "equip_041_sword_head",
+    "equip_045_spell_chest": "equip_041_sword_chest",
+    "equip_045_spell_wrists": "equip_041_sword_wrists",
+    "equip_045_spell_feet": "equip_041_sword_feet",
+    "equip_045_spell_pendant": "equip_041_sword_pendant",
+    "equip_045_body_weapon": "equip_041_sword_weapon",
+    "equip_045_body_head": "equip_041_sword_head",
+    "equip_045_body_chest": "equip_041_sword_chest",
+    "equip_045_body_wrists": "equip_041_sword_wrists",
+    "equip_045_body_feet": "equip_041_sword_feet",
+    "equip_045_body_pendant": "equip_041_sword_pendant"
+  },
+  "legacy_values": {
+    "equip_001_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "38",
+      "white_defense": "0"
+    },
+    "equip_001_spell_head": {
+      "white_hp": "81",
+      "white_attack": "0",
+      "white_defense": "3"
+    },
+    "equip_001_spell_chest": {
+      "white_hp": "216",
+      "white_attack": "0",
+      "white_defense": "7"
+    },
+    "equip_001_spell_wrists": {
+      "white_hp": "27",
+      "white_attack": "14",
+      "white_defense": "2"
+    },
+    "equip_001_spell_feet": {
+      "white_hp": "108",
+      "white_attack": "0",
+      "white_defense": "2"
+    },
+    "equip_001_spell_pendant": {
+      "white_hp": "108",
+      "white_attack": "6",
+      "white_defense": "1"
+    },
+    "equip_001_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "25",
+      "white_defense": "0"
+    },
+    "equip_001_body_head": {
+      "white_hp": "122",
+      "white_attack": "0",
+      "white_defense": "5"
+    },
+    "equip_001_body_chest": {
+      "white_hp": "324",
+      "white_attack": "0",
+      "white_defense": "10"
+    },
+    "equip_001_body_wrists": {
+      "white_hp": "40",
+      "white_attack": "9",
+      "white_defense": "3"
+    },
+    "equip_001_body_feet": {
+      "white_hp": "162",
+      "white_attack": "0",
+      "white_defense": "3"
+    },
+    "equip_001_body_pendant": {
+      "white_hp": "162",
+      "white_attack": "4",
+      "white_defense": "1"
+    },
+    "equip_002_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "50",
+      "white_defense": "0"
+    },
+    "equip_002_sword_head": {
+      "white_hp": "138",
+      "white_attack": "0",
+      "white_defense": "5"
+    },
+    "equip_002_sword_chest": {
+      "white_hp": "369",
+      "white_attack": "0",
+      "white_defense": "12"
+    },
+    "equip_002_sword_wrists": {
+      "white_hp": "46",
+      "white_attack": "19",
+      "white_defense": "4"
+    },
+    "equip_002_sword_feet": {
+      "white_hp": "184",
+      "white_attack": "0",
+      "white_defense": "4"
+    },
+    "equip_002_sword_pendant": {
+      "white_hp": "184",
+      "white_attack": "8",
+      "white_defense": "1"
+    },
+    "equip_002_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "58",
+      "white_defense": "0"
+    },
+    "equip_002_spell_head": {
+      "white_hp": "124",
+      "white_attack": "0",
+      "white_defense": "5"
+    },
+    "equip_002_spell_chest": {
+      "white_hp": "332",
+      "white_attack": "0",
+      "white_defense": "10"
+    },
+    "equip_002_spell_wrists": {
+      "white_hp": "41",
+      "white_attack": "22",
+      "white_defense": "4"
+    },
+    "equip_002_spell_feet": {
+      "white_hp": "166",
+      "white_attack": "0",
+      "white_defense": "3"
+    },
+    "equip_002_spell_pendant": {
+      "white_hp": "166",
+      "white_attack": "9",
+      "white_defense": "1"
+    },
+    "equip_002_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "38",
+      "white_defense": "0"
+    },
+    "equip_002_body_head": {
+      "white_hp": "186",
+      "white_attack": "0",
+      "white_defense": "7"
+    },
+    "equip_002_body_chest": {
+      "white_hp": "497",
+      "white_attack": "0",
+      "white_defense": "15"
+    },
+    "equip_002_body_wrists": {
+      "white_hp": "62",
+      "white_attack": "14",
+      "white_defense": "5"
+    },
+    "equip_002_body_feet": {
+      "white_hp": "249",
+      "white_attack": "0",
+      "white_defense": "5"
+    },
+    "equip_002_body_pendant": {
+      "white_hp": "249",
+      "white_attack": "6",
+      "white_defense": "2"
+    },
+    "equip_003_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "77",
+      "white_defense": "0"
+    },
+    "equip_003_sword_head": {
+      "white_hp": "212",
+      "white_attack": "0",
+      "white_defense": "8"
+    },
+    "equip_003_sword_chest": {
+      "white_hp": "565",
+      "white_attack": "0",
+      "white_defense": "19"
+    },
+    "equip_003_sword_wrists": {
+      "white_hp": "71",
+      "white_attack": "30",
+      "white_defense": "6"
+    },
+    "equip_003_sword_feet": {
+      "white_hp": "283",
+      "white_attack": "0",
+      "white_defense": "6"
+    },
+    "equip_003_sword_pendant": {
+      "white_hp": "283",
+      "white_attack": "12",
+      "white_defense": "2"
+    },
+    "equip_003_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "89",
+      "white_defense": "0"
+    },
+    "equip_003_spell_head": {
+      "white_hp": "191",
+      "white_attack": "0",
+      "white_defense": "7"
+    },
+    "equip_003_spell_chest": {
+      "white_hp": "509",
+      "white_attack": "0",
+      "white_defense": "17"
+    },
+    "equip_003_spell_wrists": {
+      "white_hp": "64",
+      "white_attack": "34",
+      "white_defense": "6"
+    },
+    "equip_003_spell_feet": {
+      "white_hp": "255",
+      "white_attack": "0",
+      "white_defense": "5"
+    },
+    "equip_003_spell_pendant": {
+      "white_hp": "254",
+      "white_attack": "14",
+      "white_defense": "2"
+    },
+    "equip_003_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "58",
+      "white_defense": "0"
+    },
+    "equip_003_body_head": {
+      "white_hp": "286",
+      "white_attack": "0",
+      "white_defense": "10"
+    },
+    "equip_003_body_chest": {
+      "white_hp": "764",
+      "white_attack": "0",
+      "white_defense": "24"
+    },
+    "equip_003_body_wrists": {
+      "white_hp": "95",
+      "white_attack": "22",
+      "white_defense": "8"
+    },
+    "equip_003_body_feet": {
+      "white_hp": "382",
+      "white_attack": "0",
+      "white_defense": "8"
+    },
+    "equip_003_body_pendant": {
+      "white_hp": "382",
+      "white_attack": "9",
+      "white_defense": "3"
+    },
+    "equip_004_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "120",
+      "white_defense": "0"
+    },
+    "equip_004_sword_head": {
+      "white_hp": "326",
+      "white_attack": "0",
+      "white_defense": "13"
+    },
+    "equip_004_sword_chest": {
+      "white_hp": "868",
+      "white_attack": "0",
+      "white_defense": "29"
+    },
+    "equip_004_sword_wrists": {
+      "white_hp": "109",
+      "white_attack": "46",
+      "white_defense": "10"
+    },
+    "equip_004_sword_feet": {
+      "white_hp": "434",
+      "white_attack": "0",
+      "white_defense": "9"
+    },
+    "equip_004_sword_pendant": {
+      "white_hp": "434",
+      "white_attack": "18",
+      "white_defense": "3"
+    },
+    "equip_004_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "138",
+      "white_defense": "0"
+    },
+    "equip_004_spell_head": {
+      "white_hp": "293",
+      "white_attack": "0",
+      "white_defense": "11"
+    },
+    "equip_004_spell_chest": {
+      "white_hp": "781",
+      "white_attack": "0",
+      "white_defense": "26"
+    },
+    "equip_004_spell_wrists": {
+      "white_hp": "98",
+      "white_attack": "53",
+      "white_defense": "9"
+    },
+    "equip_004_spell_feet": {
+      "white_hp": "391",
+      "white_attack": "0",
+      "white_defense": "9"
+    },
+    "equip_004_spell_pendant": {
+      "white_hp": "391",
+      "white_attack": "21",
+      "white_defense": "3"
+    },
+    "equip_004_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "90",
+      "white_defense": "0"
+    },
+    "equip_004_body_head": {
+      "white_hp": "440",
+      "white_attack": "0",
+      "white_defense": "17"
+    },
+    "equip_004_body_chest": {
+      "white_hp": "1172",
+      "white_attack": "0",
+      "white_defense": "37"
+    },
+    "equip_004_body_wrists": {
+      "white_hp": "147",
+      "white_attack": "34",
+      "white_defense": "13"
+    },
+    "equip_004_body_feet": {
+      "white_hp": "586",
+      "white_attack": "0",
+      "white_defense": "12"
+    },
+    "equip_004_body_pendant": {
+      "white_hp": "586",
+      "white_attack": "14",
+      "white_defense": "4"
+    },
+    "equip_005_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "184",
+      "white_defense": "0"
+    },
+    "equip_005_sword_head": {
+      "white_hp": "500",
+      "white_attack": "0",
+      "white_defense": "20"
+    },
+    "equip_005_sword_chest": {
+      "white_hp": "1333",
+      "white_attack": "0",
+      "white_defense": "45"
+    },
+    "equip_005_sword_wrists": {
+      "white_hp": "167",
+      "white_attack": "71",
+      "white_defense": "15"
+    },
+    "equip_005_sword_feet": {
+      "white_hp": "667",
+      "white_attack": "0",
+      "white_defense": "15"
+    },
+    "equip_005_sword_pendant": {
+      "white_hp": "666",
+      "white_attack": "28",
+      "white_defense": "5"
+    },
+    "equip_005_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "211",
+      "white_defense": "0"
+    },
+    "equip_005_spell_head": {
+      "white_hp": "450",
+      "white_attack": "0",
+      "white_defense": "18"
+    },
+    "equip_005_spell_chest": {
+      "white_hp": "1200",
+      "white_attack": "0",
+      "white_defense": "41"
+    },
+    "equip_005_spell_wrists": {
+      "white_hp": "150",
+      "white_attack": "81",
+      "white_defense": "14"
+    },
+    "equip_005_spell_feet": {
+      "white_hp": "600",
+      "white_attack": "0",
+      "white_defense": "13"
+    },
+    "equip_005_spell_pendant": {
+      "white_hp": "600",
+      "white_attack": "33",
+      "white_defense": "4"
+    },
+    "equip_005_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "138",
+      "white_defense": "0"
+    },
+    "equip_005_body_head": {
+      "white_hp": "675",
+      "white_attack": "0",
+      "white_defense": "26"
+    },
+    "equip_005_body_chest": {
+      "white_hp": "1800",
+      "white_attack": "0",
+      "white_defense": "59"
+    },
+    "equip_005_body_wrists": {
+      "white_hp": "225",
+      "white_attack": "53",
+      "white_defense": "20"
+    },
+    "equip_005_body_feet": {
+      "white_hp": "900",
+      "white_attack": "0",
+      "white_defense": "19"
+    },
+    "equip_005_body_pendant": {
+      "white_hp": "900",
+      "white_attack": "21",
+      "white_defense": "6"
+    },
+    "equip_006_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "349",
+      "white_defense": "0"
+    },
+    "equip_006_spell_head": {
+      "white_hp": "810",
+      "white_attack": "0",
+      "white_defense": "30"
+    },
+    "equip_006_spell_chest": {
+      "white_hp": "2160",
+      "white_attack": "0",
+      "white_defense": "68"
+    },
+    "equip_006_spell_wrists": {
+      "white_hp": "270",
+      "white_attack": "134",
+      "white_defense": "23"
+    },
+    "equip_006_spell_feet": {
+      "white_hp": "1080",
+      "white_attack": "0",
+      "white_defense": "22"
+    },
+    "equip_006_spell_pendant": {
+      "white_hp": "1080",
+      "white_attack": "54",
+      "white_defense": "7"
+    },
+    "equip_006_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "228",
+      "white_defense": "0"
+    },
+    "equip_006_body_head": {
+      "white_hp": "1215",
+      "white_attack": "0",
+      "white_defense": "43"
+    },
+    "equip_006_body_chest": {
+      "white_hp": "3240",
+      "white_attack": "0",
+      "white_defense": "98"
+    },
+    "equip_006_body_wrists": {
+      "white_hp": "405",
+      "white_attack": "87",
+      "white_defense": "33"
+    },
+    "equip_006_body_feet": {
+      "white_hp": "1620",
+      "white_attack": "0",
+      "white_defense": "32"
+    },
+    "equip_006_body_pendant": {
+      "white_hp": "1620",
+      "white_attack": "35",
+      "white_defense": "11"
+    },
+    "equip_007_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "469",
+      "white_defense": "0"
+    },
+    "equip_007_sword_head": {
+      "white_hp": "1415",
+      "white_attack": "0",
+      "white_defense": "53"
+    },
+    "equip_007_sword_chest": {
+      "white_hp": "3773",
+      "white_attack": "0",
+      "white_defense": "119"
+    },
+    "equip_007_sword_wrists": {
+      "white_hp": "472",
+      "white_attack": "181",
+      "white_defense": "40"
+    },
+    "equip_007_sword_feet": {
+      "white_hp": "1887",
+      "white_attack": "0",
+      "white_defense": "40"
+    },
+    "equip_007_sword_pendant": {
+      "white_hp": "1887",
+      "white_attack": "72",
+      "white_defense": "13"
+    },
+    "equip_007_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "540",
+      "white_defense": "0"
+    },
+    "equip_007_spell_head": {
+      "white_hp": "1274",
+      "white_attack": "0",
+      "white_defense": "48"
+    },
+    "equip_007_spell_chest": {
+      "white_hp": "3396",
+      "white_attack": "0",
+      "white_defense": "107"
+    },
+    "equip_007_spell_wrists": {
+      "white_hp": "425",
+      "white_attack": "207",
+      "white_defense": "36"
+    },
+    "equip_007_spell_feet": {
+      "white_hp": "1698",
+      "white_attack": "0",
+      "white_defense": "36"
+    },
+    "equip_007_spell_pendant": {
+      "white_hp": "1698",
+      "white_attack": "83",
+      "white_defense": "12"
+    },
+    "equip_007_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "352",
+      "white_defense": "0"
+    },
+    "equip_007_body_head": {
+      "white_hp": "1911",
+      "white_attack": "0",
+      "white_defense": "69"
+    },
+    "equip_007_body_chest": {
+      "white_hp": "5094",
+      "white_attack": "0",
+      "white_defense": "155"
+    },
+    "equip_007_body_wrists": {
+      "white_hp": "637",
+      "white_attack": "136",
+      "white_defense": "52"
+    },
+    "equip_007_body_feet": {
+      "white_hp": "2547",
+      "white_attack": "0",
+      "white_defense": "52"
+    },
+    "equip_007_body_pendant": {
+      "white_hp": "2547",
+      "white_attack": "54",
+      "white_defense": "17"
+    },
+    "equip_008_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "725",
+      "white_defense": "0"
+    },
+    "equip_008_sword_head": {
+      "white_hp": "2225",
+      "white_attack": "0",
+      "white_defense": "85"
+    },
+    "equip_008_sword_chest": {
+      "white_hp": "5933",
+      "white_attack": "0",
+      "white_defense": "190"
+    },
+    "equip_008_sword_wrists": {
+      "white_hp": "742",
+      "white_attack": "279",
+      "white_defense": "63"
+    },
+    "equip_008_sword_feet": {
+      "white_hp": "2966",
+      "white_attack": "0",
+      "white_defense": "63"
+    },
+    "equip_008_sword_pendant": {
+      "white_hp": "2966",
+      "white_attack": "112",
+      "white_defense": "21"
+    },
+    "equip_008_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "834",
+      "white_defense": "0"
+    },
+    "equip_008_spell_head": {
+      "white_hp": "2002",
+      "white_attack": "0",
+      "white_defense": "76"
+    },
+    "equip_008_spell_chest": {
+      "white_hp": "5340",
+      "white_attack": "0",
+      "white_defense": "171"
+    },
+    "equip_008_spell_wrists": {
+      "white_hp": "667",
+      "white_attack": "321",
+      "white_defense": "57"
+    },
+    "equip_008_spell_feet": {
+      "white_hp": "2670",
+      "white_attack": "0",
+      "white_defense": "57"
+    },
+    "equip_008_spell_pendant": {
+      "white_hp": "2670",
+      "white_attack": "128",
+      "white_defense": "19"
+    },
+    "equip_008_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "544",
+      "white_defense": "0"
+    },
+    "equip_008_body_head": {
+      "white_hp": "3003",
+      "white_attack": "0",
+      "white_defense": "110"
+    },
+    "equip_008_body_chest": {
+      "white_hp": "8009",
+      "white_attack": "0",
+      "white_defense": "247"
+    },
+    "equip_008_body_wrists": {
+      "white_hp": "1001",
+      "white_attack": "209",
+      "white_defense": "82"
+    },
+    "equip_008_body_feet": {
+      "white_hp": "4005",
+      "white_attack": "0",
+      "white_defense": "82"
+    },
+    "equip_008_body_pendant": {
+      "white_hp": "4005",
+      "white_attack": "84",
+      "white_defense": "28"
+    },
+    "equip_009_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "1121",
+      "white_defense": "0"
+    },
+    "equip_009_sword_head": {
+      "white_hp": "3498",
+      "white_attack": "0",
+      "white_defense": "134"
+    },
+    "equip_009_sword_chest": {
+      "white_hp": "9329",
+      "white_attack": "0",
+      "white_defense": "302"
+    },
+    "equip_009_sword_wrists": {
+      "white_hp": "1166",
+      "white_attack": "431",
+      "white_defense": "101"
+    },
+    "equip_009_sword_feet": {
+      "white_hp": "4664",
+      "white_attack": "0",
+      "white_defense": "101"
+    },
+    "equip_009_sword_pendant": {
+      "white_hp": "4664",
+      "white_attack": "173",
+      "white_defense": "33"
+    },
+    "equip_009_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "1290",
+      "white_defense": "0"
+    },
+    "equip_009_spell_head": {
+      "white_hp": "3148",
+      "white_attack": "0",
+      "white_defense": "121"
+    },
+    "equip_009_spell_chest": {
+      "white_hp": "8396",
+      "white_attack": "0",
+      "white_defense": "272"
+    },
+    "equip_009_spell_wrists": {
+      "white_hp": "1049",
+      "white_attack": "496",
+      "white_defense": "91"
+    },
+    "equip_009_spell_feet": {
+      "white_hp": "4198",
+      "white_attack": "0",
+      "white_defense": "90"
+    },
+    "equip_009_spell_pendant": {
+      "white_hp": "4198",
+      "white_attack": "198",
+      "white_defense": "30"
+    },
+    "equip_009_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "841",
+      "white_defense": "0"
+    },
+    "equip_009_body_head": {
+      "white_hp": "4722",
+      "white_attack": "0",
+      "white_defense": "174"
+    },
+    "equip_009_body_chest": {
+      "white_hp": "12593",
+      "white_attack": "0",
+      "white_defense": "392"
+    },
+    "equip_009_body_wrists": {
+      "white_hp": "1574",
+      "white_attack": "324",
+      "white_defense": "131"
+    },
+    "equip_009_body_feet": {
+      "white_hp": "6297",
+      "white_attack": "0",
+      "white_defense": "131"
+    },
+    "equip_009_body_pendant": {
+      "white_hp": "6297",
+      "white_attack": "129",
+      "white_defense": "44"
+    },
+    "equip_010_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "1733",
+      "white_defense": "0"
+    },
+    "equip_010_sword_head": {
+      "white_hp": "5500",
+      "white_attack": "0",
+      "white_defense": "214"
+    },
+    "equip_010_sword_chest": {
+      "white_hp": "14667",
+      "white_attack": "0",
+      "white_defense": "480"
+    },
+    "equip_010_sword_wrists": {
+      "white_hp": "1833",
+      "white_attack": "667",
+      "white_defense": "160"
+    },
+    "equip_010_sword_feet": {
+      "white_hp": "7334",
+      "white_attack": "0",
+      "white_defense": "160"
+    },
+    "equip_010_sword_pendant": {
+      "white_hp": "7333",
+      "white_attack": "267",
+      "white_defense": "53"
+    },
+    "equip_010_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "1993",
+      "white_defense": "0"
+    },
+    "equip_010_spell_head": {
+      "white_hp": "4950",
+      "white_attack": "0",
+      "white_defense": "192"
+    },
+    "equip_010_spell_chest": {
+      "white_hp": "13200",
+      "white_attack": "0",
+      "white_defense": "432"
+    },
+    "equip_010_spell_wrists": {
+      "white_hp": "1650",
+      "white_attack": "767",
+      "white_defense": "144"
+    },
+    "equip_010_spell_feet": {
+      "white_hp": "6600",
+      "white_attack": "0",
+      "white_defense": "144"
+    },
+    "equip_010_spell_pendant": {
+      "white_hp": "6600",
+      "white_attack": "307",
+      "white_defense": "48"
+    },
+    "equip_010_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "1300",
+      "white_defense": "0"
+    },
+    "equip_010_body_head": {
+      "white_hp": "7425",
+      "white_attack": "0",
+      "white_defense": "278"
+    },
+    "equip_010_body_chest": {
+      "white_hp": "19800",
+      "white_attack": "0",
+      "white_defense": "624"
+    },
+    "equip_010_body_wrists": {
+      "white_hp": "2475",
+      "white_attack": "500",
+      "white_defense": "208"
+    },
+    "equip_010_body_feet": {
+      "white_hp": "9900",
+      "white_attack": "0",
+      "white_defense": "208"
+    },
+    "equip_010_body_pendant": {
+      "white_hp": "9900",
+      "white_attack": "200",
+      "white_defense": "69"
+    },
+    "equip_011_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "3239",
+      "white_defense": "0"
+    },
+    "equip_011_spell_head": {
+      "white_hp": "9000",
+      "white_attack": "0",
+      "white_defense": "330"
+    },
+    "equip_011_spell_chest": {
+      "white_hp": "24000",
+      "white_attack": "0",
+      "white_defense": "743"
+    },
+    "equip_011_spell_wrists": {
+      "white_hp": "3000",
+      "white_attack": "1246",
+      "white_defense": "248"
+    },
+    "equip_011_spell_feet": {
+      "white_hp": "12000",
+      "white_attack": "0",
+      "white_defense": "247"
+    },
+    "equip_011_spell_pendant": {
+      "white_hp": "12000",
+      "white_attack": "498",
+      "white_defense": "82"
+    },
+    "equip_011_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "2113",
+      "white_defense": "0"
+    },
+    "equip_011_body_head": {
+      "white_hp": "13500",
+      "white_attack": "0",
+      "white_defense": "477"
+    },
+    "equip_011_body_chest": {
+      "white_hp": "36000",
+      "white_attack": "0",
+      "white_defense": "1072"
+    },
+    "equip_011_body_wrists": {
+      "white_hp": "4500",
+      "white_attack": "812",
+      "white_defense": "358"
+    },
+    "equip_011_body_feet": {
+      "white_hp": "18000",
+      "white_attack": "0",
+      "white_defense": "357"
+    },
+    "equip_011_body_pendant": {
+      "white_hp": "18000",
+      "white_attack": "325",
+      "white_defense": "119"
+    },
+    "equip_012_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "4365",
+      "white_defense": "0"
+    },
+    "equip_012_sword_head": {
+      "white_hp": "15651",
+      "white_attack": "0",
+      "white_defense": "570"
+    },
+    "equip_012_sword_chest": {
+      "white_hp": "41735",
+      "white_attack": "0",
+      "white_defense": "1281"
+    },
+    "equip_012_sword_wrists": {
+      "white_hp": "5217",
+      "white_attack": "1679",
+      "white_defense": "427"
+    },
+    "equip_012_sword_feet": {
+      "white_hp": "20868",
+      "white_attack": "0",
+      "white_defense": "427"
+    },
+    "equip_012_sword_pendant": {
+      "white_hp": "20868",
+      "white_attack": "672",
+      "white_defense": "142"
+    },
+    "equip_012_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "5020",
+      "white_defense": "0"
+    },
+    "equip_012_spell_head": {
+      "white_hp": "14086",
+      "white_attack": "0",
+      "white_defense": "513"
+    },
+    "equip_012_spell_chest": {
+      "white_hp": "37562",
+      "white_attack": "0",
+      "white_defense": "1153"
+    },
+    "equip_012_spell_wrists": {
+      "white_hp": "4695",
+      "white_attack": "1931",
+      "white_defense": "384"
+    },
+    "equip_012_spell_feet": {
+      "white_hp": "18781",
+      "white_attack": "0",
+      "white_defense": "384"
+    },
+    "equip_012_spell_pendant": {
+      "white_hp": "18781",
+      "white_attack": "772",
+      "white_defense": "128"
+    },
+    "equip_012_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "3274",
+      "white_defense": "0"
+    },
+    "equip_012_body_head": {
+      "white_hp": "21129",
+      "white_attack": "0",
+      "white_defense": "740"
+    },
+    "equip_012_body_chest": {
+      "white_hp": "56343",
+      "white_attack": "0",
+      "white_defense": "1666"
+    },
+    "equip_012_body_wrists": {
+      "white_hp": "7043",
+      "white_attack": "1259",
+      "white_defense": "555"
+    },
+    "equip_012_body_feet": {
+      "white_hp": "28172",
+      "white_attack": "0",
+      "white_defense": "555"
+    },
+    "equip_012_body_pendant": {
+      "white_hp": "28171",
+      "white_attack": "504",
+      "white_defense": "185"
+    },
+    "equip_013_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "6765",
+      "white_defense": "0"
+    },
+    "equip_013_sword_head": {
+      "white_hp": "24495",
+      "white_attack": "0",
+      "white_defense": "885"
+    },
+    "equip_013_sword_chest": {
+      "white_hp": "65319",
+      "white_attack": "0",
+      "white_defense": "1990"
+    },
+    "equip_013_sword_wrists": {
+      "white_hp": "8165",
+      "white_attack": "2602",
+      "white_defense": "663"
+    },
+    "equip_013_sword_feet": {
+      "white_hp": "32660",
+      "white_attack": "0",
+      "white_defense": "663"
+    },
+    "equip_013_sword_pendant": {
+      "white_hp": "32660",
+      "white_attack": "1041",
+      "white_defense": "221"
+    },
+    "equip_013_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "7780",
+      "white_defense": "0"
+    },
+    "equip_013_spell_head": {
+      "white_hp": "22045",
+      "white_attack": "0",
+      "white_defense": "796"
+    },
+    "equip_013_spell_chest": {
+      "white_hp": "58788",
+      "white_attack": "0",
+      "white_defense": "1791"
+    },
+    "equip_013_spell_wrists": {
+      "white_hp": "7348",
+      "white_attack": "2992",
+      "white_defense": "597"
+    },
+    "equip_013_spell_feet": {
+      "white_hp": "29394",
+      "white_attack": "0",
+      "white_defense": "597"
+    },
+    "equip_013_spell_pendant": {
+      "white_hp": "29394",
+      "white_attack": "1197",
+      "white_defense": "199"
+    },
+    "equip_013_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "5074",
+      "white_defense": "0"
+    },
+    "equip_013_body_head": {
+      "white_hp": "33068",
+      "white_attack": "0",
+      "white_defense": "1150"
+    },
+    "equip_013_body_chest": {
+      "white_hp": "88181",
+      "white_attack": "0",
+      "white_defense": "2587"
+    },
+    "equip_013_body_wrists": {
+      "white_hp": "11023",
+      "white_attack": "1951",
+      "white_defense": "862"
+    },
+    "equip_013_body_feet": {
+      "white_hp": "44091",
+      "white_attack": "0",
+      "white_defense": "862"
+    },
+    "equip_013_body_pendant": {
+      "white_hp": "44091",
+      "white_attack": "781",
+      "white_defense": "288"
+    },
+    "equip_014_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "10485",
+      "white_defense": "0"
+    },
+    "equip_014_sword_head": {
+      "white_hp": "38337",
+      "white_attack": "0",
+      "white_defense": "1374"
+    },
+    "equip_014_sword_chest": {
+      "white_hp": "102231",
+      "white_attack": "0",
+      "white_defense": "3091"
+    },
+    "equip_014_sword_wrists": {
+      "white_hp": "12779",
+      "white_attack": "4033",
+      "white_defense": "1030"
+    },
+    "equip_014_sword_feet": {
+      "white_hp": "51115",
+      "white_attack": "0",
+      "white_defense": "1030"
+    },
+    "equip_014_sword_pendant": {
+      "white_hp": "51115",
+      "white_attack": "1613",
+      "white_defense": "343"
+    },
+    "equip_014_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "12058",
+      "white_defense": "0"
+    },
+    "equip_014_spell_head": {
+      "white_hp": "34503",
+      "white_attack": "0",
+      "white_defense": "1236"
+    },
+    "equip_014_spell_chest": {
+      "white_hp": "92007",
+      "white_attack": "0",
+      "white_defense": "2782"
+    },
+    "equip_014_spell_wrists": {
+      "white_hp": "11501",
+      "white_attack": "4638",
+      "white_defense": "927"
+    },
+    "equip_014_spell_feet": {
+      "white_hp": "46004",
+      "white_attack": "0",
+      "white_defense": "927"
+    },
+    "equip_014_spell_pendant": {
+      "white_hp": "46004",
+      "white_attack": "1855",
+      "white_defense": "309"
+    },
+    "equip_014_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "7864",
+      "white_defense": "0"
+    },
+    "equip_014_body_head": {
+      "white_hp": "51754",
+      "white_attack": "0",
+      "white_defense": "1786"
+    },
+    "equip_014_body_chest": {
+      "white_hp": "138012",
+      "white_attack": "0",
+      "white_defense": "4018"
+    },
+    "equip_014_body_wrists": {
+      "white_hp": "17251",
+      "white_attack": "3024",
+      "white_defense": "1339"
+    },
+    "equip_014_body_feet": {
+      "white_hp": "69006",
+      "white_attack": "0",
+      "white_defense": "1339"
+    },
+    "equip_014_body_pendant": {
+      "white_hp": "69006",
+      "white_attack": "1210",
+      "white_defense": "446"
+    },
+    "equip_015_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "16250",
+      "white_defense": "0"
+    },
+    "equip_015_sword_head": {
+      "white_hp": "60000",
+      "white_attack": "0",
+      "white_defense": "2134"
+    },
+    "equip_015_sword_chest": {
+      "white_hp": "160000",
+      "white_attack": "0",
+      "white_defense": "4800"
+    },
+    "equip_015_sword_wrists": {
+      "white_hp": "20000",
+      "white_attack": "6250",
+      "white_defense": "1600"
+    },
+    "equip_015_sword_feet": {
+      "white_hp": "80000",
+      "white_attack": "0",
+      "white_defense": "1600"
+    },
+    "equip_015_sword_pendant": {
+      "white_hp": "80000",
+      "white_attack": "2500",
+      "white_defense": "533"
+    },
+    "equip_015_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "18688",
+      "white_defense": "0"
+    },
+    "equip_015_spell_head": {
+      "white_hp": "54000",
+      "white_attack": "0",
+      "white_defense": "1920"
+    },
+    "equip_015_spell_chest": {
+      "white_hp": "144000",
+      "white_attack": "0",
+      "white_defense": "4320"
+    },
+    "equip_015_spell_wrists": {
+      "white_hp": "18000",
+      "white_attack": "7187",
+      "white_defense": "1440"
+    },
+    "equip_015_spell_feet": {
+      "white_hp": "72000",
+      "white_attack": "0",
+      "white_defense": "1440"
+    },
+    "equip_015_spell_pendant": {
+      "white_hp": "72000",
+      "white_attack": "2875",
+      "white_defense": "480"
+    },
+    "equip_015_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "12188",
+      "white_defense": "0"
+    },
+    "equip_015_body_head": {
+      "white_hp": "81000",
+      "white_attack": "0",
+      "white_defense": "2774"
+    },
+    "equip_015_body_chest": {
+      "white_hp": "216000",
+      "white_attack": "0",
+      "white_defense": "6240"
+    },
+    "equip_015_body_wrists": {
+      "white_hp": "27000",
+      "white_attack": "4687",
+      "white_defense": "2080"
+    },
+    "equip_015_body_feet": {
+      "white_hp": "108000",
+      "white_attack": "0",
+      "white_defense": "2080"
+    },
+    "equip_015_body_pendant": {
+      "white_hp": "108000",
+      "white_attack": "1875",
+      "white_defense": "693"
+    },
+    "equip_016_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "31146",
+      "white_defense": "0"
+    },
+    "equip_016_spell_head": {
+      "white_hp": "99000",
+      "white_attack": "0",
+      "white_defense": "3300"
+    },
+    "equip_016_spell_chest": {
+      "white_hp": "264000",
+      "white_attack": "0",
+      "white_defense": "7425"
+    },
+    "equip_016_spell_wrists": {
+      "white_hp": "33000",
+      "white_attack": "11979",
+      "white_defense": "2475"
+    },
+    "equip_016_spell_feet": {
+      "white_hp": "132000",
+      "white_attack": "0",
+      "white_defense": "2475"
+    },
+    "equip_016_spell_pendant": {
+      "white_hp": "132000",
+      "white_attack": "4792",
+      "white_defense": "825"
+    },
+    "equip_016_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "20313",
+      "white_defense": "0"
+    },
+    "equip_016_body_head": {
+      "white_hp": "148500",
+      "white_attack": "0",
+      "white_defense": "4766"
+    },
+    "equip_016_body_chest": {
+      "white_hp": "396000",
+      "white_attack": "0",
+      "white_defense": "10725"
+    },
+    "equip_016_body_wrists": {
+      "white_hp": "49500",
+      "white_attack": "7812",
+      "white_defense": "3575"
+    },
+    "equip_016_body_feet": {
+      "white_hp": "198000",
+      "white_attack": "0",
+      "white_defense": "3575"
+    },
+    "equip_016_body_pendant": {
+      "white_hp": "198000",
+      "white_attack": "3125",
+      "white_defense": "1192"
+    },
+    "equip_017_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "41958",
+      "white_defense": "0"
+    },
+    "equip_017_sword_head": {
+      "white_hp": "173129",
+      "white_attack": "0",
+      "white_defense": "5823"
+    },
+    "equip_017_sword_chest": {
+      "white_hp": "461678",
+      "white_attack": "0",
+      "white_defense": "13103"
+    },
+    "equip_017_sword_wrists": {
+      "white_hp": "57710",
+      "white_attack": "16137",
+      "white_defense": "4368"
+    },
+    "equip_017_sword_feet": {
+      "white_hp": "230839",
+      "white_attack": "0",
+      "white_defense": "4368"
+    },
+    "equip_017_sword_pendant": {
+      "white_hp": "230839",
+      "white_attack": "6455",
+      "white_defense": "1456"
+    },
+    "equip_017_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "48252",
+      "white_defense": "0"
+    },
+    "equip_017_spell_head": {
+      "white_hp": "155817",
+      "white_attack": "0",
+      "white_defense": "5241"
+    },
+    "equip_017_spell_chest": {
+      "white_hp": "415510",
+      "white_attack": "0",
+      "white_defense": "11793"
+    },
+    "equip_017_spell_wrists": {
+      "white_hp": "51939",
+      "white_attack": "18558",
+      "white_defense": "3931"
+    },
+    "equip_017_spell_feet": {
+      "white_hp": "207755",
+      "white_attack": "0",
+      "white_defense": "3931"
+    },
+    "equip_017_spell_pendant": {
+      "white_hp": "207755",
+      "white_attack": "7423",
+      "white_defense": "1310"
+    },
+    "equip_017_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "31469",
+      "white_defense": "0"
+    },
+    "equip_017_body_head": {
+      "white_hp": "233724",
+      "white_attack": "0",
+      "white_defense": "7570"
+    },
+    "equip_017_body_chest": {
+      "white_hp": "623265",
+      "white_attack": "0",
+      "white_defense": "17034"
+    },
+    "equip_017_body_wrists": {
+      "white_hp": "77908",
+      "white_attack": "12103",
+      "white_defense": "5678"
+    },
+    "equip_017_body_feet": {
+      "white_hp": "311633",
+      "white_attack": "0",
+      "white_defense": "5678"
+    },
+    "equip_017_body_pendant": {
+      "white_hp": "311633",
+      "white_attack": "4841",
+      "white_defense": "1893"
+    },
+    "equip_018_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "65000",
+      "white_defense": "0"
+    },
+    "equip_018_sword_head": {
+      "white_hp": "272489",
+      "white_attack": "0",
+      "white_defense": "9250"
+    },
+    "equip_018_sword_chest": {
+      "white_hp": "726636",
+      "white_attack": "0",
+      "white_defense": "20812"
+    },
+    "equip_018_sword_wrists": {
+      "white_hp": "90829",
+      "white_attack": "25000",
+      "white_defense": "6937"
+    },
+    "equip_018_sword_feet": {
+      "white_hp": "363318",
+      "white_attack": "0",
+      "white_defense": "6937"
+    },
+    "equip_018_sword_pendant": {
+      "white_hp": "363318",
+      "white_attack": "10000",
+      "white_defense": "2312"
+    },
+    "equip_018_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "74750",
+      "white_defense": "0"
+    },
+    "equip_018_spell_head": {
+      "white_hp": "245240",
+      "white_attack": "0",
+      "white_defense": "8325"
+    },
+    "equip_018_spell_chest": {
+      "white_hp": "653972",
+      "white_attack": "0",
+      "white_defense": "18730"
+    },
+    "equip_018_spell_wrists": {
+      "white_hp": "81747",
+      "white_attack": "28750",
+      "white_defense": "6244"
+    },
+    "equip_018_spell_feet": {
+      "white_hp": "326986",
+      "white_attack": "0",
+      "white_defense": "6243"
+    },
+    "equip_018_spell_pendant": {
+      "white_hp": "326986",
+      "white_attack": "11500",
+      "white_defense": "2081"
+    },
+    "equip_018_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "48750",
+      "white_defense": "0"
+    },
+    "equip_018_body_head": {
+      "white_hp": "367860",
+      "white_attack": "0",
+      "white_defense": "12025"
+    },
+    "equip_018_body_chest": {
+      "white_hp": "980959",
+      "white_attack": "0",
+      "white_defense": "27055"
+    },
+    "equip_018_body_wrists": {
+      "white_hp": "122620",
+      "white_attack": "18750",
+      "white_defense": "9018"
+    },
+    "equip_018_body_feet": {
+      "white_hp": "490479",
+      "white_attack": "0",
+      "white_defense": "9018"
+    },
+    "equip_018_body_pendant": {
+      "white_hp": "490479",
+      "white_attack": "7500",
+      "white_defense": "3006"
+    },
+    "equip_019_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "100697",
+      "white_defense": "0"
+    },
+    "equip_019_sword_head": {
+      "white_hp": "428871",
+      "white_attack": "0",
+      "white_defense": "14691"
+    },
+    "equip_019_sword_chest": {
+      "white_hp": "1143654",
+      "white_attack": "0",
+      "white_defense": "33055"
+    },
+    "equip_019_sword_wrists": {
+      "white_hp": "142957",
+      "white_attack": "38730",
+      "white_defense": "11018"
+    },
+    "equip_019_sword_feet": {
+      "white_hp": "571827",
+      "white_attack": "0",
+      "white_defense": "11018"
+    },
+    "equip_019_sword_pendant": {
+      "white_hp": "571827",
+      "white_attack": "15492",
+      "white_defense": "3673"
+    },
+    "equip_019_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "115802",
+      "white_defense": "0"
+    },
+    "equip_019_spell_head": {
+      "white_hp": "385983",
+      "white_attack": "0",
+      "white_defense": "13222"
+    },
+    "equip_019_spell_chest": {
+      "white_hp": "1029289",
+      "white_attack": "0",
+      "white_defense": "29750"
+    },
+    "equip_019_spell_wrists": {
+      "white_hp": "128661",
+      "white_attack": "44539",
+      "white_defense": "9917"
+    },
+    "equip_019_spell_feet": {
+      "white_hp": "514645",
+      "white_attack": "0",
+      "white_defense": "9916"
+    },
+    "equip_019_spell_pendant": {
+      "white_hp": "514644",
+      "white_attack": "17816",
+      "white_defense": "3305"
+    },
+    "equip_019_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "75523",
+      "white_defense": "0"
+    },
+    "equip_019_body_head": {
+      "white_hp": "578975",
+      "white_attack": "0",
+      "white_defense": "19098"
+    },
+    "equip_019_body_chest": {
+      "white_hp": "1543933",
+      "white_attack": "0",
+      "white_defense": "42971"
+    },
+    "equip_019_body_wrists": {
+      "white_hp": "192992",
+      "white_attack": "29047",
+      "white_defense": "14324"
+    },
+    "equip_019_body_feet": {
+      "white_hp": "771967",
+      "white_attack": "0",
+      "white_defense": "14324"
+    },
+    "equip_019_body_pendant": {
+      "white_hp": "771967",
+      "white_attack": "11619",
+      "white_defense": "4775"
+    },
+    "equip_020_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "156000",
+      "white_defense": "0"
+    },
+    "equip_020_sword_head": {
+      "white_hp": "675000",
+      "white_attack": "0",
+      "white_defense": "23334"
+    },
+    "equip_020_sword_chest": {
+      "white_hp": "1800000",
+      "white_attack": "0",
+      "white_defense": "52500"
+    },
+    "equip_020_sword_wrists": {
+      "white_hp": "225000",
+      "white_attack": "60000",
+      "white_defense": "17500"
+    },
+    "equip_020_sword_feet": {
+      "white_hp": "900000",
+      "white_attack": "0",
+      "white_defense": "17500"
+    },
+    "equip_020_sword_pendant": {
+      "white_hp": "900000",
+      "white_attack": "24000",
+      "white_defense": "5833"
+    },
+    "equip_020_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "179400",
+      "white_defense": "0"
+    },
+    "equip_020_spell_head": {
+      "white_hp": "607500",
+      "white_attack": "0",
+      "white_defense": "21000"
+    },
+    "equip_020_spell_chest": {
+      "white_hp": "1620000",
+      "white_attack": "0",
+      "white_defense": "47250"
+    },
+    "equip_020_spell_wrists": {
+      "white_hp": "202500",
+      "white_attack": "69000",
+      "white_defense": "15750"
+    },
+    "equip_020_spell_feet": {
+      "white_hp": "810000",
+      "white_attack": "0",
+      "white_defense": "15750"
+    },
+    "equip_020_spell_pendant": {
+      "white_hp": "810000",
+      "white_attack": "27600",
+      "white_defense": "5250"
+    },
+    "equip_020_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "117000",
+      "white_defense": "0"
+    },
+    "equip_020_body_head": {
+      "white_hp": "911250",
+      "white_attack": "0",
+      "white_defense": "30334"
+    },
+    "equip_020_body_chest": {
+      "white_hp": "2430000",
+      "white_attack": "0",
+      "white_defense": "68250"
+    },
+    "equip_020_body_wrists": {
+      "white_hp": "303750",
+      "white_attack": "45000",
+      "white_defense": "22750"
+    },
+    "equip_020_body_feet": {
+      "white_hp": "1215000",
+      "white_attack": "0",
+      "white_defense": "22750"
+    },
+    "equip_020_body_pendant": {
+      "white_hp": "1215000",
+      "white_attack": "18000",
+      "white_defense": "7583"
+    },
+    "equip_021_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "299000",
+      "white_defense": "0"
+    },
+    "equip_021_spell_head": {
+      "white_hp": "1080000",
+      "white_attack": "0",
+      "white_defense": "36000"
+    },
+    "equip_021_spell_chest": {
+      "white_hp": "2880000",
+      "white_attack": "0",
+      "white_defense": "81000"
+    },
+    "equip_021_spell_wrists": {
+      "white_hp": "360000",
+      "white_attack": "115000",
+      "white_defense": "27000"
+    },
+    "equip_021_spell_feet": {
+      "white_hp": "1440000",
+      "white_attack": "0",
+      "white_defense": "27000"
+    },
+    "equip_021_spell_pendant": {
+      "white_hp": "1440000",
+      "white_attack": "46000",
+      "white_defense": "9000"
+    },
+    "equip_021_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "195000",
+      "white_defense": "0"
+    },
+    "equip_021_body_head": {
+      "white_hp": "1620000",
+      "white_attack": "0",
+      "white_defense": "52000"
+    },
+    "equip_021_body_chest": {
+      "white_hp": "4320000",
+      "white_attack": "0",
+      "white_defense": "117000"
+    },
+    "equip_021_body_wrists": {
+      "white_hp": "540000",
+      "white_attack": "75000",
+      "white_defense": "39000"
+    },
+    "equip_021_body_feet": {
+      "white_hp": "2160000",
+      "white_attack": "0",
+      "white_defense": "39000"
+    },
+    "equip_021_body_pendant": {
+      "white_hp": "2160000",
+      "white_attack": "30000",
+      "white_defense": "13000"
+    },
+    "equip_022_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "401149",
+      "white_defense": "0"
+    },
+    "equip_022_sword_head": {
+      "white_hp": "1897367",
+      "white_attack": "0",
+      "white_defense": "63455"
+    },
+    "equip_022_sword_chest": {
+      "white_hp": "5059644",
+      "white_attack": "0",
+      "white_defense": "142775"
+    },
+    "equip_022_sword_wrists": {
+      "white_hp": "632456",
+      "white_attack": "154288",
+      "white_defense": "47592"
+    },
+    "equip_022_sword_feet": {
+      "white_hp": "2529822",
+      "white_attack": "0",
+      "white_defense": "47591"
+    },
+    "equip_022_sword_pendant": {
+      "white_hp": "2529822",
+      "white_attack": "61715",
+      "white_defense": "15864"
+    },
+    "equip_022_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "461321",
+      "white_defense": "0"
+    },
+    "equip_022_spell_head": {
+      "white_hp": "1707630",
+      "white_attack": "0",
+      "white_defense": "57110"
+    },
+    "equip_022_spell_chest": {
+      "white_hp": "4553680",
+      "white_attack": "0",
+      "white_defense": "128497"
+    },
+    "equip_022_spell_wrists": {
+      "white_hp": "569210",
+      "white_attack": "177431",
+      "white_defense": "42832"
+    },
+    "equip_022_spell_feet": {
+      "white_hp": "2276840",
+      "white_attack": "0",
+      "white_defense": "42832"
+    },
+    "equip_022_spell_pendant": {
+      "white_hp": "2276840",
+      "white_attack": "70973",
+      "white_defense": "14278"
+    },
+    "equip_022_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "300862",
+      "white_defense": "0"
+    },
+    "equip_022_body_head": {
+      "white_hp": "2561445",
+      "white_attack": "0",
+      "white_defense": "82492"
+    },
+    "equip_022_body_chest": {
+      "white_hp": "6830520",
+      "white_attack": "0",
+      "white_defense": "185607"
+    },
+    "equip_022_body_wrists": {
+      "white_hp": "853815",
+      "white_attack": "115716",
+      "white_defense": "61869"
+    },
+    "equip_022_body_feet": {
+      "white_hp": "3415260",
+      "white_attack": "0",
+      "white_defense": "61869"
+    },
+    "equip_022_body_pendant": {
+      "white_hp": "3415260",
+      "white_attack": "46286",
+      "white_defense": "20623"
+    },
+    "equip_023_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "618924",
+      "white_defense": "0"
+    },
+    "equip_023_sword_head": {
+      "white_hp": "3000000",
+      "white_attack": "0",
+      "white_defense": "100665"
+    },
+    "equip_023_sword_chest": {
+      "white_hp": "8000000",
+      "white_attack": "0",
+      "white_defense": "226495"
+    },
+    "equip_023_sword_wrists": {
+      "white_hp": "1000000",
+      "white_attack": "238047",
+      "white_defense": "75498"
+    },
+    "equip_023_sword_feet": {
+      "white_hp": "4000000",
+      "white_attack": "0",
+      "white_defense": "75498"
+    },
+    "equip_023_sword_pendant": {
+      "white_hp": "4000000",
+      "white_attack": "95219",
+      "white_defense": "25166"
+    },
+    "equip_023_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "711762",
+      "white_defense": "0"
+    },
+    "equip_023_spell_head": {
+      "white_hp": "2700000",
+      "white_attack": "0",
+      "white_defense": "90598"
+    },
+    "equip_023_spell_chest": {
+      "white_hp": "7200000",
+      "white_attack": "0",
+      "white_defense": "203846"
+    },
+    "equip_023_spell_wrists": {
+      "white_hp": "900000",
+      "white_attack": "273755",
+      "white_defense": "67949"
+    },
+    "equip_023_spell_feet": {
+      "white_hp": "3600000",
+      "white_attack": "0",
+      "white_defense": "67948"
+    },
+    "equip_023_spell_pendant": {
+      "white_hp": "3600000",
+      "white_attack": "109502",
+      "white_defense": "22649"
+    },
+    "equip_023_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "464193",
+      "white_defense": "0"
+    },
+    "equip_023_body_head": {
+      "white_hp": "4050000",
+      "white_attack": "0",
+      "white_defense": "130864"
+    },
+    "equip_023_body_chest": {
+      "white_hp": "10800000",
+      "white_attack": "0",
+      "white_defense": "294443"
+    },
+    "equip_023_body_wrists": {
+      "white_hp": "1350000",
+      "white_attack": "178536",
+      "white_defense": "98148"
+    },
+    "equip_023_body_feet": {
+      "white_hp": "5400000",
+      "white_attack": "0",
+      "white_defense": "98148"
+    },
+    "equip_023_body_pendant": {
+      "white_hp": "5400000",
+      "white_attack": "71414",
+      "white_defense": "32716"
+    },
+    "equip_024_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "954925",
+      "white_defense": "0"
+    },
+    "equip_024_sword_head": {
+      "white_hp": "4743417",
+      "white_attack": "0",
+      "white_defense": "159693"
+    },
+    "equip_024_sword_chest": {
+      "white_hp": "12649111",
+      "white_attack": "0",
+      "white_defense": "359308"
+    },
+    "equip_024_sword_wrists": {
+      "white_hp": "1581139",
+      "white_attack": "367279",
+      "white_defense": "119769"
+    },
+    "equip_024_sword_feet": {
+      "white_hp": "6324555",
+      "white_attack": "0",
+      "white_defense": "119769"
+    },
+    "equip_024_sword_pendant": {
+      "white_hp": "6324555",
+      "white_attack": "146911",
+      "white_defense": "39923"
+    },
+    "equip_024_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "1098163",
+      "white_defense": "0"
+    },
+    "equip_024_spell_head": {
+      "white_hp": "4269075",
+      "white_attack": "0",
+      "white_defense": "143723"
+    },
+    "equip_024_spell_chest": {
+      "white_hp": "11384199",
+      "white_attack": "0",
+      "white_defense": "323377"
+    },
+    "equip_024_spell_wrists": {
+      "white_hp": "1423025",
+      "white_attack": "422371",
+      "white_defense": "107793"
+    },
+    "equip_024_spell_feet": {
+      "white_hp": "5692100",
+      "white_attack": "0",
+      "white_defense": "107792"
+    },
+    "equip_024_spell_pendant": {
+      "white_hp": "5692100",
+      "white_attack": "168948",
+      "white_defense": "35931"
+    },
+    "equip_024_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "716193",
+      "white_defense": "0"
+    },
+    "equip_024_body_head": {
+      "white_hp": "6403612",
+      "white_attack": "0",
+      "white_defense": "207600"
+    },
+    "equip_024_body_chest": {
+      "white_hp": "17076300",
+      "white_attack": "0",
+      "white_defense": "467101"
+    },
+    "equip_024_body_wrists": {
+      "white_hp": "2134537",
+      "white_attack": "275459",
+      "white_defense": "155700"
+    },
+    "equip_024_body_feet": {
+      "white_hp": "8538150",
+      "white_attack": "0",
+      "white_defense": "155700"
+    },
+    "equip_024_body_pendant": {
+      "white_hp": "8538150",
+      "white_attack": "110184",
+      "white_defense": "51900"
+    },
+    "equip_025_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "1473333",
+      "white_defense": "0"
+    },
+    "equip_025_sword_head": {
+      "white_hp": "7500000",
+      "white_attack": "0",
+      "white_defense": "253334"
+    },
+    "equip_025_sword_chest": {
+      "white_hp": "20000000",
+      "white_attack": "0",
+      "white_defense": "570000"
+    },
+    "equip_025_sword_wrists": {
+      "white_hp": "2500000",
+      "white_attack": "566667",
+      "white_defense": "190000"
+    },
+    "equip_025_sword_feet": {
+      "white_hp": "10000000",
+      "white_attack": "0",
+      "white_defense": "190000"
+    },
+    "equip_025_sword_pendant": {
+      "white_hp": "10000000",
+      "white_attack": "226667",
+      "white_defense": "63333"
+    },
+    "equip_025_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "1694333",
+      "white_defense": "0"
+    },
+    "equip_025_spell_head": {
+      "white_hp": "6750000",
+      "white_attack": "0",
+      "white_defense": "228000"
+    },
+    "equip_025_spell_chest": {
+      "white_hp": "18000000",
+      "white_attack": "0",
+      "white_defense": "513000"
+    },
+    "equip_025_spell_wrists": {
+      "white_hp": "2250000",
+      "white_attack": "651667",
+      "white_defense": "171000"
+    },
+    "equip_025_spell_feet": {
+      "white_hp": "9000000",
+      "white_attack": "0",
+      "white_defense": "171000"
+    },
+    "equip_025_spell_pendant": {
+      "white_hp": "9000000",
+      "white_attack": "260667",
+      "white_defense": "57000"
+    },
+    "equip_025_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "1105000",
+      "white_defense": "0"
+    },
+    "equip_025_body_head": {
+      "white_hp": "10125000",
+      "white_attack": "0",
+      "white_defense": "329334"
+    },
+    "equip_025_body_chest": {
+      "white_hp": "27000000",
+      "white_attack": "0",
+      "white_defense": "741000"
+    },
+    "equip_025_body_wrists": {
+      "white_hp": "3375000",
+      "white_attack": "425000",
+      "white_defense": "247000"
+    },
+    "equip_025_body_feet": {
+      "white_hp": "13500000",
+      "white_attack": "0",
+      "white_defense": "247000"
+    },
+    "equip_025_body_pendant": {
+      "white_hp": "13500000",
+      "white_attack": "170000",
+      "white_defense": "82333"
+    },
+    "equip_026_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "2865417",
+      "white_defense": "0"
+    },
+    "equip_026_spell_head": {
+      "white_hp": "11700000",
+      "white_attack": "0",
+      "white_defense": "390000"
+    },
+    "equip_026_spell_chest": {
+      "white_hp": "31200000",
+      "white_attack": "0",
+      "white_defense": "877500"
+    },
+    "equip_026_spell_wrists": {
+      "white_hp": "3900000",
+      "white_attack": "1102083",
+      "white_defense": "292500"
+    },
+    "equip_026_spell_feet": {
+      "white_hp": "15600000",
+      "white_attack": "0",
+      "white_defense": "292500"
+    },
+    "equip_026_spell_pendant": {
+      "white_hp": "15600000",
+      "white_attack": "440833",
+      "white_defense": "97500"
+    },
+    "equip_026_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "1868750",
+      "white_defense": "0"
+    },
+    "equip_026_body_head": {
+      "white_hp": "17550000",
+      "white_attack": "0",
+      "white_defense": "563334"
+    },
+    "equip_026_body_chest": {
+      "white_hp": "46800000",
+      "white_attack": "0",
+      "white_defense": "1267500"
+    },
+    "equip_026_body_wrists": {
+      "white_hp": "5850000",
+      "white_attack": "718750",
+      "white_defense": "422500"
+    },
+    "equip_026_body_feet": {
+      "white_hp": "23400000",
+      "white_attack": "0",
+      "white_defense": "422500"
+    },
+    "equip_026_body_pendant": {
+      "white_hp": "23400000",
+      "white_attack": "287500",
+      "white_defense": "140833"
+    },
+    "equip_027_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "3841880",
+      "white_defense": "0"
+    },
+    "equip_027_sword_head": {
+      "white_hp": "20475288",
+      "white_attack": "0",
+      "white_defense": "690886"
+    },
+    "equip_027_sword_chest": {
+      "white_hp": "54600767",
+      "white_attack": "0",
+      "white_defense": "1554493"
+    },
+    "equip_027_sword_wrists": {
+      "white_hp": "6825096",
+      "white_attack": "1477646",
+      "white_defense": "518164"
+    },
+    "equip_027_sword_feet": {
+      "white_hp": "27300383",
+      "white_attack": "0",
+      "white_defense": "518164"
+    },
+    "equip_027_sword_pendant": {
+      "white_hp": "27300383",
+      "white_attack": "591059",
+      "white_defense": "172721"
+    },
+    "equip_027_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "4418163",
+      "white_defense": "0"
+    },
+    "equip_027_spell_head": {
+      "white_hp": "18427759",
+      "white_attack": "0",
+      "white_defense": "621797"
+    },
+    "equip_027_spell_chest": {
+      "white_hp": "49140690",
+      "white_attack": "0",
+      "white_defense": "1399043"
+    },
+    "equip_027_spell_wrists": {
+      "white_hp": "6142586",
+      "white_attack": "1699293",
+      "white_defense": "466348"
+    },
+    "equip_027_spell_feet": {
+      "white_hp": "24570345",
+      "white_attack": "0",
+      "white_defense": "466348"
+    },
+    "equip_027_spell_pendant": {
+      "white_hp": "24570345",
+      "white_attack": "679717",
+      "white_defense": "155449"
+    },
+    "equip_027_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "2881410",
+      "white_defense": "0"
+    },
+    "equip_027_body_head": {
+      "white_hp": "27641638",
+      "white_attack": "0",
+      "white_defense": "898151"
+    },
+    "equip_027_body_chest": {
+      "white_hp": "73711035",
+      "white_attack": "0",
+      "white_defense": "2020840"
+    },
+    "equip_027_body_wrists": {
+      "white_hp": "9213879",
+      "white_attack": "1108235",
+      "white_defense": "673614"
+    },
+    "equip_027_body_feet": {
+      "white_hp": "36855518",
+      "white_attack": "0",
+      "white_defense": "673613"
+    },
+    "equip_027_body_pendant": {
+      "white_hp": "36855518",
+      "white_attack": "443294",
+      "white_defense": "224538"
+    },
+    "equip_028_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "5923763",
+      "white_defense": "0"
+    },
+    "equip_028_sword_head": {
+      "white_hp": "32249031",
+      "white_attack": "0",
+      "white_defense": "1101514"
+    },
+    "equip_028_sword_chest": {
+      "white_hp": "85997416",
+      "white_attack": "0",
+      "white_defense": "2478407"
+    },
+    "equip_028_sword_wrists": {
+      "white_hp": "10749677",
+      "white_attack": "2278371",
+      "white_defense": "826136"
+    },
+    "equip_028_sword_feet": {
+      "white_hp": "42998708",
+      "white_attack": "0",
+      "white_defense": "826136"
+    },
+    "equip_028_sword_pendant": {
+      "white_hp": "42998708",
+      "white_attack": "911348",
+      "white_defense": "275378"
+    },
+    "equip_028_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "6812328",
+      "white_defense": "0"
+    },
+    "equip_028_spell_head": {
+      "white_hp": "29024128",
+      "white_attack": "0",
+      "white_defense": "991363"
+    },
+    "equip_028_spell_chest": {
+      "white_hp": "77397675",
+      "white_attack": "0",
+      "white_defense": "2230566"
+    },
+    "equip_028_spell_wrists": {
+      "white_hp": "9674709",
+      "white_attack": "2620126",
+      "white_defense": "743522"
+    },
+    "equip_028_spell_feet": {
+      "white_hp": "38698837",
+      "white_attack": "0",
+      "white_defense": "743522"
+    },
+    "equip_028_spell_pendant": {
+      "white_hp": "38698837",
+      "white_attack": "1048050",
+      "white_defense": "247841"
+    },
+    "equip_028_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "4442823",
+      "white_defense": "0"
+    },
+    "equip_028_body_head": {
+      "white_hp": "43536192",
+      "white_attack": "0",
+      "white_defense": "1431969"
+    },
+    "equip_028_body_chest": {
+      "white_hp": "116096511",
+      "white_attack": "0",
+      "white_defense": "3221929"
+    },
+    "equip_028_body_wrists": {
+      "white_hp": "14512064",
+      "white_attack": "1708778",
+      "white_defense": "1073976"
+    },
+    "equip_028_body_feet": {
+      "white_hp": "58048256",
+      "white_attack": "0",
+      "white_defense": "1073976"
+    },
+    "equip_028_body_pendant": {
+      "white_hp": "58048256",
+      "white_attack": "683511",
+      "white_defense": "357992"
+    },
+    "equip_029_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "9133802",
+      "white_defense": "0"
+    },
+    "equip_029_sword_head": {
+      "white_hp": "50792937",
+      "white_attack": "0",
+      "white_defense": "1756201"
+    },
+    "equip_029_sword_chest": {
+      "white_hp": "135447833",
+      "white_attack": "0",
+      "white_defense": "3951451"
+    },
+    "equip_029_sword_wrists": {
+      "white_hp": "16930979",
+      "white_attack": "3513001",
+      "white_defense": "1317150"
+    },
+    "equip_029_sword_feet": {
+      "white_hp": "67723917",
+      "white_attack": "0",
+      "white_defense": "1317150"
+    },
+    "equip_029_sword_pendant": {
+      "white_hp": "67723916",
+      "white_attack": "1405200",
+      "white_defense": "439050"
+    },
+    "equip_029_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "10503872",
+      "white_defense": "0"
+    },
+    "equip_029_spell_head": {
+      "white_hp": "45713644",
+      "white_attack": "0",
+      "white_defense": "1580581"
+    },
+    "equip_029_spell_chest": {
+      "white_hp": "121903049",
+      "white_attack": "0",
+      "white_defense": "3556306"
+    },
+    "equip_029_spell_wrists": {
+      "white_hp": "15237881",
+      "white_attack": "4039951",
+      "white_defense": "1185435"
+    },
+    "equip_029_spell_feet": {
+      "white_hp": "60951525",
+      "white_attack": "0",
+      "white_defense": "1185435"
+    },
+    "equip_029_spell_pendant": {
+      "white_hp": "60951525",
+      "white_attack": "1615980",
+      "white_defense": "395145"
+    },
+    "equip_029_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "6850351",
+      "white_defense": "0"
+    },
+    "equip_029_body_head": {
+      "white_hp": "68570466",
+      "white_attack": "0",
+      "white_defense": "2283061"
+    },
+    "equip_029_body_chest": {
+      "white_hp": "182854574",
+      "white_attack": "0",
+      "white_defense": "5136886"
+    },
+    "equip_029_body_wrists": {
+      "white_hp": "22856822",
+      "white_attack": "2634751",
+      "white_defense": "1712296"
+    },
+    "equip_029_body_feet": {
+      "white_hp": "91427287",
+      "white_attack": "0",
+      "white_defense": "1712295"
+    },
+    "equip_029_body_pendant": {
+      "white_hp": "91427287",
+      "white_attack": "1053900",
+      "white_defense": "570765"
+    },
+    "equip_030_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "14083333",
+      "white_defense": "0"
+    },
+    "equip_030_sword_head": {
+      "white_hp": "80000000",
+      "white_attack": "0",
+      "white_defense": "2800000"
+    },
+    "equip_030_sword_chest": {
+      "white_hp": "213333333",
+      "white_attack": "0",
+      "white_defense": "6300000"
+    },
+    "equip_030_sword_wrists": {
+      "white_hp": "26666667",
+      "white_attack": "5416667",
+      "white_defense": "2100000"
+    },
+    "equip_030_sword_feet": {
+      "white_hp": "106666667",
+      "white_attack": "0",
+      "white_defense": "2100000"
+    },
+    "equip_030_sword_pendant": {
+      "white_hp": "106666666",
+      "white_attack": "2166667",
+      "white_defense": "700000"
+    },
+    "equip_030_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "16195833",
+      "white_defense": "0"
+    },
+    "equip_030_spell_head": {
+      "white_hp": "72000000",
+      "white_attack": "0",
+      "white_defense": "2520000"
+    },
+    "equip_030_spell_chest": {
+      "white_hp": "192000000",
+      "white_attack": "0",
+      "white_defense": "5670000"
+    },
+    "equip_030_spell_wrists": {
+      "white_hp": "24000000",
+      "white_attack": "6229167",
+      "white_defense": "1890000"
+    },
+    "equip_030_spell_feet": {
+      "white_hp": "96000000",
+      "white_attack": "0",
+      "white_defense": "1890000"
+    },
+    "equip_030_spell_pendant": {
+      "white_hp": "96000000",
+      "white_attack": "2491667",
+      "white_defense": "630000"
+    },
+    "equip_030_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "10562500",
+      "white_defense": "0"
+    },
+    "equip_030_body_head": {
+      "white_hp": "108000000",
+      "white_attack": "0",
+      "white_defense": "3640000"
+    },
+    "equip_030_body_chest": {
+      "white_hp": "288000000",
+      "white_attack": "0",
+      "white_defense": "8190000"
+    },
+    "equip_030_body_wrists": {
+      "white_hp": "36000000",
+      "white_attack": "4062500",
+      "white_defense": "2730000"
+    },
+    "equip_030_body_feet": {
+      "white_hp": "144000000",
+      "white_attack": "0",
+      "white_defense": "2730000"
+    },
+    "equip_030_body_pendant": {
+      "white_hp": "144000000",
+      "white_attack": "1625000",
+      "white_defense": "910000"
+    },
+    "equip_031_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "27408333",
+      "white_defense": "0"
+    },
+    "equip_031_spell_head": {
+      "white_hp": "126000000",
+      "white_attack": "0",
+      "white_defense": "4200000"
+    },
+    "equip_031_spell_chest": {
+      "white_hp": "336000000",
+      "white_attack": "0",
+      "white_defense": "9450000"
+    },
+    "equip_031_spell_wrists": {
+      "white_hp": "42000000",
+      "white_attack": "10541667",
+      "white_defense": "3150000"
+    },
+    "equip_031_spell_feet": {
+      "white_hp": "168000000",
+      "white_attack": "0",
+      "white_defense": "3150000"
+    },
+    "equip_031_spell_pendant": {
+      "white_hp": "168000000",
+      "white_attack": "4216667",
+      "white_defense": "1050000"
+    },
+    "equip_031_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "17875000",
+      "white_defense": "0"
+    },
+    "equip_031_body_head": {
+      "white_hp": "189000000",
+      "white_attack": "0",
+      "white_defense": "6066666"
+    },
+    "equip_031_body_chest": {
+      "white_hp": "504000000",
+      "white_attack": "0",
+      "white_defense": "13650000"
+    },
+    "equip_031_body_wrists": {
+      "white_hp": "63000000",
+      "white_attack": "6875000",
+      "white_defense": "4550000"
+    },
+    "equip_031_body_feet": {
+      "white_hp": "252000000",
+      "white_attack": "0",
+      "white_defense": "4550000"
+    },
+    "equip_031_body_pendant": {
+      "white_hp": "252000000",
+      "white_attack": "2750000",
+      "white_defense": "1516667"
+    },
+    "equip_032_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "36722695",
+      "white_defense": "0"
+    },
+    "equip_032_sword_head": {
+      "white_hp": "222923911",
+      "white_attack": "0",
+      "white_defense": "7430797"
+    },
+    "equip_032_sword_chest": {
+      "white_hp": "594463763",
+      "white_attack": "0",
+      "white_defense": "16719293"
+    },
+    "equip_032_sword_wrists": {
+      "white_hp": "74307970",
+      "white_attack": "14124113",
+      "white_defense": "5573098"
+    },
+    "equip_032_sword_feet": {
+      "white_hp": "297231882",
+      "white_attack": "0",
+      "white_defense": "5573098"
+    },
+    "equip_032_sword_pendant": {
+      "white_hp": "297231882",
+      "white_attack": "5649645",
+      "white_defense": "1857699"
+    },
+    "equip_032_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "42231099",
+      "white_defense": "0"
+    },
+    "equip_032_spell_head": {
+      "white_hp": "200631520",
+      "white_attack": "0",
+      "white_defense": "6687718"
+    },
+    "equip_032_spell_chest": {
+      "white_hp": "535017387",
+      "white_attack": "0",
+      "white_defense": "15047364"
+    },
+    "equip_032_spell_wrists": {
+      "white_hp": "66877173",
+      "white_attack": "16242730",
+      "white_defense": "5015788"
+    },
+    "equip_032_spell_feet": {
+      "white_hp": "267508694",
+      "white_attack": "0",
+      "white_defense": "5015788"
+    },
+    "equip_032_spell_pendant": {
+      "white_hp": "267508693",
+      "white_attack": "6497092",
+      "white_defense": "1671929"
+    },
+    "equip_032_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "27542021",
+      "white_defense": "0"
+    },
+    "equip_032_body_head": {
+      "white_hp": "300947280",
+      "white_attack": "0",
+      "white_defense": "9660036"
+    },
+    "equip_032_body_chest": {
+      "white_hp": "802526081",
+      "white_attack": "0",
+      "white_defense": "21735082"
+    },
+    "equip_032_body_wrists": {
+      "white_hp": "100315760",
+      "white_attack": "10593085",
+      "white_defense": "7245027"
+    },
+    "equip_032_body_feet": {
+      "white_hp": "401263040",
+      "white_attack": "0",
+      "white_defense": "7245027"
+    },
+    "equip_032_body_pendant": {
+      "white_hp": "401263040",
+      "white_attack": "4237234",
+      "white_defense": "2415009"
+    },
+    "equip_033_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "56582781",
+      "white_defense": "0"
+    },
+    "equip_033_sword_head": {
+      "white_hp": "354964787",
+      "white_attack": "0",
+      "white_defense": "11832159"
+    },
+    "equip_033_sword_chest": {
+      "white_hp": "946572765",
+      "white_attack": "0",
+      "white_defense": "26622359"
+    },
+    "equip_033_sword_wrists": {
+      "white_hp": "118321596",
+      "white_attack": "21762608",
+      "white_defense": "8874120"
+    },
+    "equip_033_sword_feet": {
+      "white_hp": "473286383",
+      "white_attack": "0",
+      "white_defense": "8874120"
+    },
+    "equip_033_sword_pendant": {
+      "white_hp": "473286382",
+      "white_attack": "8705043",
+      "white_defense": "2958040"
+    },
+    "equip_033_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "65070198",
+      "white_defense": "0"
+    },
+    "equip_033_spell_head": {
+      "white_hp": "319468308",
+      "white_attack": "0",
+      "white_defense": "10648943"
+    },
+    "equip_033_spell_chest": {
+      "white_hp": "851915489",
+      "white_attack": "0",
+      "white_defense": "23960123"
+    },
+    "equip_033_spell_wrists": {
+      "white_hp": "106489436",
+      "white_attack": "25026999",
+      "white_defense": "7986708"
+    },
+    "equip_033_spell_feet": {
+      "white_hp": "425957745",
+      "white_attack": "0",
+      "white_defense": "7986708"
+    },
+    "equip_033_spell_pendant": {
+      "white_hp": "425957744",
+      "white_attack": "10010800",
+      "white_defense": "2662236"
+    },
+    "equip_033_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "42437086",
+      "white_defense": "0"
+    },
+    "equip_033_body_head": {
+      "white_hp": "479202462",
+      "white_attack": "0",
+      "white_defense": "15381807"
+    },
+    "equip_033_body_chest": {
+      "white_hp": "1277873233",
+      "white_attack": "0",
+      "white_defense": "34609067"
+    },
+    "equip_033_body_wrists": {
+      "white_hp": "159734154",
+      "white_attack": "16321956",
+      "white_defense": "11536356"
+    },
+    "equip_033_body_feet": {
+      "white_hp": "638936617",
+      "white_attack": "0",
+      "white_defense": "11536355"
+    },
+    "equip_033_body_pendant": {
+      "white_hp": "638936617",
+      "white_attack": "6528782",
+      "white_defense": "3845452"
+    },
+    "equip_034_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "87183448",
+      "white_defense": "0"
+    },
+    "equip_034_sword_head": {
+      "white_hp": "565215276",
+      "white_attack": "0",
+      "white_defense": "18840509"
+    },
+    "equip_034_sword_chest": {
+      "white_hp": "1507240736",
+      "white_attack": "0",
+      "white_defense": "42391146"
+    },
+    "equip_034_sword_wrists": {
+      "white_hp": "188405092",
+      "white_attack": "33532095",
+      "white_defense": "14130382"
+    },
+    "equip_034_sword_feet": {
+      "white_hp": "753620368",
+      "white_attack": "0",
+      "white_defense": "14130382"
+    },
+    "equip_034_sword_pendant": {
+      "white_hp": "753620368",
+      "white_attack": "13412838",
+      "white_defense": "4710127"
+    },
+    "equip_034_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "100260965",
+      "white_defense": "0"
+    },
+    "equip_034_spell_head": {
+      "white_hp": "508693749",
+      "white_attack": "0",
+      "white_defense": "16956458"
+    },
+    "equip_034_spell_chest": {
+      "white_hp": "1356516662",
+      "white_attack": "0",
+      "white_defense": "38152031"
+    },
+    "equip_034_spell_wrists": {
+      "white_hp": "169564583",
+      "white_attack": "38561909",
+      "white_defense": "12717344"
+    },
+    "equip_034_spell_feet": {
+      "white_hp": "678258331",
+      "white_attack": "0",
+      "white_defense": "12717344"
+    },
+    "equip_034_spell_pendant": {
+      "white_hp": "678258331",
+      "white_attack": "15424764",
+      "white_defense": "4239114"
+    },
+    "equip_034_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "65387586",
+      "white_defense": "0"
+    },
+    "equip_034_body_head": {
+      "white_hp": "763040623",
+      "white_attack": "0",
+      "white_defense": "24492662"
+    },
+    "equip_034_body_chest": {
+      "white_hp": "2034774993",
+      "white_attack": "0",
+      "white_defense": "55108490"
+    },
+    "equip_034_body_wrists": {
+      "white_hp": "254346874",
+      "white_attack": "25149071",
+      "white_defense": "18369497"
+    },
+    "equip_034_body_feet": {
+      "white_hp": "1017387497",
+      "white_attack": "0",
+      "white_defense": "18369496"
+    },
+    "equip_034_body_pendant": {
+      "white_hp": "1017387497",
+      "white_attack": "10059629",
+      "white_defense": "6123165"
+    },
+    "equip_035_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "134333333",
+      "white_defense": "0"
+    },
+    "equip_035_sword_head": {
+      "white_hp": "900000000",
+      "white_attack": "0",
+      "white_defense": "30000000"
+    },
+    "equip_035_sword_chest": {
+      "white_hp": "2400000000",
+      "white_attack": "0",
+      "white_defense": "67500000"
+    },
+    "equip_035_sword_wrists": {
+      "white_hp": "300000000",
+      "white_attack": "51666667",
+      "white_defense": "22500000"
+    },
+    "equip_035_sword_feet": {
+      "white_hp": "1200000000",
+      "white_attack": "0",
+      "white_defense": "22500000"
+    },
+    "equip_035_sword_pendant": {
+      "white_hp": "1200000000",
+      "white_attack": "20666667",
+      "white_defense": "7500000"
+    },
+    "equip_035_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "154483333",
+      "white_defense": "0"
+    },
+    "equip_035_spell_head": {
+      "white_hp": "810000000",
+      "white_attack": "0",
+      "white_defense": "27000000"
+    },
+    "equip_035_spell_chest": {
+      "white_hp": "2160000000",
+      "white_attack": "0",
+      "white_defense": "60750000"
+    },
+    "equip_035_spell_wrists": {
+      "white_hp": "270000000",
+      "white_attack": "59416667",
+      "white_defense": "20250000"
+    },
+    "equip_035_spell_feet": {
+      "white_hp": "1080000000",
+      "white_attack": "0",
+      "white_defense": "20250000"
+    },
+    "equip_035_spell_pendant": {
+      "white_hp": "1080000000",
+      "white_attack": "23766667",
+      "white_defense": "6750000"
+    },
+    "equip_035_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "100750000",
+      "white_defense": "0"
+    },
+    "equip_035_body_head": {
+      "white_hp": "1215000000",
+      "white_attack": "0",
+      "white_defense": "39000000"
+    },
+    "equip_035_body_chest": {
+      "white_hp": "3240000000",
+      "white_attack": "0",
+      "white_defense": "87750000"
+    },
+    "equip_035_body_wrists": {
+      "white_hp": "405000000",
+      "white_attack": "38750000",
+      "white_defense": "29250000"
+    },
+    "equip_035_body_feet": {
+      "white_hp": "1620000000",
+      "white_attack": "0",
+      "white_defense": "29250000"
+    },
+    "equip_035_body_pendant": {
+      "white_hp": "1620000000",
+      "white_attack": "15500000",
+      "white_defense": "9750000"
+    },
+    "equip_036_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "261625000",
+      "white_defense": "0"
+    },
+    "equip_036_spell_head": {
+      "white_hp": "1350000000",
+      "white_attack": "0",
+      "white_defense": "45000000"
+    },
+    "equip_036_spell_chest": {
+      "white_hp": "3600000000",
+      "white_attack": "0",
+      "white_defense": "101250000"
+    },
+    "equip_036_spell_wrists": {
+      "white_hp": "450000000",
+      "white_attack": "100625000",
+      "white_defense": "33750000"
+    },
+    "equip_036_spell_feet": {
+      "white_hp": "1800000000",
+      "white_attack": "0",
+      "white_defense": "33750000"
+    },
+    "equip_036_spell_pendant": {
+      "white_hp": "1800000000",
+      "white_attack": "40250000",
+      "white_defense": "11250000"
+    },
+    "equip_036_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "170625000",
+      "white_defense": "0"
+    },
+    "equip_036_body_head": {
+      "white_hp": "2025000000",
+      "white_attack": "0",
+      "white_defense": "65000000"
+    },
+    "equip_036_body_chest": {
+      "white_hp": "5400000000",
+      "white_attack": "0",
+      "white_defense": "146250000"
+    },
+    "equip_036_body_wrists": {
+      "white_hp": "675000000",
+      "white_attack": "65625000",
+      "white_defense": "48750000"
+    },
+    "equip_036_body_feet": {
+      "white_hp": "2700000000",
+      "white_attack": "0",
+      "white_defense": "48750000"
+    },
+    "equip_036_body_pendant": {
+      "white_hp": "2700000000",
+      "white_attack": "26250000",
+      "white_defense": "16250000"
+    },
+    "equip_037_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "351740105",
+      "white_defense": "0"
+    },
+    "equip_037_sword_head": {
+      "white_hp": "2410285257",
+      "white_attack": "0",
+      "white_defense": "80342842"
+    },
+    "equip_037_sword_chest": {
+      "white_hp": "6427427351",
+      "white_attack": "0",
+      "white_defense": "180771394"
+    },
+    "equip_037_sword_wrists": {
+      "white_hp": "803428419",
+      "white_attack": "135284656",
+      "white_defense": "60257131"
+    },
+    "equip_037_sword_feet": {
+      "white_hp": "3213713676",
+      "white_attack": "0",
+      "white_defense": "60257131"
+    },
+    "equip_037_sword_pendant": {
+      "white_hp": "3213713676",
+      "white_attack": "54113862",
+      "white_defense": "20085711"
+    },
+    "equip_037_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "404501120",
+      "white_defense": "0"
+    },
+    "equip_037_spell_head": {
+      "white_hp": "2169256731",
+      "white_attack": "0",
+      "white_defense": "72308558"
+    },
+    "equip_037_spell_chest": {
+      "white_hp": "5784684617",
+      "white_attack": "0",
+      "white_defense": "162694255"
+    },
+    "equip_037_spell_wrists": {
+      "white_hp": "723085577",
+      "white_attack": "155577354",
+      "white_defense": "54231418"
+    },
+    "equip_037_spell_feet": {
+      "white_hp": "2892342308",
+      "white_attack": "0",
+      "white_defense": "54231418"
+    },
+    "equip_037_spell_pendant": {
+      "white_hp": "2892342308",
+      "white_attack": "62230942",
+      "white_defense": "18077139"
+    },
+    "equip_037_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "263805078",
+      "white_defense": "0"
+    },
+    "equip_037_body_head": {
+      "white_hp": "3253885097",
+      "white_attack": "0",
+      "white_defense": "104445694"
+    },
+    "equip_037_body_chest": {
+      "white_hp": "8677026925",
+      "white_attack": "0",
+      "white_defense": "235002812"
+    },
+    "equip_037_body_wrists": {
+      "white_hp": "1084628366",
+      "white_attack": "101463492",
+      "white_defense": "78334271"
+    },
+    "equip_037_body_feet": {
+      "white_hp": "4338513462",
+      "white_attack": "0",
+      "white_defense": "78334271"
+    },
+    "equip_037_body_pendant": {
+      "white_hp": "4338513462",
+      "white_attack": "40585397",
+      "white_defense": "26111424"
+    },
+    "equip_038_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "543829017",
+      "white_defense": "0"
+    },
+    "equip_038_sword_head": {
+      "white_hp": "3872983346",
+      "white_attack": "0",
+      "white_defense": "129099445"
+    },
+    "equip_038_sword_chest": {
+      "white_hp": "10327955590",
+      "white_attack": "0",
+      "white_defense": "290473751"
+    },
+    "equip_038_sword_wrists": {
+      "white_hp": "1290994449",
+      "white_attack": "209165007",
+      "white_defense": "96824584"
+    },
+    "equip_038_sword_feet": {
+      "white_hp": "5163977795",
+      "white_attack": "0",
+      "white_defense": "96824583"
+    },
+    "equip_038_sword_pendant": {
+      "white_hp": "5163977795",
+      "white_attack": "83666003",
+      "white_defense": "32274861"
+    },
+    "equip_038_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "625403370",
+      "white_defense": "0"
+    },
+    "equip_038_spell_head": {
+      "white_hp": "3485685012",
+      "white_attack": "0",
+      "white_defense": "116189501"
+    },
+    "equip_038_spell_chest": {
+      "white_hp": "9295160031",
+      "white_attack": "0",
+      "white_defense": "261426376"
+    },
+    "equip_038_spell_wrists": {
+      "white_hp": "1161895004",
+      "white_attack": "240539758",
+      "white_defense": "87142125"
+    },
+    "equip_038_spell_feet": {
+      "white_hp": "4647580016",
+      "white_attack": "0",
+      "white_defense": "87142125"
+    },
+    "equip_038_spell_pendant": {
+      "white_hp": "4647580015",
+      "white_attack": "96215903",
+      "white_defense": "29047375"
+    },
+    "equip_038_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "407871763",
+      "white_defense": "0"
+    },
+    "equip_038_body_head": {
+      "white_hp": "5228527518",
+      "white_attack": "0",
+      "white_defense": "167829278"
+    },
+    "equip_038_body_chest": {
+      "white_hp": "13942740046",
+      "white_attack": "0",
+      "white_defense": "377615876"
+    },
+    "equip_038_body_wrists": {
+      "white_hp": "1742842506",
+      "white_attack": "156873755",
+      "white_defense": "125871959"
+    },
+    "equip_038_body_feet": {
+      "white_hp": "6971370023",
+      "white_attack": "0",
+      "white_defense": "125871959"
+    },
+    "equip_038_body_pendant": {
+      "white_hp": "6971370023",
+      "white_attack": "62749502",
+      "white_defense": "41957319"
+    },
+    "equip_039_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "840819673",
+      "white_defense": "0"
+    },
+    "equip_039_sword_head": {
+      "white_hp": "6223329773",
+      "white_attack": "0",
+      "white_defense": "207444326"
+    },
+    "equip_039_sword_chest": {
+      "white_hp": "16595546061",
+      "white_attack": "0",
+      "white_defense": "466749733"
+    },
+    "equip_039_sword_wrists": {
+      "white_hp": "2074443258",
+      "white_attack": "323392182",
+      "white_defense": "155583244"
+    },
+    "equip_039_sword_feet": {
+      "white_hp": "8297773031",
+      "white_attack": "0",
+      "white_defense": "155583244"
+    },
+    "equip_039_sword_pendant": {
+      "white_hp": "8297773030",
+      "white_attack": "129356873",
+      "white_defense": "51861082"
+    },
+    "equip_039_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "966942624",
+      "white_defense": "0"
+    },
+    "equip_039_spell_head": {
+      "white_hp": "5600996796",
+      "white_attack": "0",
+      "white_defense": "186699893"
+    },
+    "equip_039_spell_chest": {
+      "white_hp": "14935991455",
+      "white_attack": "0",
+      "white_defense": "420074760"
+    },
+    "equip_039_spell_wrists": {
+      "white_hp": "1866998932",
+      "white_attack": "371901009",
+      "white_defense": "140024920"
+    },
+    "equip_039_spell_feet": {
+      "white_hp": "7467995728",
+      "white_attack": "0",
+      "white_defense": "140024920"
+    },
+    "equip_039_spell_pendant": {
+      "white_hp": "7467995727",
+      "white_attack": "148760404",
+      "white_defense": "46674973"
+    },
+    "equip_039_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "630614755",
+      "white_defense": "0"
+    },
+    "equip_039_body_head": {
+      "white_hp": "8401495194",
+      "white_attack": "0",
+      "white_defense": "269677623"
+    },
+    "equip_039_body_chest": {
+      "white_hp": "22403987183",
+      "white_attack": "0",
+      "white_defense": "606774653"
+    },
+    "equip_039_body_wrists": {
+      "white_hp": "2800498398",
+      "white_attack": "242544136",
+      "white_defense": "202258218"
+    },
+    "equip_039_body_feet": {
+      "white_hp": "11201993591",
+      "white_attack": "0",
+      "white_defense": "202258218"
+    },
+    "equip_039_body_pendant": {
+      "white_hp": "11201993591",
+      "white_attack": "97017655",
+      "white_defense": "67419406"
+    },
+    "equip_040_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "1300000000",
+      "white_defense": "0"
+    },
+    "equip_040_sword_head": {
+      "white_hp": "10000000000",
+      "white_attack": "0",
+      "white_defense": "333333334"
+    },
+    "equip_040_sword_chest": {
+      "white_hp": "26666666667",
+      "white_attack": "0",
+      "white_defense": "750000000"
+    },
+    "equip_040_sword_wrists": {
+      "white_hp": "3333333333",
+      "white_attack": "500000000",
+      "white_defense": "250000000"
+    },
+    "equip_040_sword_feet": {
+      "white_hp": "13333333334",
+      "white_attack": "0",
+      "white_defense": "250000000"
+    },
+    "equip_040_sword_pendant": {
+      "white_hp": "13333333333",
+      "white_attack": "200000000",
+      "white_defense": "83333333"
+    },
+    "equip_040_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "1495000000",
+      "white_defense": "0"
+    },
+    "equip_040_spell_head": {
+      "white_hp": "9000000000",
+      "white_attack": "0",
+      "white_defense": "300000000"
+    },
+    "equip_040_spell_chest": {
+      "white_hp": "24000000000",
+      "white_attack": "0",
+      "white_defense": "675000000"
+    },
+    "equip_040_spell_wrists": {
+      "white_hp": "3000000000",
+      "white_attack": "575000000",
+      "white_defense": "225000000"
+    },
+    "equip_040_spell_feet": {
+      "white_hp": "12000000000",
+      "white_attack": "0",
+      "white_defense": "225000000"
+    },
+    "equip_040_spell_pendant": {
+      "white_hp": "12000000000",
+      "white_attack": "230000000",
+      "white_defense": "75000000"
+    },
+    "equip_040_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "975000000",
+      "white_defense": "0"
+    },
+    "equip_040_body_head": {
+      "white_hp": "13500000000",
+      "white_attack": "0",
+      "white_defense": "433333334"
+    },
+    "equip_040_body_chest": {
+      "white_hp": "36000000000",
+      "white_attack": "0",
+      "white_defense": "975000000"
+    },
+    "equip_040_body_wrists": {
+      "white_hp": "4500000000",
+      "white_attack": "375000000",
+      "white_defense": "325000000"
+    },
+    "equip_040_body_feet": {
+      "white_hp": "18000000000",
+      "white_attack": "0",
+      "white_defense": "325000000"
+    },
+    "equip_040_body_pendant": {
+      "white_hp": "18000000000",
+      "white_attack": "150000000",
+      "white_defense": "108333333"
+    },
+    "equip_041_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "2491666667",
+      "white_defense": "0"
+    },
+    "equip_041_spell_head": {
+      "white_hp": "15750000000",
+      "white_attack": "0",
+      "white_defense": "510000000"
+    },
+    "equip_041_spell_chest": {
+      "white_hp": "42000000000",
+      "white_attack": "0",
+      "white_defense": "1147500000"
+    },
+    "equip_041_spell_wrists": {
+      "white_hp": "5250000000",
+      "white_attack": "958333333",
+      "white_defense": "382500000"
+    },
+    "equip_041_spell_feet": {
+      "white_hp": "21000000000",
+      "white_attack": "0",
+      "white_defense": "382500000"
+    },
+    "equip_041_spell_pendant": {
+      "white_hp": "21000000000",
+      "white_attack": "383333333",
+      "white_defense": "127500000"
+    },
+    "equip_041_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "1625000000",
+      "white_defense": "0"
+    },
+    "equip_041_body_head": {
+      "white_hp": "23625000000",
+      "white_attack": "0",
+      "white_defense": "736666666"
+    },
+    "equip_041_body_chest": {
+      "white_hp": "63000000000",
+      "white_attack": "0",
+      "white_defense": "1657500000"
+    },
+    "equip_041_body_wrists": {
+      "white_hp": "7875000000",
+      "white_attack": "625000000",
+      "white_defense": "552500000"
+    },
+    "equip_041_body_feet": {
+      "white_hp": "31500000000",
+      "white_attack": "0",
+      "white_defense": "552500000"
+    },
+    "equip_041_body_pendant": {
+      "white_hp": "31500000000",
+      "white_attack": "250000000",
+      "white_defense": "184166667"
+    },
+    "equip_042_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "3459556606",
+      "white_defense": "0"
+    },
+    "equip_042_sword_head": {
+      "white_hp": "28609221474",
+      "white_attack": "0",
+      "white_defense": "923657046"
+    },
+    "equip_042_sword_chest": {
+      "white_hp": "76291257265",
+      "white_attack": "0",
+      "white_defense": "2078228355"
+    },
+    "equip_042_sword_wrists": {
+      "white_hp": "9536407158",
+      "white_attack": "1330598695",
+      "white_defense": "692742785"
+    },
+    "equip_042_sword_feet": {
+      "white_hp": "38145628632",
+      "white_attack": "0",
+      "white_defense": "692742785"
+    },
+    "equip_042_sword_pendant": {
+      "white_hp": "38145628632",
+      "white_attack": "532239478",
+      "white_defense": "230914262"
+    },
+    "equip_042_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "3978490097",
+      "white_defense": "0"
+    },
+    "equip_042_spell_head": {
+      "white_hp": "25748299327",
+      "white_attack": "0",
+      "white_defense": "831291342"
+    },
+    "equip_042_spell_chest": {
+      "white_hp": "68662131538",
+      "white_attack": "0",
+      "white_defense": "1870405520"
+    },
+    "equip_042_spell_wrists": {
+      "white_hp": "8582766442",
+      "white_attack": "1530188499",
+      "white_defense": "623468507"
+    },
+    "equip_042_spell_feet": {
+      "white_hp": "34331065769",
+      "white_attack": "0",
+      "white_defense": "623468506"
+    },
+    "equip_042_spell_pendant": {
+      "white_hp": "34331065769",
+      "white_attack": "612075400",
+      "white_defense": "207822835"
+    },
+    "equip_042_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "2594667455",
+      "white_defense": "0"
+    },
+    "equip_042_body_head": {
+      "white_hp": "38622448990",
+      "white_attack": "0",
+      "white_defense": "1200754161"
+    },
+    "equip_042_body_chest": {
+      "white_hp": "102993197307",
+      "white_attack": "0",
+      "white_defense": "2701696861"
+    },
+    "equip_042_body_wrists": {
+      "white_hp": "12874149663",
+      "white_attack": "997949021",
+      "white_defense": "900565621"
+    },
+    "equip_042_body_feet": {
+      "white_hp": "51496598654",
+      "white_attack": "0",
+      "white_defense": "900565620"
+    },
+    "equip_042_body_pendant": {
+      "white_hp": "51496598653",
+      "white_attack": "399179608",
+      "white_defense": "300188540"
+    },
+    "equip_043_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "5523937806",
+      "white_defense": "0"
+    },
+    "equip_043_sword_head": {
+      "white_hp": "46770717335",
+      "white_attack": "0",
+      "white_defense": "1505545306"
+    },
+    "equip_043_sword_chest": {
+      "white_hp": "124721912892",
+      "white_attack": "0",
+      "white_defense": "3387476937"
+    },
+    "equip_043_sword_wrists": {
+      "white_hp": "15590239112",
+      "white_attack": "2124591464",
+      "white_defense": "1129158979"
+    },
+    "equip_043_sword_feet": {
+      "white_hp": "62360956446",
+      "white_attack": "0",
+      "white_defense": "1129158979"
+    },
+    "equip_043_sword_pendant": {
+      "white_hp": "62360956446",
+      "white_attack": "849836586",
+      "white_defense": "376386326"
+    },
+    "equip_043_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "6352528477",
+      "white_defense": "0"
+    },
+    "equip_043_spell_head": {
+      "white_hp": "42093645601",
+      "white_attack": "0",
+      "white_defense": "1354990775"
+    },
+    "equip_043_spell_chest": {
+      "white_hp": "112249721603",
+      "white_attack": "0",
+      "white_defense": "3048729243"
+    },
+    "equip_043_spell_wrists": {
+      "white_hp": "14031215200",
+      "white_attack": "2443280184",
+      "white_defense": "1016243081"
+    },
+    "equip_043_spell_feet": {
+      "white_hp": "56124860802",
+      "white_attack": "0",
+      "white_defense": "1016243081"
+    },
+    "equip_043_spell_pendant": {
+      "white_hp": "56124860802",
+      "white_attack": "977312073",
+      "white_defense": "338747694"
+    },
+    "equip_043_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "4142953355",
+      "white_defense": "0"
+    },
+    "equip_043_body_head": {
+      "white_hp": "63140468402",
+      "white_attack": "0",
+      "white_defense": "1957208897"
+    },
+    "equip_043_body_chest": {
+      "white_hp": "168374582405",
+      "white_attack": "0",
+      "white_defense": "4403720018"
+    },
+    "equip_043_body_wrists": {
+      "white_hp": "21046822801",
+      "white_attack": "1593443598",
+      "white_defense": "1467906673"
+    },
+    "equip_043_body_feet": {
+      "white_hp": "84187291202",
+      "white_attack": "0",
+      "white_defense": "1467906673"
+    },
+    "equip_043_body_pendant": {
+      "white_hp": "84187291202",
+      "white_attack": "637377439",
+      "white_defense": "489302224"
+    },
+    "equip_044_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "8820173322",
+      "white_defense": "0"
+    },
+    "equip_044_sword_head": {
+      "white_hp": "76461360613",
+      "white_attack": "0",
+      "white_defense": "2454013289"
+    },
+    "equip_044_sword_chest": {
+      "white_hp": "203896961636",
+      "white_attack": "0",
+      "white_defense": "5521529900"
+    },
+    "equip_044_sword_wrists": {
+      "white_hp": "25487120204",
+      "white_attack": "3392374355",
+      "white_defense": "1840509967"
+    },
+    "equip_044_sword_feet": {
+      "white_hp": "101948480818",
+      "white_attack": "0",
+      "white_defense": "1840509966"
+    },
+    "equip_044_sword_pendant": {
+      "white_hp": "101948480818",
+      "white_attack": "1356949742",
+      "white_defense": "613503322"
+    },
+    "equip_044_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "10143199321",
+      "white_defense": "0"
+    },
+    "equip_044_spell_head": {
+      "white_hp": "68815224552",
+      "white_attack": "0",
+      "white_defense": "2208611960"
+    },
+    "equip_044_spell_chest": {
+      "white_hp": "183507265472",
+      "white_attack": "0",
+      "white_defense": "4969376910"
+    },
+    "equip_044_spell_wrists": {
+      "white_hp": "22938408184",
+      "white_attack": "3901230508",
+      "white_defense": "1656458970"
+    },
+    "equip_044_spell_feet": {
+      "white_hp": "91753632736",
+      "white_attack": "0",
+      "white_defense": "1656458970"
+    },
+    "equip_044_spell_pendant": {
+      "white_hp": "91753632736",
+      "white_attack": "1560492203",
+      "white_defense": "552152990"
+    },
+    "equip_044_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "6615129992",
+      "white_defense": "0"
+    },
+    "equip_044_body_head": {
+      "white_hp": "103222836828",
+      "white_attack": "0",
+      "white_defense": "3190217275"
+    },
+    "equip_044_body_chest": {
+      "white_hp": "275260898208",
+      "white_attack": "0",
+      "white_defense": "7177988870"
+    },
+    "equip_044_body_wrists": {
+      "white_hp": "34407612276",
+      "white_attack": "2544280766",
+      "white_defense": "2392662957"
+    },
+    "equip_044_body_feet": {
+      "white_hp": "137630449104",
+      "white_attack": "0",
+      "white_defense": "2392662956"
+    },
+    "equip_044_body_pendant": {
+      "white_hp": "137630449104",
+      "white_attack": "1017712306",
+      "white_defense": "797554319"
+    },
+    "equip_045_sword_weapon": {
+      "white_hp": "0",
+      "white_attack": "14083333333",
+      "white_defense": "0"
+    },
+    "equip_045_sword_head": {
+      "white_hp": "125000000000",
+      "white_attack": "0",
+      "white_defense": "4000000000"
+    },
+    "equip_045_sword_chest": {
+      "white_hp": "333333333333",
+      "white_attack": "0",
+      "white_defense": "9000000000"
+    },
+    "equip_045_sword_wrists": {
+      "white_hp": "41666666667",
+      "white_attack": "5416666667",
+      "white_defense": "3000000000"
+    },
+    "equip_045_sword_feet": {
+      "white_hp": "166666666667",
+      "white_attack": "0",
+      "white_defense": "3000000000"
+    },
+    "equip_045_sword_pendant": {
+      "white_hp": "166666666666",
+      "white_attack": "2166666667",
+      "white_defense": "1000000000"
+    },
+    "equip_045_spell_weapon": {
+      "white_hp": "0",
+      "white_attack": "16195833333",
+      "white_defense": "0"
+    },
+    "equip_045_spell_head": {
+      "white_hp": "112500000000",
+      "white_attack": "0",
+      "white_defense": "3600000000"
+    },
+    "equip_045_spell_chest": {
+      "white_hp": "300000000000",
+      "white_attack": "0",
+      "white_defense": "8100000000"
+    },
+    "equip_045_spell_wrists": {
+      "white_hp": "37500000000",
+      "white_attack": "6229166667",
+      "white_defense": "2700000000"
+    },
+    "equip_045_spell_feet": {
+      "white_hp": "150000000000",
+      "white_attack": "0",
+      "white_defense": "2700000000"
+    },
+    "equip_045_spell_pendant": {
+      "white_hp": "150000000000",
+      "white_attack": "2491666667",
+      "white_defense": "900000000"
+    },
+    "equip_045_body_weapon": {
+      "white_hp": "0",
+      "white_attack": "10562500000",
+      "white_defense": "0"
+    },
+    "equip_045_body_head": {
+      "white_hp": "168750000000",
+      "white_attack": "0",
+      "white_defense": "5200000000"
+    },
+    "equip_045_body_chest": {
+      "white_hp": "450000000000",
+      "white_attack": "0",
+      "white_defense": "11700000000"
+    },
+    "equip_045_body_wrists": {
+      "white_hp": "56250000000",
+      "white_attack": "4062500000",
+      "white_defense": "3900000000"
+    },
+    "equip_045_body_feet": {
+      "white_hp": "225000000000",
+      "white_attack": "0",
+      "white_defense": "3900000000"
+    },
+    "equip_045_body_pendant": {
+      "white_hp": "225000000000",
+      "white_attack": "1625000000",
+      "white_defense": "1300000000"
+    }
+  }
+}

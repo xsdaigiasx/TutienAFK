@@ -1,0 +1,2387 @@
+{
+  "monster_001_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_001_1.webp",
+    "name": "Dã Trư",
+    "pixel_art": true,
+    "width": 323,
+    "height": 323,
+    "padding": 21,
+    "source_sheet": "01_Luyen_Khi.png",
+    "source_bounds": [
+      36,
+      55,
+      317,
+      322
+    ]
+  },
+  "monster_001_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_001_2.webp",
+    "name": "Thảo Mãng",
+    "pixel_art": true,
+    "width": 323,
+    "height": 323,
+    "padding": 21,
+    "source_sheet": "01_Luyen_Khi.png",
+    "source_bounds": [
+      375,
+      38,
+      622,
+      319
+    ]
+  },
+  "monster_001_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_001_3.webp",
+    "name": "Sơn Tặc",
+    "pixel_art": true,
+    "width": 338,
+    "height": 338,
+    "padding": 22,
+    "source_sheet": "01_Luyen_Khi.png",
+    "source_bounds": [
+      643,
+      28,
+      937,
+      321
+    ]
+  },
+  "monster_002_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_002_1.webp",
+    "name": "Thanh Lang",
+    "pixel_art": true,
+    "width": 326,
+    "height": 326,
+    "padding": 21,
+    "source_sheet": "01_Luyen_Khi.png",
+    "source_bounds": [
+      33,
+      358,
+      317,
+      637
+    ]
+  },
+  "monster_002_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_002_2.webp",
+    "name": "Hắc Hùng",
+    "pixel_art": true,
+    "width": 341,
+    "height": 341,
+    "padding": 22,
+    "source_sheet": "01_Luyen_Khi.png",
+    "source_bounds": [
+      340,
+      346,
+      637,
+      640
+    ]
+  },
+  "monster_002_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_002_3.webp",
+    "name": "Đạo Phỉ",
+    "pixel_art": true,
+    "width": 344,
+    "height": 344,
+    "padding": 22,
+    "source_sheet": "01_Luyen_Khi.png",
+    "source_bounds": [
+      667,
+      341,
+      952,
+      641
+    ]
+  },
+  "monster_003_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_003_1.webp",
+    "name": "Phản Đồ",
+    "pixel_art": true,
+    "width": 369,
+    "height": 369,
+    "padding": 24,
+    "source_sheet": "01_Luyen_Khi.png",
+    "source_bounds": [
+      15,
+      646,
+      330,
+      967
+    ]
+  },
+  "monster_003_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_003_2.webp",
+    "name": "Thiết Thi",
+    "pixel_art": true,
+    "width": 358,
+    "height": 358,
+    "padding": 23,
+    "source_sheet": "01_Luyen_Khi.png",
+    "source_bounds": [
+      364,
+      647,
+      610,
+      959
+    ]
+  },
+  "monster_003_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_003_3.webp",
+    "name": "Độc Chu",
+    "pixel_art": true,
+    "width": 355,
+    "height": 355,
+    "padding": 23,
+    "source_sheet": "01_Luyen_Khi.png",
+    "source_bounds": [
+      646,
+      672,
+      955,
+      956
+    ]
+  },
+  "monster_004_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_004_1.webp",
+    "name": "Sơn Tinh",
+    "pixel_art": true,
+    "width": 355,
+    "height": 355,
+    "padding": 23,
+    "source_sheet": "01_Luyen_Khi.png",
+    "source_bounds": [
+      18,
+      976,
+      327,
+      1267
+    ]
+  },
+  "monster_004_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_004_2.webp",
+    "name": "Ác Điểu",
+    "pixel_art": true,
+    "width": 341,
+    "height": 341,
+    "padding": 22,
+    "source_sheet": "01_Luyen_Khi.png",
+    "source_bounds": [
+      339,
+      957,
+      635,
+      1254
+    ]
+  },
+  "monster_004_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_004_3.webp",
+    "name": "Cuồng Đồ",
+    "pixel_art": true,
+    "width": 353,
+    "height": 353,
+    "padding": 23,
+    "source_sheet": "01_Luyen_Khi.png",
+    "source_bounds": [
+      644,
+      973,
+      951,
+      1277
+    ]
+  },
+  "monster_005_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_005_1.webp",
+    "name": "Tán Tu Ác Bá",
+    "pixel_art": true,
+    "width": 383,
+    "height": 383,
+    "padding": 25,
+    "source_sheet": "01_Luyen_Khi.png",
+    "source_bounds": [
+      28,
+      1261,
+      323,
+      1594
+    ]
+  },
+  "monster_005_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_005_2.webp",
+    "name": "Yêu Hồ",
+    "pixel_art": true,
+    "width": 335,
+    "height": 335,
+    "padding": 22,
+    "source_sheet": "01_Luyen_Khi.png",
+    "source_bounds": [
+      346,
+      1285,
+      637,
+      1572
+    ]
+  },
+  "monster_005_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_005_3.webp",
+    "name": "Huyết Bức",
+    "pixel_art": true,
+    "width": 355,
+    "height": 355,
+    "padding": 23,
+    "source_sheet": "01_Luyen_Khi.png",
+    "source_bounds": [
+      644,
+      1293,
+      953,
+      1581
+    ]
+  },
+  "monster_006_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_006_1.webp",
+    "name": "Hộ Sơn Thú",
+    "pixel_art": true,
+    "width": 366,
+    "height": 366,
+    "padding": 24,
+    "source_sheet": "02_Truc_Co.png",
+    "source_bounds": [
+      14,
+      31,
+      332,
+      313
+    ]
+  },
+  "monster_006_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_006_2.webp",
+    "name": "Mộc Khôi Lỗi",
+    "pixel_art": true,
+    "width": 343,
+    "height": 343,
+    "padding": 22,
+    "source_sheet": "02_Truc_Co.png",
+    "source_bounds": [
+      366,
+      14,
+      616,
+      313
+    ]
+  },
+  "monster_006_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_006_3.webp",
+    "name": "Kiếm Tu",
+    "pixel_art": true,
+    "width": 363,
+    "height": 363,
+    "padding": 24,
+    "source_sheet": "02_Truc_Co.png",
+    "source_bounds": [
+      642,
+      12,
+      957,
+      316
+    ]
+  },
+  "monster_007_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_007_1.webp",
+    "name": "Huyết Nha",
+    "pixel_art": true,
+    "width": 352,
+    "height": 352,
+    "padding": 23,
+    "source_sheet": "02_Truc_Co.png",
+    "source_bounds": [
+      27,
+      316,
+      329,
+      622
+    ]
+  },
+  "monster_007_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_007_2.webp",
+    "name": "Thực Nhân Hoa",
+    "pixel_art": true,
+    "width": 351,
+    "height": 351,
+    "padding": 23,
+    "source_sheet": "02_Truc_Co.png",
+    "source_bounds": [
+      340,
+      320,
+      628,
+      625
+    ]
+  },
+  "monster_007_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_007_3.webp",
+    "name": "Độc Mãng",
+    "pixel_art": true,
+    "width": 337,
+    "height": 337,
+    "padding": 22,
+    "source_sheet": "02_Truc_Co.png",
+    "source_bounds": [
+      656,
+      340,
+      949,
+      622
+    ]
+  },
+  "monster_008_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_008_1.webp",
+    "name": "Huyễn Âm Nữ",
+    "pixel_art": true,
+    "width": 387,
+    "height": 387,
+    "padding": 25,
+    "source_sheet": "02_Truc_Co.png",
+    "source_bounds": [
+      15,
+      631,
+      352,
+      932
+    ]
+  },
+  "monster_008_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_008_2.webp",
+    "name": "Song Đầu Xà",
+    "pixel_art": true,
+    "width": 335,
+    "height": 335,
+    "padding": 22,
+    "source_sheet": "02_Truc_Co.png",
+    "source_bounds": [
+      346,
+      639,
+      631,
+      930
+    ]
+  },
+  "monster_008_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_008_3.webp",
+    "name": "Ám Thú",
+    "pixel_art": true,
+    "width": 340,
+    "height": 340,
+    "padding": 22,
+    "source_sheet": "02_Truc_Co.png",
+    "source_bounds": [
+      658,
+      645,
+      954,
+      931
+    ]
+  },
+  "monster_009_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_009_1.webp",
+    "name": "Thiết Khôi Lỗi",
+    "pixel_art": true,
+    "width": 359,
+    "height": 359,
+    "padding": 23,
+    "source_sheet": "02_Truc_Co.png",
+    "source_bounds": [
+      17,
+      933,
+      305,
+      1246
+    ]
+  },
+  "monster_009_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_009_2.webp",
+    "name": "Cơ Quan Thú",
+    "pixel_art": true,
+    "width": 341,
+    "height": 341,
+    "padding": 22,
+    "source_sheet": "02_Truc_Co.png",
+    "source_bounds": [
+      339,
+      952,
+      636,
+      1230
+    ]
+  },
+  "monster_009_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_009_3.webp",
+    "name": "Âm Thi",
+    "pixel_art": true,
+    "width": 342,
+    "height": 342,
+    "padding": 22,
+    "source_sheet": "02_Truc_Co.png",
+    "source_bounds": [
+      666,
+      952,
+      950,
+      1250
+    ]
+  },
+  "monster_010_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_010_1.webp",
+    "name": "Hắc Sát Vệ",
+    "pixel_art": true,
+    "width": 427,
+    "height": 427,
+    "padding": 28,
+    "source_sheet": "02_Truc_Co.png",
+    "source_bounds": [
+      15,
+      1234,
+      333,
+      1605
+    ]
+  },
+  "monster_010_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_010_2.webp",
+    "name": "Huyết Thị",
+    "pixel_art": true,
+    "width": 404,
+    "height": 404,
+    "padding": 26,
+    "source_sheet": "02_Truc_Co.png",
+    "source_bounds": [
+      351,
+      1246,
+      629,
+      1598
+    ]
+  },
+  "monster_010_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_010_3.webp",
+    "name": "Tà Trưởng Lão",
+    "pixel_art": true,
+    "width": 409,
+    "height": 409,
+    "padding": 27,
+    "source_sheet": "02_Truc_Co.png",
+    "source_bounds": [
+      670,
+      1250,
+      955,
+      1605
+    ]
+  },
+  "monster_011_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_011_1.webp",
+    "name": "Băng Hải Quy",
+    "pixel_art": true,
+    "width": 389,
+    "height": 389,
+    "padding": 25,
+    "source_sheet": "03_Kim_Dan.png",
+    "source_bounds": [
+      11,
+      32,
+      350,
+      319
+    ]
+  },
+  "monster_011_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_011_2.webp",
+    "name": "Lôi Ngư",
+    "pixel_art": true,
+    "width": 343,
+    "height": 343,
+    "padding": 22,
+    "source_sheet": "03_Kim_Dan.png",
+    "source_bounds": [
+      359,
+      26,
+      644,
+      325
+    ]
+  },
+  "monster_011_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_011_3.webp",
+    "name": "Hải Tộc",
+    "pixel_art": true,
+    "width": 359,
+    "height": 359,
+    "padding": 23,
+    "source_sheet": "03_Kim_Dan.png",
+    "source_bounds": [
+      674,
+      8,
+      952,
+      321
+    ]
+  },
+  "monster_012_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_012_1.webp",
+    "name": "Phong Nhận Điêu",
+    "pixel_art": true,
+    "width": 408,
+    "height": 408,
+    "padding": 27,
+    "source_sheet": "03_Kim_Dan.png",
+    "source_bounds": [
+      5,
+      335,
+      359,
+      650
+    ]
+  },
+  "monster_012_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_012_2.webp",
+    "name": "Kim Giáp Hạt",
+    "pixel_art": true,
+    "width": 380,
+    "height": 380,
+    "padding": 25,
+    "source_sheet": "03_Kim_Dan.png",
+    "source_bounds": [
+      333,
+      311,
+      645,
+      641
+    ]
+  },
+  "monster_012_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_012_3.webp",
+    "name": "Ngưu Yêu",
+    "pixel_art": true,
+    "width": 355,
+    "height": 355,
+    "padding": 23,
+    "source_sheet": "03_Kim_Dan.png",
+    "source_bounds": [
+      658,
+      333,
+      967,
+      642
+    ]
+  },
+  "monster_013_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_013_1.webp",
+    "name": "Độc Long Giao",
+    "pixel_art": true,
+    "width": 364,
+    "height": 364,
+    "padding": 24,
+    "source_sheet": "03_Kim_Dan.png",
+    "source_bounds": [
+      12,
+      652,
+      328,
+      950
+    ]
+  },
+  "monster_013_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_013_2.webp",
+    "name": "Huyết Đằng",
+    "pixel_art": true,
+    "width": 405,
+    "height": 405,
+    "padding": 26,
+    "source_sheet": "03_Kim_Dan.png",
+    "source_bounds": [
+      324,
+      651,
+      677,
+      948
+    ]
+  },
+  "monster_013_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_013_3.webp",
+    "name": "Khoáng Nô",
+    "pixel_art": true,
+    "width": 352,
+    "height": 352,
+    "padding": 23,
+    "source_sheet": "03_Kim_Dan.png",
+    "source_bounds": [
+      713,
+      643,
+      951,
+      949
+    ]
+  },
+  "monster_014_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_014_1.webp",
+    "name": "Băng Khôi Lỗi",
+    "pixel_art": true,
+    "width": 373,
+    "height": 373,
+    "padding": 24,
+    "source_sheet": "03_Kim_Dan.png",
+    "source_bounds": [
+      14,
+      942,
+      329,
+      1267
+    ]
+  },
+  "monster_014_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_014_2.webp",
+    "name": "Hỏa Điểu",
+    "pixel_art": true,
+    "width": 402,
+    "height": 402,
+    "padding": 26,
+    "source_sheet": "03_Kim_Dan.png",
+    "source_bounds": [
+      315,
+      941,
+      665,
+      1249
+    ]
+  },
+  "monster_014_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_014_3.webp",
+    "name": "Hư Thiên Vệ",
+    "pixel_art": true,
+    "width": 435,
+    "height": 435,
+    "padding": 28,
+    "source_sheet": "03_Kim_Dan.png",
+    "source_bounds": [
+      583,
+      943,
+      962,
+      1266
+    ]
+  },
+  "monster_015_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_015_1.webp",
+    "name": "Hải Xà Vương",
+    "pixel_art": true,
+    "width": 409,
+    "height": 409,
+    "padding": 27,
+    "source_sheet": "03_Kim_Dan.png",
+    "source_bounds": [
+      11,
+      1250,
+      337,
+      1605
+    ]
+  },
+  "monster_015_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_015_2.webp",
+    "name": "Phong Tinh",
+    "pixel_art": true,
+    "width": 397,
+    "height": 397,
+    "padding": 26,
+    "source_sheet": "03_Kim_Dan.png",
+    "source_bounds": [
+      334,
+      1257,
+      644,
+      1602
+    ]
+  },
+  "monster_015_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_015_3.webp",
+    "name": "Cự Quái",
+    "pixel_art": true,
+    "width": 397,
+    "height": 397,
+    "padding": 26,
+    "source_sheet": "03_Kim_Dan.png",
+    "source_bounds": [
+      616,
+      1266,
+      961,
+      1606
+    ]
+  },
+  "monster_016_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_016_1.webp",
+    "name": "Mộ Lan Pháp Sư",
+    "pixel_art": true,
+    "width": 356,
+    "height": 356,
+    "padding": 23,
+    "source_sheet": "04_Nguyen_Anh.png",
+    "source_bounds": [
+      30,
+      7,
+      282,
+      317
+    ]
+  },
+  "monster_016_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_016_2.webp",
+    "name": "Lang Kỵ",
+    "pixel_art": true,
+    "width": 420,
+    "height": 420,
+    "padding": 27,
+    "source_sheet": "04_Nguyen_Anh.png",
+    "source_bounds": [
+      300,
+      16,
+      666,
+      319
+    ]
+  },
+  "monster_016_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_016_3.webp",
+    "name": "Vu Tộc",
+    "pixel_art": true,
+    "width": 358,
+    "height": 358,
+    "padding": 23,
+    "source_sheet": "04_Nguyen_Anh.png",
+    "source_bounds": [
+      676,
+      6,
+      954,
+      318
+    ]
+  },
+  "monster_017_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_017_1.webp",
+    "name": "Thánh Điện Vệ",
+    "pixel_art": true,
+    "width": 418,
+    "height": 418,
+    "padding": 27,
+    "source_sheet": "04_Nguyen_Anh.png",
+    "source_bounds": [
+      8,
+      312,
+      372,
+      662
+    ]
+  },
+  "monster_017_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_017_2.webp",
+    "name": "Linh Mộc Nhân",
+    "pixel_art": true,
+    "width": 394,
+    "height": 394,
+    "padding": 26,
+    "source_sheet": "04_Nguyen_Anh.png",
+    "source_bounds": [
+      367,
+      323,
+      627,
+      665
+    ]
+  },
+  "monster_017_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_017_3.webp",
+    "name": "Quang Thú",
+    "pixel_art": true,
+    "width": 383,
+    "height": 383,
+    "padding": 25,
+    "source_sheet": "04_Nguyen_Anh.png",
+    "source_bounds": [
+      675,
+      327,
+      957,
+      660
+    ]
+  },
+  "monster_018_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_018_1.webp",
+    "name": "Âm Hồn Thú",
+    "pixel_art": true,
+    "width": 358,
+    "height": 358,
+    "padding": 23,
+    "source_sheet": "04_Nguyen_Anh.png",
+    "source_bounds": [
+      20,
+      668,
+      332,
+      965
+    ]
+  },
+  "monster_018_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_018_2.webp",
+    "name": "La Sát Quỷ",
+    "pixel_art": true,
+    "width": 352,
+    "height": 352,
+    "padding": 23,
+    "source_sheet": "04_Nguyen_Anh.png",
+    "source_bounds": [
+      342,
+      652,
+      642,
+      958
+    ]
+  },
+  "monster_018_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_018_3.webp",
+    "name": "Bạch Cốt Tinh",
+    "pixel_art": true,
+    "width": 326,
+    "height": 326,
+    "padding": 21,
+    "source_sheet": "04_Nguyen_Anh.png",
+    "source_bounds": [
+      677,
+      674,
+      961,
+      953
+    ]
+  },
+  "monster_019_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_019_1.webp",
+    "name": "Ngân Sí Dạ Xoa",
+    "pixel_art": true,
+    "width": 404,
+    "height": 404,
+    "padding": 26,
+    "source_sheet": "04_Nguyen_Anh.png",
+    "source_bounds": [
+      10,
+      946,
+      362,
+      1277
+    ]
+  },
+  "monster_019_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_019_2.webp",
+    "name": "Luyện Thi",
+    "pixel_art": true,
+    "width": 382,
+    "height": 382,
+    "padding": 25,
+    "source_sheet": "04_Nguyen_Anh.png",
+    "source_bounds": [
+      322,
+      961,
+      637,
+      1293
+    ]
+  },
+  "monster_019_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_019_3.webp",
+    "name": "Kim Từ Mộc",
+    "pixel_art": true,
+    "width": 359,
+    "height": 359,
+    "padding": 23,
+    "source_sheet": "04_Nguyen_Anh.png",
+    "source_bounds": [
+      660,
+      959,
+      959,
+      1272
+    ]
+  },
+  "monster_020_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_020_1.webp",
+    "name": "Hắc Ám Ma Tu",
+    "pixel_art": true,
+    "width": 382,
+    "height": 382,
+    "padding": 25,
+    "source_sheet": "04_Nguyen_Anh.png",
+    "source_bounds": [
+      20,
+      1275,
+      304,
+      1607
+    ]
+  },
+  "monster_020_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_020_2.webp",
+    "name": "Không Gian Bạo",
+    "pixel_art": true,
+    "width": 365,
+    "height": 365,
+    "padding": 24,
+    "source_sheet": "04_Nguyen_Anh.png",
+    "source_bounds": [
+      317,
+      1284,
+      621,
+      1601
+    ]
+  },
+  "monster_020_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_020_3.webp",
+    "name": "Ma Yêu",
+    "pixel_art": true,
+    "width": 381,
+    "height": 381,
+    "padding": 25,
+    "source_sheet": "04_Nguyen_Anh.png",
+    "source_bounds": [
+      630,
+      1280,
+      961,
+      1600
+    ]
+  },
+  "monster_021_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_021_1.webp",
+    "name": "Chu Tước Vệ",
+    "pixel_art": true,
+    "width": 372,
+    "height": 372,
+    "padding": 24,
+    "source_sheet": "05_Hoa_Than.png",
+    "source_bounds": [
+      4,
+      6,
+      328,
+      322
+    ]
+  },
+  "monster_021_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_021_2.webp",
+    "name": "Hỏa Linh Thú",
+    "pixel_art": true,
+    "width": 347,
+    "height": 347,
+    "padding": 23,
+    "source_sheet": "05_Hoa_Than.png",
+    "source_bounds": [
+      347,
+      28,
+      648,
+      316
+    ]
+  },
+  "monster_021_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_021_3.webp",
+    "name": "Viêm Ma",
+    "pixel_art": true,
+    "width": 366,
+    "height": 366,
+    "padding": 24,
+    "source_sheet": "05_Hoa_Than.png",
+    "source_bounds": [
+      678,
+      5,
+      965,
+      323
+    ]
+  },
+  "monster_022_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_022_1.webp",
+    "name": "Tiên Di Tộc",
+    "pixel_art": true,
+    "width": 377,
+    "height": 377,
+    "padding": 25,
+    "source_sheet": "05_Hoa_Than.png",
+    "source_bounds": [
+      23,
+      321,
+      324,
+      648
+    ]
+  },
+  "monster_022_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_022_2.webp",
+    "name": "Phù Văn Khôi",
+    "pixel_art": true,
+    "width": 379,
+    "height": 379,
+    "padding": 25,
+    "source_sheet": "05_Hoa_Than.png",
+    "source_bounds": [
+      371,
+      318,
+      628,
+      647
+    ]
+  },
+  "monster_022_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_022_3.webp",
+    "name": "Kiếm Hồn",
+    "pixel_art": true,
+    "width": 440,
+    "height": 440,
+    "padding": 29,
+    "source_sheet": "05_Hoa_Than.png",
+    "source_bounds": [
+      648,
+      318,
+      957,
+      700
+    ]
+  },
+  "monster_023_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_023_1.webp",
+    "name": "Tinh Không Thú",
+    "pixel_art": true,
+    "width": 371,
+    "height": 371,
+    "padding": 24,
+    "source_sheet": "05_Hoa_Than.png",
+    "source_bounds": [
+      7,
+      642,
+      330,
+      959
+    ]
+  },
+  "monster_023_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_023_2.webp",
+    "name": "Hư Không Dạ Xoa",
+    "pixel_art": true,
+    "width": 371,
+    "height": 371,
+    "padding": 24,
+    "source_sheet": "05_Hoa_Than.png",
+    "source_bounds": [
+      350,
+      643,
+      660,
+      966
+    ]
+  },
+  "monster_023_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_023_3.webp",
+    "name": "Trùng Ma",
+    "pixel_art": true,
+    "width": 389,
+    "height": 389,
+    "padding": 25,
+    "source_sheet": "05_Hoa_Than.png",
+    "source_bounds": [
+      669,
+      634,
+      964,
+      973
+    ]
+  },
+  "monster_024_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_024_1.webp",
+    "name": "Cổ Yêu Tướng",
+    "pixel_art": true,
+    "width": 405,
+    "height": 405,
+    "padding": 26,
+    "source_sheet": "05_Hoa_Than.png",
+    "source_bounds": [
+      0,
+      948,
+      353,
+      1262
+    ]
+  },
+  "monster_024_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_024_2.webp",
+    "name": "Huyết Mạch Yêu",
+    "pixel_art": true,
+    "width": 355,
+    "height": 355,
+    "padding": 23,
+    "source_sheet": "05_Hoa_Than.png",
+    "source_bounds": [
+      354,
+      955,
+      663,
+      1252
+    ]
+  },
+  "monster_024_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_024_3.webp",
+    "name": "Đằng Xà",
+    "pixel_art": true,
+    "width": 387,
+    "height": 387,
+    "padding": 25,
+    "source_sheet": "05_Hoa_Than.png",
+    "source_bounds": [
+      662,
+      946,
+      964,
+      1283
+    ]
+  },
+  "monster_025_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_025_1.webp",
+    "name": "Tuyết Vực Nhân",
+    "pixel_art": true,
+    "width": 400,
+    "height": 400,
+    "padding": 26,
+    "source_sheet": "05_Hoa_Than.png",
+    "source_bounds": [
+      7,
+      1252,
+      342,
+      1600
+    ]
+  },
+  "monster_025_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_025_2.webp",
+    "name": "Hàn Băng Giao",
+    "pixel_art": true,
+    "width": 410,
+    "height": 410,
+    "padding": 27,
+    "source_sheet": "05_Hoa_Than.png",
+    "source_bounds": [
+      351,
+      1243,
+      661,
+      1599
+    ]
+  },
+  "monster_025_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_025_3.webp",
+    "name": "Tuyết Điêu",
+    "pixel_art": true,
+    "width": 409,
+    "height": 409,
+    "padding": 27,
+    "source_sheet": "05_Hoa_Than.png",
+    "source_bounds": [
+      646,
+      1243,
+      964,
+      1598
+    ]
+  },
+  "monster_026_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_026_1.webp",
+    "name": "Thiên Vận Đệ Tử",
+    "pixel_art": true,
+    "width": 356,
+    "height": 356,
+    "padding": 23,
+    "source_sheet": "06_Luyen_Hu.png",
+    "source_bounds": [
+      18,
+      7,
+      308,
+      317
+    ]
+  },
+  "monster_026_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_026_2.webp",
+    "name": "Mệnh Khôi",
+    "pixel_art": true,
+    "width": 344,
+    "height": 344,
+    "padding": 22,
+    "source_sheet": "06_Luyen_Hu.png",
+    "source_bounds": [
+      345,
+      11,
+      616,
+      311
+    ]
+  },
+  "monster_026_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_026_3.webp",
+    "name": "Tinh Thú",
+    "pixel_art": true,
+    "width": 355,
+    "height": 355,
+    "padding": 23,
+    "source_sheet": "06_Luyen_Hu.png",
+    "source_bounds": [
+      650,
+      9,
+      959,
+      315
+    ]
+  },
+  "monster_027_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_027_1.webp",
+    "name": "Lôi Chiến Hồn",
+    "pixel_art": true,
+    "width": 367,
+    "height": 367,
+    "padding": 24,
+    "source_sheet": "06_Luyen_Hu.png",
+    "source_bounds": [
+      7,
+      321,
+      326,
+      628
+    ]
+  },
+  "monster_027_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_027_2.webp",
+    "name": "Tử Lôi Thú",
+    "pixel_art": true,
+    "width": 350,
+    "height": 350,
+    "padding": 23,
+    "source_sheet": "06_Luyen_Hu.png",
+    "source_bounds": [
+      347,
+      326,
+      637,
+      630
+    ]
+  },
+  "monster_027_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_027_3.webp",
+    "name": "Điện Nhân",
+    "pixel_art": true,
+    "width": 357,
+    "height": 357,
+    "padding": 23,
+    "source_sheet": "06_Luyen_Hu.png",
+    "source_bounds": [
+      687,
+      318,
+      941,
+      629
+    ]
+  },
+  "monster_028_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_028_1.webp",
+    "name": "Hoang Cổ Khôi",
+    "pixel_art": true,
+    "width": 377,
+    "height": 377,
+    "padding": 25,
+    "source_sheet": "06_Luyen_Hu.png",
+    "source_bounds": [
+      20,
+      629,
+      323,
+      956
+    ]
+  },
+  "monster_028_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_028_2.webp",
+    "name": "Tâm Ma Ảnh",
+    "pixel_art": true,
+    "width": 355,
+    "height": 355,
+    "padding": 23,
+    "source_sheet": "06_Luyen_Hu.png",
+    "source_bounds": [
+      348,
+      634,
+      634,
+      943
+    ]
+  },
+  "monster_028_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_028_3.webp",
+    "name": "Oán Linh",
+    "pixel_art": true,
+    "width": 392,
+    "height": 392,
+    "padding": 26,
+    "source_sheet": "06_Luyen_Hu.png",
+    "source_bounds": [
+      671,
+      617,
+      951,
+      957
+    ]
+  },
+  "monster_029_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_029_1.webp",
+    "name": "Ma Hải Giao",
+    "pixel_art": true,
+    "width": 367,
+    "height": 367,
+    "padding": 24,
+    "source_sheet": "06_Luyen_Hu.png",
+    "source_bounds": [
+      12,
+      933,
+      322,
+      1252
+    ]
+  },
+  "monster_029_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_029_2.webp",
+    "name": "Hắc Thủy Xà",
+    "pixel_art": true,
+    "width": 368,
+    "height": 368,
+    "padding": 24,
+    "source_sheet": "06_Luyen_Hu.png",
+    "source_bounds": [
+      341,
+      955,
+      631,
+      1275
+    ]
+  },
+  "monster_029_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_029_3.webp",
+    "name": "Ma Linh",
+    "pixel_art": true,
+    "width": 358,
+    "height": 358,
+    "padding": 23,
+    "source_sheet": "06_Luyen_Hu.png",
+    "source_bounds": [
+      653,
+      949,
+      954,
+      1261
+    ]
+  },
+  "monster_030_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_030_1.webp",
+    "name": "Cổ Tiên Thi",
+    "pixel_art": true,
+    "width": 395,
+    "height": 395,
+    "padding": 26,
+    "source_sheet": "06_Luyen_Hu.png",
+    "source_bounds": [
+      25,
+      1260,
+      309,
+      1603
+    ]
+  },
+  "monster_030_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_030_2.webp",
+    "name": "Tiên Huyết Thảo",
+    "pixel_art": true,
+    "width": 383,
+    "height": 383,
+    "padding": 25,
+    "source_sheet": "06_Luyen_Hu.png",
+    "source_bounds": [
+      338,
+      1267,
+      632,
+      1600
+    ]
+  },
+  "monster_030_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_030_3.webp",
+    "name": "Phệ Trùng",
+    "pixel_art": true,
+    "width": 371,
+    "height": 371,
+    "padding": 24,
+    "source_sheet": "06_Luyen_Hu.png",
+    "source_bounds": [
+      650,
+      1267,
+      956,
+      1590
+    ]
+  },
+  "monster_031_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_031_1.webp",
+    "name": "Dị Tộc Thám Tử",
+    "pixel_art": true,
+    "width": 338,
+    "height": 338,
+    "padding": 22,
+    "source_sheet": "07_Hop_The.png",
+    "source_bounds": [
+      13,
+      25,
+      307,
+      311
+    ]
+  },
+  "monster_031_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_031_2.webp",
+    "name": "Giác Si Tộc",
+    "pixel_art": true,
+    "width": 354,
+    "height": 354,
+    "padding": 23,
+    "source_sheet": "07_Hop_The.png",
+    "source_bounds": [
+      341,
+      9,
+      626,
+      317
+    ]
+  },
+  "monster_031_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_031_3.webp",
+    "name": "Phản Đồ",
+    "pixel_art": true,
+    "width": 349,
+    "height": 349,
+    "padding": 23,
+    "source_sheet": "07_Hop_The.png",
+    "source_bounds": [
+      672,
+      8,
+      952,
+      311
+    ]
+  },
+  "monster_032_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_032_1.webp",
+    "name": "Minh Hà Quỷ",
+    "pixel_art": true,
+    "width": 339,
+    "height": 339,
+    "padding": 22,
+    "source_sheet": "07_Hop_The.png",
+    "source_bounds": [
+      33,
+      333,
+      319,
+      628
+    ]
+  },
+  "monster_032_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_032_2.webp",
+    "name": "Âm Phong Thú",
+    "pixel_art": true,
+    "width": 355,
+    "height": 355,
+    "padding": 23,
+    "source_sheet": "07_Hop_The.png",
+    "source_bounds": [
+      340,
+      323,
+      638,
+      632
+    ]
+  },
+  "monster_032_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_032_3.webp",
+    "name": "Hoàng Tuyền Xà",
+    "pixel_art": true,
+    "width": 355,
+    "height": 355,
+    "padding": 23,
+    "source_sheet": "07_Hop_The.png",
+    "source_bounds": [
+      660,
+      321,
+      949,
+      630
+    ]
+  },
+  "monster_033_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_033_1.webp",
+    "name": "Man Hoang Cự Thú",
+    "pixel_art": true,
+    "width": 400,
+    "height": 400,
+    "padding": 26,
+    "source_sheet": "07_Hop_The.png",
+    "source_bounds": [
+      11,
+      625,
+      359,
+      932
+    ]
+  },
+  "monster_033_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_033_2.webp",
+    "name": "Kim Mao Hầu",
+    "pixel_art": true,
+    "width": 342,
+    "height": 342,
+    "padding": 22,
+    "source_sheet": "07_Hop_The.png",
+    "source_bounds": [
+      343,
+      635,
+      632,
+      933
+    ]
+  },
+  "monster_033_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_033_3.webp",
+    "name": "Diễm Chu",
+    "pixel_art": true,
+    "width": 349,
+    "height": 349,
+    "padding": 23,
+    "source_sheet": "07_Hop_The.png",
+    "source_bounds": [
+      652,
+      642,
+      955,
+      934
+    ]
+  },
+  "monster_034_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_034_1.webp",
+    "name": "Thụ Nhân",
+    "pixel_art": true,
+    "width": 367,
+    "height": 367,
+    "padding": 24,
+    "source_sheet": "07_Hop_The.png",
+    "source_bounds": [
+      15,
+      938,
+      316,
+      1257
+    ]
+  },
+  "monster_034_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_034_2.webp",
+    "name": "Đằng Giáp Binh",
+    "pixel_art": true,
+    "width": 413,
+    "height": 413,
+    "padding": 27,
+    "source_sheet": "07_Hop_The.png",
+    "source_bounds": [
+      312,
+      947,
+      632,
+      1306
+    ]
+  },
+  "monster_034_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_034_3.webp",
+    "name": "Thanh Mộc Linh",
+    "pixel_art": true,
+    "width": 428,
+    "height": 428,
+    "padding": 28,
+    "source_sheet": "07_Hop_The.png",
+    "source_bounds": [
+      666,
+      940,
+      952,
+      1312
+    ]
+  },
+  "monster_035_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_035_1.webp",
+    "name": "Quảng Hàn Vệ",
+    "pixel_art": true,
+    "width": 397,
+    "height": 397,
+    "padding": 26,
+    "source_sheet": "07_Hop_The.png",
+    "source_bounds": [
+      17,
+      1267,
+      328,
+      1612
+    ]
+  },
+  "monster_035_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_035_2.webp",
+    "name": "Tinh Khôi",
+    "pixel_art": true,
+    "width": 410,
+    "height": 410,
+    "padding": 27,
+    "source_sheet": "07_Hop_The.png",
+    "source_bounds": [
+      340,
+      1253,
+      650,
+      1609
+    ]
+  },
+  "monster_035_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_035_3.webp",
+    "name": "Nguyệt Thố",
+    "pixel_art": true,
+    "width": 358,
+    "height": 358,
+    "padding": 23,
+    "source_sheet": "07_Hop_The.png",
+    "source_bounds": [
+      670,
+      1285,
+      957,
+      1597
+    ]
+  },
+  "monster_036_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_036_1.webp",
+    "name": "Hoàng Tộc Ma",
+    "pixel_art": true,
+    "width": 358,
+    "height": 358,
+    "padding": 23,
+    "source_sheet": "08_Dai_Thua.png",
+    "source_bounds": [
+      10,
+      9,
+      322,
+      313
+    ]
+  },
+  "monster_036_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_036_2.webp",
+    "name": "Huyết Thú",
+    "pixel_art": true,
+    "width": 349,
+    "height": 349,
+    "padding": 23,
+    "source_sheet": "08_Dai_Thua.png",
+    "source_bounds": [
+      338,
+      15,
+      641,
+      313
+    ]
+  },
+  "monster_036_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_036_3.webp",
+    "name": "Thiên Ngoại Ma",
+    "pixel_art": true,
+    "width": 351,
+    "height": 351,
+    "padding": 23,
+    "source_sheet": "08_Dai_Thua.png",
+    "source_bounds": [
+      686,
+      9,
+      951,
+      314
+    ]
+  },
+  "monster_037_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_037_1.webp",
+    "name": "Ma Long",
+    "pixel_art": true,
+    "width": 374,
+    "height": 374,
+    "padding": 24,
+    "source_sheet": "08_Dai_Thua.png",
+    "source_bounds": [
+      12,
+      323,
+      338,
+      628
+    ]
+  },
+  "monster_037_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_037_2.webp",
+    "name": "Hắc Ám Tinh Linh",
+    "pixel_art": true,
+    "width": 358,
+    "height": 358,
+    "padding": 23,
+    "source_sheet": "08_Dai_Thua.png",
+    "source_bounds": [
+      368,
+      317,
+      630,
+      629
+    ]
+  },
+  "monster_037_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_037_3.webp",
+    "name": "Thực Nhật Thú",
+    "pixel_art": true,
+    "width": 352,
+    "height": 352,
+    "padding": 23,
+    "source_sheet": "08_Dai_Thua.png",
+    "source_bounds": [
+      651,
+      323,
+      956,
+      629
+    ]
+  },
+  "monster_038_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_038_1.webp",
+    "name": "Cửu Vĩ Tuyết Hồ",
+    "pixel_art": true,
+    "width": 354,
+    "height": 354,
+    "padding": 23,
+    "source_sheet": "08_Dai_Thua.png",
+    "source_bounds": [
+      20,
+      640,
+      328,
+      938
+    ]
+  },
+  "monster_038_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_038_2.webp",
+    "name": "Băng Phượng",
+    "pixel_art": true,
+    "width": 378,
+    "height": 378,
+    "padding": 25,
+    "source_sheet": "08_Dai_Thua.png",
+    "source_bounds": [
+      343,
+      618,
+      651,
+      946
+    ]
+  },
+  "monster_038_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_038_3.webp",
+    "name": "Hàn Vệ",
+    "pixel_art": true,
+    "width": 367,
+    "height": 367,
+    "padding": 24,
+    "source_sheet": "08_Dai_Thua.png",
+    "source_bounds": [
+      633,
+      637,
+      952,
+      947
+    ]
+  },
+  "monster_039_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_039_1.webp",
+    "name": "Bán Tiên Khôi",
+    "pixel_art": true,
+    "width": 374,
+    "height": 374,
+    "padding": 24,
+    "source_sheet": "08_Dai_Thua.png",
+    "source_bounds": [
+      27,
+      943,
+      326,
+      1269
+    ]
+  },
+  "monster_039_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_039_2.webp",
+    "name": "Hộ Đạo Nhân",
+    "pixel_art": true,
+    "width": 403,
+    "height": 403,
+    "padding": 26,
+    "source_sheet": "08_Dai_Thua.png",
+    "source_bounds": [
+      349,
+      928,
+      635,
+      1279
+    ]
+  },
+  "monster_039_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_039_3.webp",
+    "name": "Thiên Binh",
+    "pixel_art": true,
+    "width": 371,
+    "height": 371,
+    "padding": 24,
+    "source_sheet": "08_Dai_Thua.png",
+    "source_bounds": [
+      672,
+      951,
+      957,
+      1274
+    ]
+  },
+  "monster_040_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_040_1.webp",
+    "name": "Cửu Thiên Lôi Linh",
+    "pixel_art": true,
+    "width": 387,
+    "height": 387,
+    "padding": 25,
+    "source_sheet": "08_Dai_Thua.png",
+    "source_bounds": [
+      20,
+      1271,
+      320,
+      1608
+    ]
+  },
+  "monster_040_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_040_2.webp",
+    "name": "Kiếp Lôi Thú",
+    "pixel_art": true,
+    "width": 394,
+    "height": 394,
+    "padding": 26,
+    "source_sheet": "08_Dai_Thua.png",
+    "source_bounds": [
+      326,
+      1268,
+      668,
+      1608
+    ]
+  },
+  "monster_040_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_040_3.webp",
+    "name": "Lôi Ảnh",
+    "pixel_art": true,
+    "width": 393,
+    "height": 393,
+    "padding": 26,
+    "source_sheet": "08_Dai_Thua.png",
+    "source_bounds": [
+      690,
+      1268,
+      952,
+      1609
+    ]
+  },
+  "monster_041_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_041_1.webp",
+    "name": "Tiên Cung Cảnh",
+    "pixel_art": true,
+    "width": 371,
+    "height": 371,
+    "padding": 24,
+    "source_sheet": "09_Chan_Tien.png",
+    "source_bounds": [
+      32,
+      5,
+      325,
+      328
+    ]
+  },
+  "monster_041_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_041_2.webp",
+    "name": "Hàn Tiên Hạc",
+    "pixel_art": true,
+    "width": 373,
+    "height": 373,
+    "padding": 24,
+    "source_sheet": "09_Chan_Tien.png",
+    "source_bounds": [
+      356,
+      10,
+      649,
+      335
+    ]
+  },
+  "monster_041_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_041_3.webp",
+    "name": "Tiên Khôi",
+    "pixel_art": true,
+    "width": 374,
+    "height": 374,
+    "padding": 24,
+    "source_sheet": "09_Chan_Tien.png",
+    "source_bounds": [
+      684,
+      7,
+      935,
+      333
+    ]
+  },
+  "monster_042_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_042_1.webp",
+    "name": "Huyền Tiên Ác Thi",
+    "pixel_art": true,
+    "width": 344,
+    "height": 344,
+    "padding": 22,
+    "source_sheet": "09_Chan_Tien.png",
+    "source_bounds": [
+      42,
+      337,
+      331,
+      637
+    ]
+  },
+  "monster_042_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_042_2.webp",
+    "name": "Oán Linh",
+    "pixel_art": true,
+    "width": 347,
+    "height": 347,
+    "padding": 23,
+    "source_sheet": "09_Chan_Tien.png",
+    "source_bounds": [
+      366,
+      338,
+      630,
+      639
+    ]
+  },
+  "monster_042_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_042_3.webp",
+    "name": "Pháp Thú",
+    "pixel_art": true,
+    "width": 344,
+    "height": 344,
+    "padding": 22,
+    "source_sheet": "09_Chan_Tien.png",
+    "source_bounds": [
+      655,
+      344,
+      955,
+      635
+    ]
+  },
+  "monster_043_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_043_1.webp",
+    "name": "Chân Linh Hậu Duệ",
+    "pixel_art": true,
+    "width": 381,
+    "height": 381,
+    "padding": 25,
+    "source_sheet": "09_Chan_Tien.png",
+    "source_bounds": [
+      13,
+      641,
+      344,
+      959
+    ]
+  },
+  "monster_043_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_043_2.webp",
+    "name": "Bạch Trạch",
+    "pixel_art": true,
+    "width": 369,
+    "height": 369,
+    "padding": 24,
+    "source_sheet": "09_Chan_Tien.png",
+    "source_bounds": [
+      366,
+      625,
+      661,
+      946
+    ]
+  },
+  "monster_043_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_043_3.webp",
+    "name": "Kỳ Lân",
+    "pixel_art": true,
+    "width": 363,
+    "height": 363,
+    "padding": 24,
+    "source_sheet": "09_Chan_Tien.png",
+    "source_bounds": [
+      676,
+      636,
+      948,
+      951
+    ]
+  },
+  "monster_044_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_044_1.webp",
+    "name": "Hôi Tiên Chiến Sĩ",
+    "pixel_art": true,
+    "width": 370,
+    "height": 370,
+    "padding": 24,
+    "source_sheet": "09_Chan_Tien.png",
+    "source_bounds": [
+      13,
+      954,
+      335,
+      1266
+    ]
+  },
+  "monster_044_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_044_2.webp",
+    "name": "Phệ Tiên Ma",
+    "pixel_art": true,
+    "width": 369,
+    "height": 369,
+    "padding": 24,
+    "source_sheet": "09_Chan_Tien.png",
+    "source_bounds": [
+      349,
+      947,
+      646,
+      1268
+    ]
+  },
+  "monster_044_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_044_3.webp",
+    "name": "Tử Khí",
+    "pixel_art": true,
+    "width": 355,
+    "height": 355,
+    "padding": 23,
+    "source_sheet": "09_Chan_Tien.png",
+    "source_bounds": [
+      668,
+      957,
+      956,
+      1266
+    ]
+  },
+  "monster_045_1": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_045_1.webp",
+    "name": "Kim Giáp Vệ",
+    "pixel_art": true,
+    "width": 413,
+    "height": 413,
+    "padding": 27,
+    "source_sheet": "09_Chan_Tien.png",
+    "source_bounds": [
+      18,
+      1252,
+      331,
+      1611
+    ]
+  },
+  "monster_045_2": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_045_2.webp",
+    "name": "Trảm Tiên Tướng",
+    "pixel_art": true,
+    "width": 392,
+    "height": 392,
+    "padding": 26,
+    "source_sheet": "09_Chan_Tien.png",
+    "source_bounds": [
+      331,
+      1264,
+      639,
+      1604
+    ]
+  },
+  "monster_045_3": {
+    "kind": "image",
+    "src": "assets/monsters-single-v012/monster_045_3.webp",
+    "name": "Thần Thú",
+    "pixel_art": true,
+    "width": 389,
+    "height": 389,
+    "padding": 25,
+    "source_sheet": "09_Chan_Tien.png",
+    "source_bounds": [
+      644,
+      1261,
+      971,
+      1600
+    ]
+  },
+  "boss_001": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_001.webp",
+    "name": "Hắc Phong Trại Chủ"
+  },
+  "boss_002": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_002.webp",
+    "name": "Bách Độc Ngô Công"
+  },
+  "boss_003": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_003.webp",
+    "name": "Mặc Gia Cự Nhân"
+  },
+  "boss_004": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_004.webp",
+    "name": "Xích Diễm Hổ Vương"
+  },
+  "boss_005": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_005.webp",
+    "name": "Thanh Nhan Lão Tổ"
+  },
+  "boss_006": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_006.webp",
+    "name": "Mặc Giao Nhân"
+  },
+  "boss_007": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_007.webp",
+    "name": "Huyết Sắc Yêu Vương"
+  },
+  "boss_008": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_008.webp",
+    "name": "Cực Âm Đạo Nhân"
+  },
+  "boss_009": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_009.webp",
+    "name": "Thiên Cơ Khôi Lỗi Vương"
+  },
+  "boss_010": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_010.webp",
+    "name": "Việt Quốc Hắc Hoàng Đế"
+  },
+  "boss_011": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_011.webp",
+    "name": "Phúc Hải Yêu Giao"
+  },
+  "boss_012": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_012.webp",
+    "name": "Kim Giao Vương"
+  },
+  "boss_013": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_013.webp",
+    "name": "Lục Đạo Phân Thân"
+  },
+  "boss_014": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_014.webp",
+    "name": "Hư Thiên Băng Hoàng"
+  },
+  "boss_015": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_015.webp",
+    "name": "Thâm Hải Cự Chương"
+  },
+  "boss_016": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_016.webp",
+    "name": "Mộ Lan Thần Sư"
+  },
+  "boss_017": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_017.webp",
+    "name": "Thiên Lan Thánh Thú"
+  },
+  "boss_018": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_018.webp",
+    "name": "Quỷ Vương Âm Minh"
+  },
+  "boss_019": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_019.webp",
+    "name": "Ngân Sí Thi Vương"
+  },
+  "boss_020": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_020.webp",
+    "name": "Cổ Ma Chân Thân"
+  },
+  "boss_021": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_021.webp",
+    "name": "Chu Tước Tử"
+  },
+  "boss_022": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_022.webp",
+    "name": "Vũ Tiên Tàn Hồn"
+  },
+  "boss_023": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_023.webp",
+    "name": "Hư Không Phệ Hồn Thú"
+  },
+  "boss_024": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_024.webp",
+    "name": "Cổ Yêu Đại Thánh"
+  },
+  "boss_025": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_025.webp",
+    "name": "Băng Phách Hàn Nữ"
+  },
+  "boss_026": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_026.webp",
+    "name": "Thiên Vận Lão Tổ"
+  },
+  "boss_027": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_027.webp",
+    "name": "Lôi Tiên Tàn Niệm"
+  },
+  "boss_028": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_028.webp",
+    "name": "Thượng Cổ Ma Quân"
+  },
+  "boss_029": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_029.webp",
+    "name": "Ma Hải Chi Chủ"
+  },
+  "boss_030": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_030.webp",
+    "name": "Táng Tiên Thi Hoàng"
+  },
+  "boss_031": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_031.webp",
+    "name": "Dị Tộc Đại Tướng"
+  },
+  "boss_032": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_032.webp",
+    "name": "Minh Hà Lão Tổ"
+  },
+  "boss_033": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_033.webp",
+    "name": "Man Hoang Thú Vương"
+  },
+  "boss_034": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_034.webp",
+    "name": "Mộc Tộc Thánh Tổ"
+  },
+  "boss_035": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_035.webp",
+    "name": "Bắc Minh Côn Bằng"
+  },
+  "boss_036": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_036.webp",
+    "name": "Huyết Quang Ma Tổ"
+  },
+  "boss_037": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_037.webp",
+    "name": "Ma Nguyên Chân Tổ"
+  },
+  "boss_038": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_038.webp",
+    "name": "Băng Phượng Chi Linh"
+  },
+  "boss_039": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_039.webp",
+    "name": "Bán Tiên Lão Quái"
+  },
+  "boss_040": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_040.webp",
+    "name": "Cửu Thiên Lôi Đế"
+  },
+  "boss_041": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_041.webp",
+    "name": "Bắc Hàn Tiên Quân"
+  },
+  "boss_042": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_042.webp",
+    "name": "Minh Hàn Đạo Tổ"
+  },
+  "boss_043": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_043.webp",
+    "name": "Chân Linh Bạch Trạch"
+  },
+  "boss_044": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_044.webp",
+    "name": "Hôi Giới Chi Chủ"
+  },
+  "boss_045": {
+    "kind": "image",
+    "src": "assets/bosses-v3/boss_045.webp",
+    "name": "Thiên Đình Giám Sát Sứ"
+  }
+}

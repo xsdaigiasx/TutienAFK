@@ -1,0 +1,363 @@
+{
+  "version": "0.7.0",
+  "world_human": {
+    "image": "assets/human-atlas-v07.webp",
+    "name": "Nhân Giới",
+    "subtitle": "Lục địa, sơn vực và hải đảo nhân gian.",
+    "structure": "Địa điểm → Vùng → Quốc gia → Tinh vực → Giới",
+    "kind": "continent",
+    "groups": [],
+    "width": 1086,
+    "height": 1448,
+    "regions": {
+      "region_01": {
+        "bounds": {
+          "x": 6,
+          "y": 39,
+          "width": 36,
+          "height": 42
+        },
+        "label": {
+          "x": 26,
+          "y": 76
+        }
+      },
+      "region_02": {
+        "bounds": {
+          "x": 4,
+          "y": 10,
+          "width": 33,
+          "height": 30
+        },
+        "label": {
+          "x": 26,
+          "y": 29
+        }
+      },
+      "region_03": {
+        "bounds": {
+          "x": 43,
+          "y": 2,
+          "width": 42,
+          "height": 30
+        },
+        "label": {
+          "x": 74,
+          "y": 19
+        }
+      },
+      "region_04": {
+        "bounds": {
+          "x": 70,
+          "y": 18,
+          "width": 23,
+          "height": 30
+        },
+        "label": {
+          "x": 74,
+          "y": 46
+        }
+      },
+      "region_05": {
+        "bounds": {
+          "x": 36,
+          "y": 28,
+          "width": 28,
+          "height": 52
+        },
+        "label": {
+          "x": 48,
+          "y": 62
+        }
+      },
+      "region_06": {
+        "bounds": {
+          "x": 81,
+          "y": 61,
+          "width": 18,
+          "height": 38
+        },
+        "label": {
+          "x": 74,
+          "y": 83
+        }
+      },
+      "region_07": {
+        "bounds": {
+          "x": 7,
+          "y": 75,
+          "width": 58,
+          "height": 25
+        },
+        "label": {
+          "x": 26,
+          "y": 92
+        }
+      },
+      "region_08": {
+        "bounds": {
+          "x": 4,
+          "y": 0,
+          "width": 37,
+          "height": 18
+        },
+        "label": {
+          "x": 26,
+          "y": 9
+        }
+      }
+    }
+  },
+  "world_spirit": {
+    "image": "assets/spirit-atlas-v07.webp",
+    "name": "Linh Giới",
+    "subtitle": "Tiên đảo giữa biển mây · Bản đồ do đạo hữu lựa chọn.",
+    "structure": "Địa điểm → Tiên đảo → Linh Giới",
+    "kind": "islands",
+    "groups": [
+      {
+        "id": "island_01",
+        "name": "Tây Vực Tiên Đảo",
+        "rank": "Hóa Thần",
+        "map_ids": [
+          "map_021",
+          "map_022",
+          "map_023",
+          "map_024",
+          "map_025"
+        ],
+        "x": 15,
+        "y": 34
+      },
+      {
+        "id": "island_02",
+        "name": "Bắc Vực Tiên Đảo",
+        "rank": "Luyện Hư",
+        "map_ids": [
+          "map_026",
+          "map_027",
+          "map_028",
+          "map_029",
+          "map_030"
+        ],
+        "x": 40,
+        "y": 20
+      },
+      {
+        "id": "island_03",
+        "name": "Đông Vực Linh Đảo",
+        "rank": "Hợp Thể",
+        "map_ids": [
+          "map_031",
+          "map_032",
+          "map_033",
+          "map_034",
+          "map_035"
+        ],
+        "x": 66,
+        "y": 35
+      },
+      {
+        "id": "island_04",
+        "name": "Thượng Thiên Tiên Đảo",
+        "rank": "Đại Thừa",
+        "map_ids": [
+          "map_036",
+          "map_037",
+          "map_038",
+          "map_039",
+          "map_040"
+        ],
+        "x": 87,
+        "y": 29
+      }
+    ],
+    "width": 1086,
+    "height": 1448,
+    "regions": {
+      "region_09": {
+        "bounds": {
+          "x": 5,
+          "y": 46,
+          "width": 35,
+          "height": 36
+        },
+        "label": {
+          "x": 26,
+          "y": 65
+        }
+      },
+      "region_10": {
+        "bounds": {
+          "x": 7,
+          "y": 5,
+          "width": 22,
+          "height": 31
+        },
+        "label": {
+          "x": 26,
+          "y": 25
+        }
+      },
+      "region_11": {
+        "bounds": {
+          "x": 40,
+          "y": 1,
+          "width": 31,
+          "height": 33
+        },
+        "label": {
+          "x": 51,
+          "y": 8
+        }
+      },
+      "region_12": {
+        "bounds": {
+          "x": 78,
+          "y": 1,
+          "width": 16,
+          "height": 34
+        },
+        "label": {
+          "x": 74,
+          "y": 28
+        }
+      },
+      "region_13": {
+        "bounds": {
+          "x": 65,
+          "y": 28,
+          "width": 35,
+          "height": 43
+        },
+        "label": {
+          "x": 74,
+          "y": 57
+        }
+      },
+      "region_14": {
+        "bounds": {
+          "x": 38,
+          "y": 34,
+          "width": 21,
+          "height": 32
+        },
+        "label": {
+          "x": 46,
+          "y": 42
+        }
+      },
+      "region_15": {
+        "bounds": {
+          "x": 57,
+          "y": 67,
+          "width": 40,
+          "height": 31
+        },
+        "label": {
+          "x": 74,
+          "y": 80
+        }
+      },
+      "region_16": {
+        "bounds": {
+          "x": 28,
+          "y": 75,
+          "width": 27,
+          "height": 25
+        },
+        "label": {
+          "x": 26,
+          "y": 92
+        }
+      }
+    }
+  },
+  "world_immortal": {
+    "image": "assets/immortal-atlas-v07.webp",
+    "name": "Tiên Giới",
+    "subtitle": "Các tinh vực bao quanh Thế Giới Thụ · Vạn giới đồng căn.",
+    "structure": "Địa điểm → Tinh vực → Thế Giới Thụ → Tiên Giới",
+    "kind": "astral",
+    "groups": [
+      {
+        "id": "star_realm_01",
+        "name": "Bắc Hàn Tinh Vực",
+        "rank": "Sơ vực",
+        "map_ids": [
+          "map_041"
+        ],
+        "x": 18,
+        "y": 32
+      },
+      {
+        "id": "star_realm_02",
+        "name": "Minh Hàn Tinh Vực",
+        "rank": "Hàn vực",
+        "map_ids": [
+          "map_042"
+        ],
+        "x": 15,
+        "y": 70
+      },
+      {
+        "id": "star_realm_03",
+        "name": "Man Hoang Tinh Vực",
+        "rank": "Linh vực",
+        "map_ids": [
+          "map_043"
+        ],
+        "x": 50,
+        "y": 87
+      },
+      {
+        "id": "star_realm_04",
+        "name": "Hôi Linh Tinh Vực",
+        "rank": "Cổ vực",
+        "map_ids": [
+          "map_044"
+        ],
+        "x": 80,
+        "y": 71
+      },
+      {
+        "id": "star_realm_05",
+        "name": "Nam Thiên Tinh Vực",
+        "rank": "Thiên vực",
+        "map_ids": [
+          "map_045"
+        ],
+        "x": 82,
+        "y": 31
+      }
+    ],
+    "width": 1086,
+    "height": 1448,
+    "regions": {
+      "region_17": {
+        "bounds": {
+          "x": 12,
+          "y": 5,
+          "width": 81,
+          "height": 45
+        },
+        "label": {
+          "x": 52,
+          "y": 29
+        }
+      },
+      "region_18": {
+        "bounds": {
+          "x": 13,
+          "y": 54,
+          "width": 71,
+          "height": 31
+        },
+        "label": {
+          "x": 50,
+          "y": 76
+        }
+      }
+    }
+  }
+}
