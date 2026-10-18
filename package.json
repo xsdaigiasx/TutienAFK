@@ -1,0 +1,12 @@
+{
+  "name": "van-dao-idle",
+  "version": "0.21.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "dev": "python3 -m http.server 3000",
+    "build": "node scripts/build.mjs",
+    "check:atlas": "python3 scripts/check-atlas-layout.py"
+  }
+}
